@@ -332,16 +332,44 @@ async function ask(prompt, { tier = "default", onText, signal, maxTokens = 4000 
     return r.text;
   }
   const key = LS.get("lr.key", "");
-  if (!key) throw { code: "no_key", message: "Add an Anthropic API key on the Read tab to generate texts." };
-  const res = await fetch("https://api.anthropic.com/v1/messages", {
-    method: "POST", signal,
-    headers: { "content-type": "application/json", "x-api-key": key, "anthropic-version": "2023-06-01", "anthropic-dangerous-direct-browser-access": "true" },
-    body: JSON.stringify({ model: tier === "quick" ? "claude-haiku-5-5" : "claude-sonnet-5-5", max_tokens: maxTokens, messages: [{ role: "user", content: prompt }] })
-  });
-  if (!res.ok) throw { code: "http_" + res.status, message: "The API answered " + res.status + ". Check your key and try again." };
-  const j = await res.json();
-  const text = (j.content || []).map(c => c.text || "").join("");
-  onText?.({ text, delta: text });
+  if (!key) throw { code: "no_key", message: "Add your Anthropic API key on the Read tab first. The app needs it to write texts." };
+  let res;
+  try {
+    res = await fetch("https://api.anthropic.com/v1/messages", {
+      method: "POST", signal,
+      headers: { "content-type": "application/json", "x-api-key": key, "anthropic-version": "2023-06-01", "anthropic-dangerous-direct-browser-access": "true" },
+      body: JSON.stringify({ model: tier === "quick" ? "claude-haiku-5-5" : "claude-sonnet-5-5", max_tokens: maxTokens, stream: true, messages: [{ role: "user", content: prompt }] })
+    });
+  } catch (e) {
+    if (e?.name === "AbortError") throw { code: "cancelled" };
+    throw { code: "offline", message: "Couldn't reach Claude. Check your internet connection and try again." };
+  }
+  if (!res.ok) {
+    let msg = ""; try { msg = (await res.json()).error?.message || ""; } catch {}
+    if (res.status === 401) throw { code: "bad_key", message: "Your API key was rejected. Check it on the Read tab." };
+    throw { code: "http_" + res.status, message: "Claude answered with error " + res.status + (msg ? ": " + msg : ". Try again.") };
+  }
+  const reader = res.body.getReader(), dec = new TextDecoder();
+  let buf = "", text = "";
+  try {
+    for (;;) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      buf += dec.decode(value, { stream: true });
+      let i;
+      while ((i = buf.indexOf("\n")) >= 0) {
+        const line = buf.slice(0, i).trim(); buf = buf.slice(i + 1);
+        if (!line.startsWith("data:")) continue;
+        let ev; try { ev = JSON.parse(line.slice(5)); } catch { continue; }
+        if (ev.type === "content_block_delta" && ev.delta?.text) { text += ev.delta.text; onText?.({ text, delta: ev.delta.text }); }
+        else if (ev.type === "error") throw { code: "api_error", message: ev.error?.message || "Claude stopped with an error. Try again." };
+      }
+    }
+  } catch (e) {
+    if (e?.name === "AbortError") throw { code: "cancelled" };
+    if (e?.code) throw e;
+    throw { code: "offline", message: "The connection dropped while writing. Try again." };
+  }
   return text;
 }
 function errCopy(e) {
@@ -363,6 +391,10 @@ function loadVoice() {
 }
 try { loadVoice(); speechSynthesis.onvoiceschanged = loadVoice; } catch {}
 function say(text, rate = 0.92) {
+  if (window.AndroidTTS) {
+    try { if (!AndroidTTS.ready()) return toast("Voice is loading. Try again in a moment"); AndroidTTS.speak(text, rate); } catch {}
+    return;
+  }
   try {
     speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(text);
@@ -404,8 +436,14 @@ function viewHome() {
   getSampler().then(s => {
     if (s || S.tab !== "home") return;
     const box = $("#keyBox"); if (!box) return;
-    box.innerHTML = `<div class="notice glass"><span>This copy runs outside Claude, so it needs your own Anthropic API key to write texts. The key stays in this browser only.</span><input id="apikey" type="password" autocomplete="off" placeholder="sk-ant-..." value="${esc(LS.get("lr.key", ""))}"></div>`;
-    $("#apikey").addEventListener("change", e => { LS.set("lr.key", e.target.value.trim()); toast("Key saved"); });
+    const has = !!LS.get("lr.key", "");
+    if (has) {
+      box.innerHTML = `<div class="notice glass" style="flex-direction:row;align-items:center;justify-content:space-between"><span>Claude API key saved</span><button class="btn ghost" id="chgKey" style="padding:8px 14px">Change</button></div>`;
+      $("#chgKey").onclick = () => { LS.set("lr.key", ""); viewHome(); };
+    } else {
+      box.innerHTML = `<div class="notice glass"><b style="color:var(--fg)">Connect Claude</b><span>The app uses Claude to write every new text and look up words, so it needs your Anthropic API key. Create one at <a href="https://console.anthropic.com/settings/keys" style="color:#d8b4fe">console.anthropic.com</a> and paste it here. It is saved on this phone only.</span><input id="apikey" type="password" autocomplete="off" placeholder="sk-ant-..."><button class="btn pri" id="saveKey">Save key</button></div>`;
+      $("#saveKey").onclick = () => { const v = $("#apikey").value.trim(); if (!v.startsWith("sk-")) return toast("That doesn't look like an API key"); LS.set("lr.key", v); toast("Key saved"); viewHome(); };
+    }
   });
 }
 function genreArt(k) {
@@ -651,6 +689,11 @@ function showSheet({ word, info, loading, error, ctx, saved }) {
 }
 function closeSheet() { $("#sheet").classList.remove("on"); $("#scrim").classList.remove("on"); selEl?.classList.remove("sel"); selEl = null; }
 $("#scrim").onclick = closeSheet;
+window.lumenBack = () => {
+  if ($("#sheet").classList.contains("on")) { closeSheet(); return true; }
+  if (S.tab !== "home") { ctl?.abort(); go("home"); return true; }
+  return false;
+};
 let sy = null;
 $("#sheet").addEventListener("touchstart", e => sy = e.touches[0].clientY, { passive: true });
 $("#sheet").addEventListener("touchend", e => { if (sy != null && e.changedTouches[0].clientY - sy > 70) closeSheet(); sy = null; });

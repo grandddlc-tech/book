@@ -1,0 +1,85 @@
+id: love-c1-1
+kind: story
+key: love
+level: C1
+title: Interpreters
+---
+Simultaneous interpreters, Elena often said, are professional ghosts. They sit in soundproof booths at the back of conference halls, translating every word a speaker utters a fraction of a second after it has been spoken, and if they do their job well, nobody remembers they were there at all. For eleven years she had been one such ghost at the United Nations in Geneva, rendering speeches from French and Russian into English with a fluency that bordered on the uncanny.
+
+She had not expected, at forty-three, to fall in love with a voice.
+
+It happened during a fractious three-day negotiation on water rights in Central Asia. Elena was working the English channel; in the adjacent booth, an interpreter she had never met was handling Farsi. Between sessions, delegates occasionally switched channels out of curiosity, and so did she, idly, on the first afternoon. What she heard stopped her mid-sip. The man's voice was low and unhurried, yet it never lagged behind the speaker. He seemed to lift the arguments out of the delegates' mouths and set them down, intact and somehow clarified, in another language. When an exhausted minister lapsed into a bitter, rambling digression, the interpreter conveyed not only the words but the weariness beneath them, so faithfully that Elena found herself moved by a speech she would otherwise have dismissed as tedious.
+
+His name, she learned from the roster, was Kaveh Amini. She saw him for the first time in the corridor that evening: a slight man in his late forties with greying temples and the faintly startled expression of someone unaccustomed to being looked at. They exchanged the cautious pleasantries of colleagues, and then, unexpectedly, they talked for two hours over lukewarm coffee in a deserted cafeteria.
+
+They talked, inevitably, about language. Kaveh confessed that he collected untranslatable words the way other people collected stamps. He offered her the Persian "ta'arof", that intricate choreography of courtesy in which refusal may mean acceptance and acceptance may mean refusal. She countered with the Russian "toska", a spiritual anguish without a precise cause, which Nabokov himself had declared impossible to render fully in English. "So our whole profession is built on an impossibility," Kaveh said, smiling. "We spend our lives carrying things across a river that has no bridge."
+
+Over the following days, their conversations acquired a ritual quality. Each evening one of them would arrive with a new word, and the other would attempt, usually in vain, to find its equivalent. Elena began to notice the precise moment each morning when his voice came on in the adjacent booth, and she was faintly embarrassed by how much she anticipated it.
+
+On the final day, the negotiations collapsed. One delegation walked out; the closing statements were stiff with recrimination. Elena interpreted them with professional detachment, but afterwards she felt hollow, as though the failure were somehow personal. She found Kaveh on the terrace overlooking the lake, the Alps half-hidden in cloud.
+
+"Three days of perfect translation," she said, "and nobody understood anybody."
+
+He considered this for a long moment. "Perhaps understanding was never the problem," he replied. "Sometimes people understand each other perfectly well and simply want different things. Translation can only remove the misunderstandings. It cannot remove the disagreement."
+
+She was struck by how much this sounded like a description of every relationship she had ever had. Her marriage had ended not because she and her husband failed to comprehend one another, but because, in the end, they had comprehended each other all too well.
+
+Kaveh was leaving for Tehran the next morning. They stood together until the lights along the shore came on, and neither of them said what both were evidently thinking. It was, Elena reflected later, a kind of ta'arof of the heart: each politely declining to ask for something in the hope that the other would insist.
+
+Three months later, an envelope arrived at her flat. Inside was a single index card, written in his small, meticulous hand. On one side was a Persian word, "del-tang". Beneath it he had written: "Literally, a narrow heart. It means missing someone so much that your chest seems too small to contain it. I have looked for an English equivalent for ninety-one days. I suspect there isn't one, but I would very much like your help in searching."
+
+Elena read it twice, then turned the card over. The other side was blank, and she understood that it was meant for her reply.
+=== GLOSSARY
+simultaneous | simultaneous | adjective | /ˌsaɪməlˈteɪniəs/ | هم‌زمان | There were two simultaneous explosions.
+soundproof | soundproof | adjective | /ˈsaʊndpruːf/ | عایق صدا | The studio has soundproof walls.
+booths | booth | noun | /buːθ/ | اتاقک | She called from a telephone booth.
+utters | utter | verb | /ˈʌtɚ/ | به زبان آوردن | He didn't utter a single word all evening.
+fluency | fluency | noun | /ˈfluːənsi/ | روانی (در زبان) | Her fluency in Spanish impressed everyone.
+uncanny | uncanny | adjective | /ʌnˈkæni/ | عجیب و باورنکردنی | She has an uncanny ability to guess what I'm thinking.
+fractious | fractious | adjective | /ˈfrækʃəs/ | پرتنش، ستیزه‌جو | The meeting became fractious and loud.
+adjacent | adjacent | adjective | /əˈdʒeɪsənt/ | مجاور | The hotel is adjacent to the station.
+idly | idly | adverb | /ˈaɪdli/ | بی‌هدف، از سر بیکاری | He idly turned the pages of a magazine.
+lagged | lag | verb | /læɡ/ | عقب ماندن | Sales lagged behind expectations.
+intact | intact | adjective | /ɪnˈtækt/ | دست‌نخورده، سالم | The vase arrived intact.
+digression | digression | noun | /daɪˈɡreʃən/ | حاشیه‌روی | After a short digression, he returned to the main topic.
+weariness | weariness | noun | /ˈwɪrinəs/ | خستگی عمیق | There was weariness in her voice.
+tedious | tedious | adjective | /ˈtiːdiəs/ | کسل‌کننده | Filling in the forms was a tedious job.
+roster | roster | noun | /ˈrɑːstɚ/ | فهرست اسامی، جدول نوبت | Check the roster to see who works on Friday.
+unaccustomed | unaccustomed | adjective | /ˌʌnəˈkʌstəmd/ | ناآشنا، عادت‌نکرده | She was unaccustomed to such cold weather.
+pleasantries | pleasantry | noun | /ˈplezəntri/ | تعارفات معمولی | After exchanging pleasantries, they began the meeting.
+lukewarm | lukewarm | adjective | /ˌluːkˈwɔːrm/ | ولرم | I hate drinking lukewarm tea.
+intricate | intricate | adjective | /ˈɪntrɪkət/ | پیچیده و ظریف | The carpet has an intricate pattern.
+choreography | choreography | noun | /ˌkɔːriˈɑːɡrəfi/ | طراحی حرکات، رقص‌آرایی | The choreography of the ballet was stunning.
+anguish | anguish | noun | /ˈæŋɡwɪʃ/ | رنج و اندوه شدید | She cried out in anguish.
+in vain | in vain | phrase | /ɪn ˈveɪn/ | بیهوده | They searched in vain for the missing ring.
+anticipated | anticipate | verb | /ænˈtɪsəpeɪt/ | پیش‌بینی کردن، منتظر بودن | We anticipated a large crowd.
+recrimination | recrimination | noun | /rɪˌkrɪməˈneɪʃən/ | متقابلاً مقصر دانستن | The divorce ended in bitter recrimination.
+detachment | detachment | noun | /dɪˈtætʃmənt/ | بی‌طرفی، فاصلهٔ عاطفی | The doctor spoke with professional detachment.
+comprehend | comprehend | verb | /ˌkɑːmprɪˈhend/ | درک کردن | I can't comprehend why he left.
+evidently | evidently | adverb | /ˈevədəntli/ | آشکارا، ظاهراً | She was evidently upset.
+declining | decline | verb | /dɪˈklaɪn/ | رد کردن مؤدبانه | He declined the invitation.
+=== QUIZ
+Q: Main idea | What is the story primarily concerned with?
+A) The failure of international water negotiations
+B) The technical skills required of UN interpreters
+*C) A quiet connection between two interpreters, expressed through language
+D) Elena's decision to leave her job in Geneva
+E: The story centres on Elena and Kaveh's growing bond, built through their shared love of untranslatable words.
+Q: Detail | What first drew Elena's attention to Kaveh?
+A) A speech he gave at the conference
+B) A conversation in the corridor
+*C) The quality of his interpreting, which she heard on the Farsi channel
+D) A note he left in her booth
+E: She switched channels "idly" and was struck by how his voice conveyed both the words and the feelings behind them.
+Q: Inference | What does Kaveh's comment about understanding and disagreement lead Elena to reflect on?
+A) Her plan to become a negotiator
+*B) The real reason her marriage ended
+C) Her doubts about her own translation skills
+D) Her desire to learn Persian
+E: She realises her marriage ended not from misunderstanding but because she and her husband "comprehended each other all too well."
+Q: Vocabulary | In "the closing statements were stiff with recrimination", "recrimination" refers to:
+A) praise and gratitude
+B) technical legal language
+*C) accusations made in return for other accusations
+D) silence and hesitation
+E: After a failed negotiation, delegations blame each other, which is what "recrimination" means.

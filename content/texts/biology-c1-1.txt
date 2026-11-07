@@ -1,0 +1,73 @@
+id: biology-c1-1
+kind: fact
+key: biology
+level: C1
+title: Evolution's Repeated Inventions
+---
+If one could rewind the tape of life and play it again, would anything familiar emerge? The palaeontologist Stephen Jay Gould famously argued that it would not. Evolution, in his view, is so contingent, so dependent on chance events such as asteroid impacts and random mutations, that a replay would produce a world utterly unlike our own. Yet a substantial body of evidence suggests that Gould may have overstated the case. Across the history of life, unrelated organisms have repeatedly arrived at strikingly similar solutions to the same problems, a phenomenon biologists call convergent evolution.
+
+The classic illustration is the eye. Vertebrates such as humans and cephalopods such as octopuses both possess camera-type eyes, complete with a lens that focuses light onto a light-sensitive retina. Their last common ancestor, which lived more than five hundred million years ago, almost certainly had nothing more sophisticated than a patch of light-sensitive cells. The two designs therefore evolved independently. Tellingly, they differ in one revealing detail: in vertebrate eyes, the nerve fibres run across the front of the retina and must exit through a gap, creating a blind spot, whereas the octopus eye is wired more logically, with nerves behind the photoreceptors. Convergence produces similarity in function, not identity in construction.
+
+Flight offers another example. Powered flight has evolved at least four times: in insects, in the extinct pterosaurs, in birds and in bats. Each lineage built its wings from different raw materials. Insect wings are outgrowths of the exoskeleton; pterosaurs stretched a membrane from an enormously elongated fourth finger; birds use feathers attached to fused finger bones; bats spread skin between several elongated fingers. Physics imposes the problem, aerodynamic lift, but evolutionary history determines the tools available to solve it.
+
+Convergence extends far beyond anatomy. Echolocation, the ability to navigate by emitting sounds and interpreting the echoes, evolved separately in bats and toothed whales. Remarkably, genetic studies have found that some of the same genes, including one involved in the sensitivity of hair cells in the inner ear, underwent parallel changes in both groups. This finding suggests that convergence can operate not only at the level of visible traits but also at the level of molecules.
+
+Perhaps the most whimsical example is what biologists have jokingly termed "carcinisation": the repeated evolution of crab-like body forms among crustaceans. True crabs, hermit crabs and king crabs are not closely related, yet several lineages have independently acquired the same compact, flattened shape with a tail tucked beneath the body. Researchers speculate that this arrangement offers advantages in protection and mobility, though the precise reasons remain debated.
+
+Plants provide equally compelling cases. The succulent, spiny form we associate with cacti in the Americas evolved separately in certain euphorbias of Africa, to the point that the two are frequently confused in garden centres. Both are responses to the same environmental pressure: the need to store water and deter thirsty herbivores in arid landscapes.
+
+Why does convergence occur so often? The principal explanation is that the number of viable solutions to any given problem is limited. The laws of physics, the properties of light and water, and the constraints of biochemistry narrow the range of designs that actually work. When similar pressures act on different lineages for long enough, natural selection tends to guide them towards the same peaks in the landscape of possibilities. The biologist Simon Conway Morris has argued, in direct opposition to Gould, that convergence makes certain outcomes, possibly including intelligence, close to inevitable.
+
+This debate is not merely academic. If convergence is pervasive, it lends some predictability to evolution, with implications for fields as diverse as medicine and astrobiology. Bacteria under antibiotic attack, for instance, often evolve resistance through the same mutations, allowing scientists to anticipate threats. And if life exists on other planets, convergence suggests it might display familiar features, such as eyes, limbs or wings, even if built from entirely different chemistry.
+
+Gould's insight that history matters remains valid; chance undeniably shapes the details of life. But the recurring patterns of convergence suggest that evolution is not a lottery with infinite outcomes. Instead, it resembles an inventor repeatedly rediscovering the same good ideas, constrained by the stubborn realities of the physical world.
+=== GLOSSARY
+contingent | contingent | adjective | /kənˈtɪndʒənt/ | وابسته به شرایط و تصادف | Our plans are contingent on the weather.
+overstated | overstate | verb | /ˌoʊvɚˈsteɪt/ | اغراق کردن | The risks have been overstated.
+strikingly | strikingly | adverb | /ˈstraɪkɪŋli/ | به‌طرز چشمگیری | The two sisters are strikingly similar.
+convergent | convergent | adjective | /kənˈvɝːdʒənt/ | همگرا | They reached convergent conclusions.
+vertebrates | vertebrate | noun | /ˈvɝːtəbrət/ | مهره‌دار | Fish, birds and mammals are vertebrates.
+cephalopods | cephalopod | noun | /ˈsefələpɑːd/ | سرپایان (مثل هشت‌پا) | Squid and octopuses are cephalopods.
+retina | retina | noun | /ˈretənə/ | شبکیه | Light is focused onto the retina.
+tellingly | tellingly | adverb | /ˈtelɪŋli/ | به‌طرز معناداری | Tellingly, he didn't deny the rumour.
+lineage | lineage | noun | /ˈlɪniɪdʒ/ | تبار، دودمان | The family can trace its lineage back to the 1500s.
+membrane | membrane | noun | /ˈmembreɪn/ | غشا | A thin membrane covers the cell.
+elongated | elongated | adjective | /iˈlɑːŋɡeɪtɪd/ | کشیده، دراز | The giraffe has an elongated neck.
+fused | fuse | verb | /fjuːz/ | جوش خوردن، یکی شدن | The bones in the skull fuse after birth.
+echolocation | echolocation | noun | /ˌekoʊloʊˈkeɪʃən/ | پژواک‌یابی | Bats hunt using echolocation.
+whimsical | whimsical | adjective | /ˈwɪmzɪkəl/ | بامزه و عجیب | The book has a whimsical sense of humour.
+compact | compact | adjective | /kəmˈpækt/ | جمع‌وجور، فشرده | They bought a compact car for the city.
+compelling | compelling | adjective | /kəmˈpelɪŋ/ | قانع‌کننده | There is compelling evidence against him.
+succulent | succulent | adjective | /ˈsʌkjələnt/ | آبدار، گوشتی (گیاه) | Aloe vera is a succulent plant.
+deter | deter | verb | /dɪˈtɝː/ | بازداشتن، منصرف کردن | High fines deter people from speeding.
+herbivores | herbivore | noun | /ˈhɝːbɪvɔːr/ | گیاه‌خوار | Cows and deer are herbivores.
+arid | arid | adjective | /ˈerɪd/ | خشک، بی‌آب | Few plants grow in arid regions.
+viable | viable | adjective | /ˈvaɪəbəl/ | عملی، قابل‌دوام | Solar power is a viable alternative.
+constraints | constraint | noun | /kənˈstreɪnt/ | محدودیت | We work under tight budget constraints.
+inevitable | inevitable | adjective | /ɪˈnevɪtəbəl/ | اجتناب‌ناپذیر | Change is inevitable.
+pervasive | pervasive | adjective | /pɚˈveɪsɪv/ | فراگیر | Smartphones have a pervasive influence on our lives.
+=== QUIZ
+Q: Main idea | What is the main argument of the passage?
+A) Gould proved that evolution is completely random.
+*B) Convergent evolution shows that evolution often repeats similar solutions, limiting the role of pure chance.
+C) Eyes and wings evolved from a single common ancestor.
+D) Crabs are the most successful animals on Earth.
+E: Through many examples, the writer argues that convergence suggests "evolution is not a lottery with infinite outcomes."
+Q: Detail | What difference between vertebrate and octopus eyes does the passage mention?
+A) Octopus eyes have no lens.
+B) Vertebrate eyes evolved much later.
+*C) In vertebrates, nerve fibres run in front of the retina, creating a blind spot.
+D) Octopus eyes cannot see colours.
+E: The text states that vertebrate nerve fibres "run across the front of the retina and must exit through a gap, creating a blind spot."
+Q: Inference | Why does the writer describe the different materials used to build wings?
+A) To show that birds are related to pterosaurs
+*B) To illustrate that convergence produces similar functions from different structures
+C) To prove that insects were the first animals to fly
+D) To argue that bats are poorly designed
+E: Each group solved the same problem (flight) with different tools, supporting the idea that convergence creates "similarity in function, not identity in construction."
+Q: Vocabulary | In "the number of viable solutions to any given problem is limited", "viable" means:
+A) attractive
+B) ancient
+*C) able to work successfully
+D) complicated
+E: The sentence explains that only a limited number of designs actually work, so "viable" means workable or feasible.

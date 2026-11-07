@@ -1,0 +1,84 @@
+id: horror-c1-1
+kind: story
+key: horror
+level: C1
+title: Station Seven
+---
+The last transmission from Station Seven arrived at 04:12 on a Tuesday, and for reasons nobody at the research institute could later explain, it was not flagged for review until Thursday. By then, the support vessel Halcyon was already on its way, and Dr Ingrid Vos, the institute's most senior marine biologist, had listened to the recording eleven times.
+
+Station Seven was an underwater habitat moored at a depth of two hundred and forty metres in a Norwegian fjord, a cluster of pressurised modules where four scientists spent rotations of six weeks studying bioluminescent organisms that thrived in perpetual darkness. Communication was routine to the point of tedium: daily logs, equipment reports, the occasional complaint about the food. The final transmission was different. It consisted of ninety seconds of what sounded like breathing, slow and deliberate, followed by the voice of the station commander, Pieter Haas, saying in an oddly conversational tone: "We've counted again. There are five of us now. Please don't send anyone."
+
+Ingrid had known Pieter for fifteen years. He was methodical to the point of pedantry, a man who had once filed a three-page report about a faulty coffee machine. He was not given to jokes, and he was certainly not given to cryptic messages.
+
+The Halcyon reached the fjord at dusk. The water was black and glassy, the cliffs on either side so steep that the sky above was reduced to a narrow, bruised strip. Ingrid descended in the transfer capsule with two technicians, Arne and Sofie, watching the depth gauge tick upward while the external lights illuminated nothing but drifting particles, like snow falling in reverse.
+
+The docking procedure was uneventful. The hatch opened onto the main module, which was lit, warm, and immaculately tidy. Coffee cups had been washed and stacked. The logbook lay open on the central table, the last entry written in Pieter's precise hand on the previous Monday: "Routine sampling completed. All well." There was no sign of a struggle, and there was no sign of anyone.
+
+They searched every module. In the sleeping quarters, four bunks were neatly made. A fifth sleeping bag had been unrolled on the floor between them. It was not part of the station's inventory.
+
+Sofie found the video archive. The station's internal cameras recorded continuously, and the footage from the final week told a story that grew stranger with each viewing. On the first day, the four scientists went about their work as usual. On the second, they paused occasionally, as if listening. On the third, they could be seen counting, pointing to one another in turn and mouthing numbers. By the fifth day, they had stopped working altogether. They sat around the central table in silence, and every few hours they counted again, and each time their faces betrayed a mounting, inarticulate dread.
+
+What unsettled Ingrid most was that the camera showed only four people. Always four. Yet in the final recordings, they were behaving, unmistakably, as though there were a fifth person at the table: passing a cup to an empty chair, leaning aside to make room, falling silent as if interrupted.
+
+The last piece of footage, timestamped 04:11 on Tuesday, showed Pieter standing alone in front of the airlock that led to the diving chamber. He turned towards the camera and appeared to listen to someone just out of frame. Then he nodded, almost apologetically, opened the inner door, and stepped inside. The other three followed him, one by one. The door closed. The diving chamber's sensors recorded that the outer hatch had opened, and then that it had sealed again.
+
+Arne was the first to say they should leave. Nobody argued. They gathered the hard drives and the logbook and returned to the capsule with a haste none of them acknowledged aloud. As the hatch sealed and the winch began to haul them towards the surface, Ingrid felt the cramped space settle around her, the three of them knee to knee in the dim red light.
+
+It was Sofie who began, quite unconsciously, to count. Ingrid saw her lips moving and recognised, with a cold contraction in her stomach, the same gesture she had watched on the screen. Sofie pointed at Arne, then at Ingrid, then at herself, and then her finger drifted, trembling, towards the empty corner of the capsule.
+
+Her mouth formed the word "four."
+
+Above them, very faintly, something that was not the winch began to breathe.
+=== GLOSSARY
+transmission | transmission | noun | /trænsˈmɪʃən/ | پیام ارسالی، مخابره | The radio transmission was interrupted by static.
+flagged | flag | verb | /flæɡ/ | علامت‌گذاری کردن (برای توجه) | The bank flagged the payment as suspicious.
+vessel | vessel | noun | /ˈvesəl/ | کشتی، شناور | A fishing vessel sank near the coast.
+habitat | habitat | noun | /ˈhæbɪtæt/ | زیستگاه | The forest is a natural habitat for many birds.
+moored | moor | verb | /mʊr/ | لنگر انداختن، مهار کردن | The boat was moored in the harbour.
+fjord | fjord | noun | /fjɔːrd/ | آبدره (خلیج باریک بین کوه‌ها) | Norway is famous for its deep fjords.
+pressurised | pressurised | adjective | /ˈpreʃəraɪzd/ | تحت فشار تنظیم‌شده | Aircraft cabins are pressurised.
+bioluminescent | bioluminescent | adjective | /ˌbaɪoʊˌluːməˈnesənt/ | زیست‌تابان (نورافشان) | Some jellyfish are bioluminescent.
+perpetual | perpetual | adjective | /pɚˈpetʃuəl/ | همیشگی، دائمی | The village lives in perpetual fear of floods.
+tedium | tedium | noun | /ˈtiːdiəm/ | ملال، یکنواختی | He listened to music to escape the tedium of the drive.
+pedantry | pedantry | noun | /ˈpedəntri/ | ریزبینی بیش از حد، خرده‌گیری | His pedantry about grammar annoys his friends.
+cryptic | cryptic | adjective | /ˈkrɪptɪk/ | مرموز، رمزآلود | She left a cryptic message on my phone.
+gauge | gauge | noun | /ɡeɪdʒ/ | نشانگر، درجه | The fuel gauge showed the tank was almost empty.
+hatch | hatch | noun | /hætʃ/ | دریچه | The sailor climbed through the hatch.
+immaculately | immaculately | adverb | /ɪˈmækjələtli/ | بی‌نقص، کاملاً تمیز | He was immaculately dressed.
+inventory | inventory | noun | /ˈɪnvəntɔːri/ | فهرست موجودی | We need to update the inventory of the warehouse.
+footage | footage | noun | /ˈfʊtɪdʒ/ | فیلم ضبط‌شده | Police examined CCTV footage of the street.
+betrayed | betray | verb | /bɪˈtreɪ/ | لو دادن، آشکار کردن (احساس) | His voice betrayed his nervousness.
+inarticulate | inarticulate | adjective | /ˌɪnɑːrˈtɪkjələt/ | ناگفتنی، بیان‌نشدنی | She felt an inarticulate rage.
+dread | dread | noun | /dred/ | وحشت، هراس | He thought of the exam with dread.
+unmistakably | unmistakably | adverb | /ˌʌnmɪˈsteɪkəbli/ | بی‌تردید، آشکارا | The voice was unmistakably hers.
+airlock | airlock | noun | /ˈerlɑːk/ | محفظهٔ هواگیر | The astronauts waited in the airlock.
+haste | haste | noun | /heɪst/ | عجله | In her haste, she forgot her keys.
+winch | winch | noun | /wɪntʃ/ | وینچ، جرثقیل دستی | A winch pulled the car out of the mud.
+haul | haul | verb | /hɑːl/ | با زور کشیدن | They hauled the boat onto the beach.
+cramped | cramped | adjective | /kræmpt/ | تنگ و کم‌جا | We lived in a cramped flat.
+contraction | contraction | noun | /kənˈtrækʃən/ | انقباض، جمع شدن | He felt a contraction of fear in his chest.
+=== QUIZ
+Q: Main idea | What is the central mystery of the story?
+A) Why the support vessel took so long to reach the station
+*B) What caused the scientists to believe a fifth presence was among them, and where they went
+C) Which scientist sabotaged the station's equipment
+D) Why the bioluminescent organisms disappeared
+E: The story revolves around the scientists counting five people when only four appear on camera, and their disappearance through the airlock.
+Q: Detail | What unusual object did the rescue team find in the sleeping quarters?
+A) A broken camera
+B) A hidden diary
+*C) An extra sleeping bag not belonging to the station
+D) Wet diving equipment
+E: "A fifth sleeping bag had been unrolled on the floor... It was not part of the station's inventory."
+Q: Inference | What does the ending imply?
+A) Sofie has made a simple counting mistake.
+B) The capsule's equipment is malfunctioning.
+C) Ingrid has decided to return to the station.
+*D) The presence from the station has followed them into the capsule.
+E: Sofie counts "four" although only three people are in the capsule, and something begins to breathe, echoing the first transmission.
+Q: Vocabulary | "Pieter was methodical to the point of pedantry." Here, "pedantry" means:
+A) a lack of attention to detail
+*B) excessive concern with minor details and rules
+C) a tendency to tell jokes
+D) a fear of making decisions
+E: The example of a three-page report about a coffee machine shows that "pedantry" means being overly concerned with small details.

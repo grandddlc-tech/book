@@ -1,0 +1,71 @@
+id: history-b2-1
+kind: fact
+key: history
+level: B2
+title: Roads of Silk and Ideas
+---
+The name "Silk Road" suggests a single road stretching across Asia, with camels carrying silk from China to Rome. The reality was far more complex and far more interesting. The Silk Road was not one road but a vast network of routes, by land and by sea, that connected China, Central Asia, Iran, India, the Middle East, Africa, and Europe for well over a thousand years. And although silk was one of its most famous goods, the most valuable things that travelled along it were often ideas.
+
+The term itself is surprisingly modern. It was popularised by a German geographer, Ferdinand von Richthofen, in 1877. The people who actually used the routes never called them by this name. For them, there were simply roads to the next city, the next market, the next oasis in the desert.
+
+Historians often date the beginning of the Silk Road to the second century BCE, when the Han dynasty of China sent an official named Zhang Qian to Central Asia. His journeys opened diplomatic and commercial contacts with the peoples to the west. Chinese silk, which was light, beautiful, and extremely difficult to produce, quickly became a luxury in distant lands. According to Roman writers, wealthy Romans paid enormous sums for it, and some politicians complained that the trade was draining the empire's gold.
+
+Very few merchants, however, travelled the entire distance. Trade usually worked like a relay race. Goods passed from one trader to another, from city to city, with prices rising at every stage. Persian, Sogdian, Indian, Arab, and Turkic merchants played central roles as middlemen. The Sogdians, from the area around modern Samarkand and Bukhara, were especially successful, establishing communities of traders across Central Asia and China.
+
+Iran occupied a key position in this network. Under the Parthian and later the Sasanian empires, Persian rulers controlled important routes between east and west, and they profited greatly from taxing the caravans that passed through their lands. Caravanserais, roadside inns where travellers and their animals could rest safely, appeared along the routes. Many of these buildings, some later rebuilt in the Safavid period, can still be seen in Iran today.
+
+The goods traded were remarkably varied. From China came silk, paper, and later porcelain. From India came spices, cotton, and precious stones. Central Asia was famous for its horses, while Persia exported carpets, silverware, and fine textiles. From the Mediterranean came glassware, wine, and gold coins. Plants and foods also travelled: grapes, pomegranates, walnuts, and alfalfa moved east, while peaches and apricots spread west.
+
+More important in the long run was the exchange of knowledge, technology, and beliefs. Buddhism travelled from India into Central Asia and China, carried by monks and merchants, and transformed Chinese culture. Later, Islam spread across much of Central Asia. Paper-making technology moved westward from China and reached the Islamic world by the eighth century, where cities such as Baghdad and Samarkand developed paper mills. This helped make books cheaper and contributed to a golden age of science and literature. Mathematical, astronomical, and medical ideas also crossed between Greek, Persian, Indian, Arab, and Chinese scholars.
+
+Unfortunately, not everything that travelled along the Silk Road was positive. Diseases moved with people and goods. Many historians believe that the Black Death, the plague that killed a huge proportion of Europe's population in the fourteenth century, spread westward along these trade routes.
+
+The great age of the overland Silk Road gradually came to an end from the fifteenth century onwards. The collapse of the Mongol Empire, which had made travel across Asia relatively safe, left the routes more dangerous. At the same time, European sailors found sea routes to Asia, which allowed them to transport large quantities of goods more cheaply.
+
+Today, the idea of the Silk Road is enjoying a revival. Governments promote new railways and highways across Eurasia, and tourists visit ancient cities such as Isfahan, Samarkand, and Xi'an. But perhaps the most important lesson of the Silk Road is about connection itself: for centuries, it showed how trade can bring distant cultures together and allow ideas to change the world.
+=== GLOSSARY
+network | network | noun | /ˈnetwɝːk/ | شبکه | The city has a good network of buses.
+popularised | popularise | verb | /ˈpɑːpjələraɪz/ | رایج کردن | The singer popularised this style of music.
+oasis | oasis | noun | /oʊˈeɪsɪs/ | واحه | The travellers rested at an oasis.
+dynasty | dynasty | noun | /ˈdaɪnəsti/ | سلسله، دودمان | The Qajar dynasty ruled Iran for over a century.
+diplomatic | diplomatic | adjective | /ˌdɪpləˈmætɪk/ | دیپلماتیک | The two countries restored diplomatic relations.
+luxury | luxury | noun | /ˈlʌkʃɚi/ | تجمل، کالای لوکس | A holiday abroad is a luxury for many families.
+draining | drain | verb | /dreɪn/ | تحلیل بردن، خالی کردن | The war was draining the country's resources.
+relay race | relay race | noun | /ˈriːleɪ reɪs/ | مسابقهٔ امدادی | Our team won the relay race.
+middlemen | middleman | noun | /ˈmɪdəlmæn/ | واسطه، دلال | Buying directly cuts out the middlemen.
+caravans | caravan | noun | /ˈkerəvæn/ | کاروان | A caravan of camels crossed the desert.
+caravanserais | caravanserai | noun | /ˌkerəˈvænsəraɪ/ | کاروانسرا | Many caravanserais were built along the trade routes.
+porcelain | porcelain | noun | /ˈpɔːrsəlɪn/ | چینی | She collects Chinese porcelain.
+spices | spice | noun | /spaɪs/ | ادویه | Saffron is an expensive spice.
+textiles | textile | noun | /ˈtekstaɪl/ | منسوجات، پارچه | The city was famous for its textiles.
+monks | monk | noun | /mʌŋk/ | راهب | The monks lived in a monastery in the mountains.
+mills | mill | noun | /mɪl/ | کارخانه، آسیاب | The old paper mill is now a museum.
+plague | plague | noun | /pleɪɡ/ | طاعون | The plague killed millions in the Middle Ages.
+proportion | proportion | noun | /prəˈpɔːrʃən/ | نسبت، بخش | A large proportion of students passed.
+collapse | collapse | noun | /kəˈlæps/ | فروپاشی | The collapse of the empire took decades.
+revival | revival | noun | /rɪˈvaɪvəl/ | احیا، رونق دوباره | There has been a revival of interest in vinyl records.
+=== QUIZ
+Q: Main idea | What is the main point of the passage?
+A) Silk was the only important product traded between China and Rome.
+B) The Silk Road was a single road controlled by Persian rulers.
+*C) The Silk Road was a large network that spread goods, ideas, beliefs and even diseases.
+D) The Silk Road ended because of the Black Death.
+E: The passage describes the network of routes and stresses that ideas, religions, technology and diseases travelled along it.
+Q: Detail | According to the passage, how did most trade along the Silk Road work?
+*A) Goods passed between many traders, with prices rising at each stage.
+B) Chinese merchants carried silk directly to Rome.
+C) Roman soldiers protected caravans across Asia.
+D) Goods were mostly transported by sea from the beginning.
+E: The text compares trade to "a relay race" in which "goods passed from one trader to another... with prices rising at every stage."
+Q: Inference | Why does the writer mention paper-making technology?
+A) To show that China refused to share its inventions
+B) To explain why silk became less valuable
+*C) To give an example of how the exchange of technology had major cultural effects
+D) To prove that Baghdad was older than Samarkand
+E: Paper-making reached the Islamic world, made books cheaper, and "contributed to a golden age of science and literature."
+Q: Vocabulary | In "the trade was draining the empire's gold", "draining" means:
+A) increasing
+*B) gradually using up
+C) protecting
+D) melting
+E: Politicians complained that gold was leaving the empire to pay for silk, so "draining" means slowly using up a resource.

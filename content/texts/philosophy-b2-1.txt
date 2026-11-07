@@ -1,0 +1,71 @@
+id: philosophy-b2-1
+kind: fact
+key: philosophy
+level: B2
+title: The Runaway Trolley
+---
+Imagine you are standing beside a railway track. A runaway trolley, or tram, is speeding towards five workers who cannot escape. If nothing is done, all five will be killed. Next to you is a lever. If you pull it, the trolley will switch to a side track, where it will kill one worker instead of five. Would you pull the lever?
+
+Most people say yes. Saving five lives at the cost of one seems like the right thing to do, even though it is a terrible choice. Now consider a slightly different situation. This time, you are standing on a bridge above the track. The trolley is again heading towards five workers. Next to you is a very large man. If you push him off the bridge onto the track, his body will stop the trolley, saving the five workers, but he will die. Would you push him?
+
+In this case, most people say no. Yet the numbers are exactly the same: one life lost, five saved. Why does the second choice feel so much worse? This puzzle, known as the "trolley problem", has become one of the most famous thought experiments in philosophy.
+
+The original version was introduced by the British philosopher Philippa Foot in 1967, as part of a discussion about the ethics of abortion and the difference between doing harm and allowing harm to happen. The American philosopher Judith Jarvis Thomson later developed the problem further and created the bridge version, often called the "footbridge" case. Since then, philosophers have invented dozens of variations.
+
+The trolley problem is useful because it highlights a conflict between two major approaches to ethics. The first is consequentialism, and its best-known form is utilitarianism, associated with thinkers such as Jeremy Bentham and John Stuart Mill. According to this view, the right action is the one that produces the best overall results, usually understood as the greatest happiness or well-being for the greatest number of people. For a strict utilitarian, both cases have the same answer: you should sacrifice one person to save five.
+
+The second approach is deontology, associated especially with the German philosopher Immanuel Kant. Deontologists believe that some actions are right or wrong in themselves, regardless of their consequences. Kant argued that we must never treat a person merely as a means to an end. Pushing the man off the bridge uses his body as a tool to stop the trolley, which seems to violate this principle. In the lever case, by contrast, the death of the one worker is a side effect of redirecting the trolley, not the means by which the others are saved.
+
+Some philosophers explain the difference using the "doctrine of double effect", an idea that goes back to the medieval thinker Thomas Aquinas. According to this doctrine, it can sometimes be acceptable to cause harm as a foreseen side effect of a good action, but it is not acceptable to cause harm intentionally as a way of achieving a good result.
+
+Psychologists and neuroscientists have also studied the trolley problem. The researcher Joshua Greene used brain scans to examine people while they considered these dilemmas. He found that the footbridge case activated brain areas associated with emotion more strongly than the lever case. Greene suggested that our moral judgements come from two systems: a fast, emotional response that strongly objects to direct, personal harm, and a slower, more calculating process that focuses on outcomes.
+
+A huge online study called the "Moral Machine", which collected millions of responses from people in more than two hundred countries and territories, explored similar dilemmas involving self-driving cars. It found some general agreement, such as a preference for saving more lives and saving humans over animals, but also interesting cultural differences in how people made these choices.
+
+Some critics argue that the trolley problem is too artificial to teach us much about real life, where situations are rarely so clear and outcomes are uncertain. Others reply that thought experiments, like scientific experiments, deliberately simplify reality in order to isolate one important factor. Today, the problem has very practical applications. Engineers designing self-driving cars, doctors deciding how to share limited medical resources, and governments planning responses to emergencies all face questions about how to weigh lives against each other.
+
+There is no single "correct" answer to the trolley problem. Its real value lies in forcing us to examine our intuitions and to ask why we believe what we believe. In doing so, it reveals that human morality is more complex, and more interesting, than any simple rule.
+=== GLOSSARY
+runaway | runaway | adjective | /ˈrʌnəweɪ/ | از کنترل خارج‌شده | A runaway horse ran through the market.
+lever | lever | noun | /ˈlevɚ/ | اهرم | Pull the lever to open the door.
+thought experiments | thought experiment | noun | /ˈθɑːt ɪkˌsperɪmənt/ | آزمایش فکری | Einstein used thought experiments to develop his theories.
+abortion | abortion | noun | /əˈbɔːrʃən/ | سقط جنین | Abortion is a controversial political issue.
+variations | variation | noun | /ˌveriˈeɪʃən/ | گونه، تنوع | There are many variations of this recipe.
+consequentialism | consequentialism | noun | /ˌkɑːnsəˈkwenʃəlɪzəm/ | پیامدگرایی | Consequentialism judges actions by their results.
+sacrifice | sacrifice | verb | /ˈsækrəfaɪs/ | قربانی کردن، فدا کردن | She sacrificed her career for her family.
+deontology | deontology | noun | /ˌdiːɑːnˈtɑːlədʒi/ | وظیفه‌گرایی | Deontology focuses on duties and rules.
+regardless | regardless | adverb | /rɪˈɡɑːrdləs/ | صرف‌نظر از | We will go regardless of the weather.
+violate | violate | verb | /ˈvaɪəleɪt/ | نقض کردن | The company violated safety rules.
+doctrine | doctrine | noun | /ˈdɑːktrɪn/ | آموزه، اصل | The doctrine is accepted by most scholars.
+medieval | medieval | adjective | /ˌmediˈiːvəl/ | قرون وسطایی | They visited a medieval castle.
+foreseen | foresee | verb | /fɔːrˈsiː/ | پیش‌بینی کردن | Nobody could have foreseen the crisis.
+intentionally | intentionally | adverb | /ɪnˈtenʃənəli/ | عمداً | He intentionally ignored my message.
+dilemmas | dilemma | noun | /dɪˈlemə/ | دوراهی، معضل | She faced a difficult dilemma.
+artificial | artificial | adjective | /ˌɑːrtəˈfɪʃəl/ | مصنوعی، ساختگی | The situation felt artificial.
+isolate | isolate | verb | /ˈaɪsəleɪt/ | جدا کردن | Scientists isolated the virus.
+intuitions | intuition | noun | /ˌɪntuˈɪʃən/ | شهود، حس درونی | Trust your intuition.
+=== QUIZ
+Q: Main idea | What is the main purpose of the passage?
+A) To prove that utilitarianism is the correct moral theory
+B) To describe the history of railway accidents
+*C) To explain the trolley problem and what it reveals about moral thinking
+D) To argue that self-driving cars should not be built
+E: The passage presents the trolley problem, the ethical theories it tests, research on it and its practical relevance.
+Q: Detail | According to Joshua Greene's research, what happened when people considered the footbridge case?
+A) They made decisions more quickly.
+*B) Brain areas linked to emotion were more active.
+C) Most people chose to push the man.
+D) Their brain activity was the same as in the lever case.
+E: "The footbridge case activated brain areas associated with emotion more strongly than the lever case."
+Q: Inference | Why would a Kantian object to pushing the man but possibly not to pulling the lever?
+*A) Pushing the man uses him as a means to save others, while in the lever case his death is a side effect.
+B) Pulling the lever saves more lives than pushing the man.
+C) Kant believed that numbers do not matter in ethics.
+D) Pushing someone is illegal, but pulling a lever is not.
+E: Kant said we must not treat people "merely as a means to an end", and the text explains that pushing the man uses his body as a tool.
+Q: Vocabulary | In "some actions are right or wrong in themselves, regardless of their consequences", "regardless of" means:
+A) because of
+B) in addition to
+*C) without being affected by
+D) as a result of
+E: Deontologists judge actions without considering their results, so "regardless of" means not taking something into account.

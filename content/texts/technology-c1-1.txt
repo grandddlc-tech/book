@@ -1,0 +1,71 @@
+id: technology-c1-1
+kind: fact
+key: technology
+level: C1
+title: How Machines Learn
+---
+Not long ago, the notion of a computer that could recognise faces, translate between languages or hold a fluent conversation belonged firmly to science fiction. Today such capabilities are embedded in everyday devices, and the technology responsible for most of them, the artificial neural network, has become one of the most consequential inventions of the early twenty-first century. Yet its underlying principles are surprisingly simple, and they date back far further than its recent prominence might suggest.
+
+Conventional software operates according to explicit instructions. A programmer specifies, step by step, how a computer should transform inputs into outputs. This approach works admirably for well-defined tasks such as calculating taxes, but it falters when confronted with problems that humans solve intuitively yet cannot articulate. Few of us could write precise rules for distinguishing a cat from a dog in a photograph, accounting for every breed, pose and lighting condition. Machine learning inverts the traditional relationship: instead of writing rules, engineers supply examples, and the system infers the rules for itself.
+
+Neural networks are loosely inspired by the brain. They consist of layers of simple computational units, often called neurons, each connected to many others. Every connection carries a numerical weight that determines how strongly one neuron influences the next. When data, such as the pixels of an image, enter the first layer, signals propagate through the network, being multiplied by weights and transformed at each stage, until the final layer produces an output, perhaps a probability that the image contains a cat.
+
+Initially, the weights are set randomly, so the network's guesses are essentially worthless. Learning occurs through a process of gradual correction. The network is shown an example whose correct answer is known, and its output is compared with that answer to calculate an error. An algorithm called backpropagation then works backwards through the network, determining how much each weight contributed to the error, and adjusts every weight slightly in the direction that would reduce it. Repeated across millions of examples, these tiny adjustments accumulate until the network performs its task with remarkable accuracy.
+
+The foundational ideas were developed decades ago. The perceptron, an early single-layer network, was introduced in the late 1950s, and backpropagation was popularised in the 1980s. For much of that period, however, neural networks were regarded as a scientific dead end, and research funding repeatedly dried up during what became known as "AI winters". Their eventual triumph depended less on conceptual breakthroughs than on two practical developments: the availability of enormous datasets, made possible by the internet, and the advent of graphics processing units, chips originally designed for video games, which proved ideally suited to the massive parallel calculations neural networks require. A turning point came in 2012, when a deep network dramatically outperformed rival approaches in a prestigious image-recognition competition.
+
+The word "deep" refers to the number of layers. Deeper networks can learn hierarchical representations: in image recognition, early layers tend to detect edges and textures, intermediate layers combine these into shapes, and later layers respond to entire objects. Remarkably, nobody programs these features explicitly; they emerge spontaneously from training. Large language models, which power contemporary chatbots, apply similar principles to text. Trained to predict the next word across vast quantities of writing, they acquire a surprising facility with grammar, facts and even reasoning.
+
+This power comes with significant drawbacks. Neural networks are notoriously opaque: with billions of weights, it is extraordinarily difficult to explain why a particular decision was made, which poses problems in domains such as medicine or criminal justice, where accountability matters. Because they learn from data, they can absorb and amplify biases present in that data; facial-recognition systems, for instance, have been shown to perform worse on certain demographic groups. Language models can produce fluent but fabricated information with complete apparent confidence. Training the largest models also consumes enormous amounts of energy, raising environmental concerns.
+
+Researchers are responding on several fronts, developing techniques to interpret networks' internal workings, auditing systems for bias and designing more efficient architectures. Debates continue about whether these systems genuinely understand anything or merely detect statistical patterns, and about how society should regulate them.
+
+What seems clear is that the shift from programming machines to training them represents a profound change in how we build technology. The engineer's role is increasingly that of a teacher who selects examples and judges results, rather than an author who dictates every step. Understanding the basic mechanics of this process is becoming part of what it means to be an informed citizen.
+=== GLOSSARY
+consequential | consequential | adjective | /ˌkɑːnsəˈkwenʃəl/ | مهم و پرپیامد | It was the most consequential decision of his career.
+prominence | prominence | noun | /ˈprɑːmənəns/ | برجستگی، شهرت | She rose to prominence as a writer.
+articulate | articulate | verb | /ɑːrˈtɪkjəleɪt/ | به‌روشنی بیان کردن | He couldn't articulate his feelings.
+inverts | invert | verb | /ɪnˈvɝːt/ | وارونه کردن | The lens inverts the image.
+propagate | propagate | verb | /ˈprɑːpəɡeɪt/ | منتشر شدن، گسترش یافتن | Sound waves propagate through air.
+accumulate | accumulate | verb | /əˈkjuːmjəleɪt/ | انباشته شدن | Dust accumulates quickly in this room.
+foundational | foundational | adjective | /faʊnˈdeɪʃənəl/ | بنیادین | This course covers the foundational ideas of economics.
+dried up | dry up | phrase | /draɪ ʌp/ | تمام شدن، قطع شدن (منابع) | Funding for the project dried up.
+triumph | triumph | noun | /ˈtraɪʌmf/ | پیروزی بزرگ | The concert was a triumph.
+advent | advent | noun | /ˈædvent/ | ظهور، آمدن | The advent of the internet changed shopping.
+parallel | parallel | adjective | /ˈperəlel/ | موازی، هم‌زمان | The computer runs parallel processes.
+prestigious | prestigious | adjective | /preˈstɪdʒəs/ | معتبر، پرآوازه | She studied at a prestigious university.
+hierarchical | hierarchical | adjective | /ˌhaɪˈrɑːrkɪkəl/ | سلسله‌مراتبی | The army has a hierarchical structure.
+facility | facility | noun | /fəˈsɪləti/ | مهارت، سهولت | She has a facility for languages.
+drawbacks | drawback | noun | /ˈdrɑːbæk/ | عیب، نقطه‌ضعف | The main drawback of the plan is the cost.
+opaque | opaque | adjective | /oʊˈpeɪk/ | مبهم، غیرشفاف | The company's decision-making is opaque.
+accountability | accountability | noun | /əˌkaʊntəˈbɪləti/ | پاسخگویی | Politicians must have accountability.
+demographic | demographic | adjective | /ˌdeməˈɡræfɪk/ | جمعیتی | Young people are an important demographic group.
+fabricated | fabricate | verb | /ˈfæbrɪkeɪt/ | جعل کردن، ساختن | The evidence was fabricated.
+auditing | audit | verb | /ˈɑːdɪt/ | حسابرسی کردن، بازرسی کردن | Experts audited the company's accounts.
+architectures | architecture | noun | /ˈɑːrkɪtektʃɚ/ | معماری (ساختار سیستم) | The software has a modular architecture.
+dictates | dictate | verb | /ˈdɪkteɪt/ | دیکته کردن، تحمیل کردن | The rules dictate what we can wear.
+=== QUIZ
+Q: Main idea | What is the central idea of the passage?
+A) Neural networks work exactly like the human brain.
+*B) Neural networks learn from examples, have become very powerful, and raise important challenges.
+C) Traditional software is no longer useful.
+D) The 2012 image competition was the most important event in computing history.
+E: The passage explains how networks learn, why they succeeded recently, and their drawbacks such as opacity and bias.
+Q: Detail | According to the passage, what made the recent success of neural networks possible?
+A) A completely new theory of learning invented in 2012
+*B) Very large datasets and graphics processing units
+C) Government regulation of artificial intelligence
+D) The invention of the perceptron
+E: Their triumph "depended less on conceptual breakthroughs than on" large datasets and graphics processing units.
+Q: Inference | Why does the writer describe the engineer as becoming "a teacher"?
+A) Engineers now work mainly in schools.
+B) Neural networks can teach humans new skills.
+*C) Engineers guide learning by choosing examples rather than writing every rule.
+D) Programming languages have become easier to learn.
+E: The engineer "selects examples and judges results, rather than an author who dictates every step."
+Q: Vocabulary | In "Neural networks are notoriously opaque", "opaque" means:
+A) very fast
+B) extremely expensive
+*C) difficult to understand or explain
+D) easily damaged
+E: The following sentence says it is "extraordinarily difficult to explain why a particular decision was made."

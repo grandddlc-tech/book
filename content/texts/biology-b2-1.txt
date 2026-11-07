@@ -1,0 +1,70 @@
+id: biology-b2-1
+kind: fact
+key: biology
+level: B2
+title: The Dance of the Honeybee
+---
+Imagine you have just discovered a garden full of delicious food, two kilometres from home. How would you tell your family exactly where it is, without words, maps, or phones? Honeybees solve this problem every day, and they do it by dancing.
+
+A honeybee colony can contain tens of thousands of individuals, but only some of them, the older female worker bees called foragers, leave the hive to collect food. Foragers search the surrounding landscape for flowers rich in nectar, which bees turn into honey, and pollen, which provides protein. Because flowers bloom in different places at different times, the colony needs a fast and reliable way to share information about the best sources. Sending every bee to search randomly would waste enormous amounts of time and energy.
+
+The person who first explained how bees share this information was the Austrian scientist Karl von Frisch. Starting in the 1920s, he spent decades watching bees in glass-walled hives. He noticed that when a forager returned from a rich food source, she performed a strange series of movements on the vertical surface of the honeycomb, while other bees gathered closely around her. Von Frisch eventually realised that these movements were a kind of language. In 1973, he shared the Nobel Prize for this discovery.
+
+Bees use two main types of dance. When food is close to the hive, usually less than about fifty metres away, the forager performs a "round dance", running in small circles, first one way and then the other. This tells the other bees that food is nearby, and they leave to search the area, guided partly by the smell of the flowers on the dancer's body.
+
+For food that is farther away, bees perform the famous "waggle dance". The dancer runs forward in a straight line while shaking her body rapidly from side to side. Then she circles back to her starting point and repeats the straight run, alternating between a loop to the left and a loop to the right, so that the overall pattern looks like the number eight.
+
+The straight "waggle run" contains two pieces of information. Its direction shows the direction of the food. Since the dance takes place in the darkness of the hive, on a vertical surface, bees use a clever system: straight up represents the direction of the sun. If the dancer waggles straight upward, the food lies directly towards the sun. If she waggles at an angle of forty degrees to the right of vertical, the food lies forty degrees to the right of the sun. The length of the waggle run, meanwhile, shows the distance. The longer the run lasts, the farther away the food is. Roughly speaking, each second of waggling represents several hundred metres, although the exact relationship varies between populations.
+
+Even more impressively, bees take into account the movement of the sun across the sky. Because the sun's position changes during the day, a dancer who performs the same dance an hour later will change its angle to keep pointing to the same place. Bees also communicate how good a food source is. A forager who has found particularly sweet nectar dances more energetically and repeats her dance more times, recruiting more helpers.
+
+Not everyone accepted von Frisch's ideas at first. Some scientists argued that bees simply followed the smell of the food. In the 2000s, researchers settled the debate using small radar devices attached to bees. They showed that bees which had watched a dance flew directly towards the area indicated, even when the smell of the food was not available.
+
+The dance language is not just a scientific curiosity. Today, researchers "read" bee dances to learn where bees find food in cities and farmland. This helps them understand which plants are most important to bees and how changes in land use affect them. With bee populations under pressure from pesticides, disease, and loss of habitat, such information may help conservationists protect these essential pollinators.
+
+A colony of bees has no leader giving orders, yet through thousands of small dances, it makes surprisingly intelligent decisions. It is a powerful reminder that complex communication is not limited to humans.
+=== GLOSSARY
+colony | colony | noun | /ˈkɑːləni/ | کلونی، جمعیت (حیوانات) | Ants live in large colonies.
+foragers | forager | noun | /ˈfɔːrɪdʒɚ/ | جست‌وجوگر غذا | Foragers leave the nest early in the morning.
+hive | hive | noun | /haɪv/ | کندو | The farmer keeps ten bee hives.
+nectar | nectar | noun | /ˈnektɚ/ | شهد گل | Butterflies feed on nectar.
+pollen | pollen | noun | /ˈpɑːlən/ | گرده | Many people are allergic to pollen.
+bloom | bloom | verb | /bluːm/ | شکوفه دادن | Cherry trees bloom in spring.
+vertical | vertical | adjective | /ˈvɝːtɪkəl/ | عمودی | Draw a vertical line on the page.
+honeycomb | honeycomb | noun | /ˈhʌnikoʊm/ | شان عسل | The honeycomb was full of honey.
+waggle | waggle | verb | /ˈwæɡəl/ | تکان دادن (به چپ و راست) | The dog waggled its tail.
+alternating | alternate | verb | /ˈɑːltɚneɪt/ | یکی در میان انجام دادن | She alternates between running and walking.
+angle | angle | noun | /ˈæŋɡəl/ | زاویه | The ladder was at an angle of 60 degrees.
+take into account | take into account | phrase | /teɪk ˈɪntuː əˈkaʊnt/ | در نظر گرفتن | We must take the weather into account.
+energetically | energetically | adverb | /ˌenɚˈdʒetɪkli/ | با انرژی | The children danced energetically.
+recruiting | recruit | verb | /rɪˈkruːt/ | به خدمت گرفتن، جذب کردن | The company is recruiting new staff.
+radar | radar | noun | /ˈreɪdɑːr/ | رادار | The plane disappeared from the radar.
+indicated | indicate | verb | /ˈɪndɪkeɪt/ | نشان دادن | The sign indicated the way to the exit.
+pesticides | pesticide | noun | /ˈpestɪsaɪd/ | آفت‌کش | Farmers use pesticides to protect crops.
+conservationists | conservationist | noun | /ˌkɑːnsɚˈveɪʃənɪst/ | حافظ محیط زیست | Conservationists are trying to save the tigers.
+pollinators | pollinator | noun | /ˈpɑːləneɪtɚ/ | گرده‌افشان | Bees are important pollinators.
+=== QUIZ
+Q: Main idea | What is the main topic of the passage?
+A) The life of Karl von Frisch
+B) The threats facing honeybee populations
+*C) How honeybees communicate the location of food
+D) The way bees produce honey
+E: Most of the passage explains the round dance and waggle dance and how they share information about food.
+Q: Detail | What does the length of the waggle run communicate?
+A) The type of flower
+*B) The distance to the food
+C) The direction of the sun
+D) The amount of pollen available
+E: "The length of the waggle run, meanwhile, shows the distance. The longer the run lasts, the farther away the food is."
+Q: Inference | Why was the radar experiment important?
+A) It proved that bees can see in the dark.
+B) It showed that bees prefer sweet nectar.
+C) It showed that von Frisch's measurements were wrong.
+*D) It showed that bees use the dance information, not just smell, to find food.
+E: Bees flew directly to the indicated area "even when the smell of the food was not available", settling the debate in von Frisch's favour.
+Q: Vocabulary | In "recruiting more helpers", "recruiting" means:
+A) training
+B) feeding
+*C) persuading others to join
+D) leading away
+E: An energetic dance attracts more bees to go to the food source, which is what "recruiting" means.

@@ -1,0 +1,68 @@
+id: technology-b2-1
+kind: fact
+key: technology
+level: B2
+title: How Your Phone Knows Where You Are
+---
+Open a map app on your phone, and within seconds a small blue dot shows exactly where you are standing, often accurate to within a few metres. Most of us use this technology every day without thinking about it, to find a restaurant, order a taxi, or track a run. But behind that little dot is one of the most impressive engineering systems ever built, and it depends on satellites, extremely precise clocks, and even Einstein's theories of relativity.
+
+The best-known satellite navigation system is GPS, which stands for Global Positioning System. It was developed by the United States military, and the first satellite was launched in 1978. The system became fully operational in the mid-1990s. Originally, the most accurate signals were reserved for military use, but in 2000 the US government made full accuracy available to everyone, which led to an explosion of civilian applications. Today, other countries operate their own systems: Russia has GLONASS, the European Union has Galileo, and China has BeiDou. Most modern phones can use signals from several systems at once.
+
+GPS relies on a group of around thirty satellites orbiting the Earth at an altitude of about 20,000 kilometres. They are arranged so that, from almost any point on the planet, at least four are visible in the sky at any time. Each satellite continuously sends out a radio signal that contains two key pieces of information: its exact position and the exact time the signal was sent.
+
+Your phone does not send anything back to the satellites; it only listens. When it receives a signal, it compares the time the signal was sent with the time it arrived. Because radio waves travel at the speed of light, roughly 300,000 kilometres per second, the phone can calculate how far away the satellite is. If a signal takes 0.07 seconds to arrive, for example, the satellite is about 21,000 kilometres away.
+
+Knowing your distance from one satellite is not enough, however. It only tells you that you are somewhere on the surface of an enormous imaginary sphere around that satellite. With a second satellite, the possible locations are reduced to a circle where the two spheres meet. A third satellite narrows this down to two points, one of which is usually far out in space and can be ignored. This method is called trilateration. In practice, a fourth satellite is needed to correct for errors in the phone's own clock, which is much less precise than the clocks on the satellites.
+
+Timing is everything. Each GPS satellite carries several atomic clocks, which are accurate to a few billionths of a second. This precision is essential: an error of just one millionth of a second would cause a position error of around 300 metres. Remarkably, engineers must also take relativity into account. According to Einstein, time passes slightly faster in weaker gravity, so clocks on the satellites run faster than clocks on Earth. At the same time, because the satellites are moving quickly, their clocks run slightly slower. The combined effect is a difference of about 38 microseconds per day. Without correcting for this, GPS positions would drift by roughly ten kilometres every day.
+
+Of course, the system has limitations. GPS signals are weak by the time they reach the Earth, and they cannot pass easily through buildings, tunnels, or thick forests. In cities with tall buildings, signals can bounce off walls before reaching your phone, causing errors. To solve these problems, phones combine GPS with other information. They can estimate location using nearby Wi-Fi networks and mobile phone towers, and they use built-in sensors, such as accelerometers and compasses, to estimate movement when satellite signals are lost.
+
+Satellite navigation has become part of the invisible infrastructure of modern life. Beyond maps, it is used in aviation, shipping, farming, and emergency services. Its precise timing signals also help synchronise banking systems, mobile networks, and power grids. This dependence makes the system a potential weak point. Signals can be blocked by "jamming" devices or imitated by false signals, a practice known as "spoofing". For this reason, governments and companies are working on backup technologies.
+
+The next time a blue dot appears on your screen, it is worth remembering that it is the result of satellites racing through space, clocks counting billionths of a second, and a theory of time that once seemed purely abstract.
+=== GLOSSARY
+precise | precise | adjective | /prɪˈsaɪs/ | دقیق | Can you give me the precise time?
+relativity | relativity | noun | /ˌreləˈtɪvəti/ | نسبیت | Einstein developed the theory of relativity.
+operational | operational | adjective | /ˌɑːpəˈreɪʃənəl/ | فعال، عملیاتی | The new airport will be operational next year.
+reserved | reserve | verb | /rɪˈzɝːv/ | کنار گذاشتن، اختصاص دادن | These seats are reserved for elderly people.
+civilian | civilian | adjective | /səˈvɪljən/ | غیرنظامی | Civilian planes are not allowed in this area.
+orbiting | orbit | verb | /ˈɔːrbɪt/ | در مدار گردیدن | The Moon orbits the Earth.
+altitude | altitude | noun | /ˈæltətuːd/ | ارتفاع | The plane was flying at a high altitude.
+sphere | sphere | noun | /sfɪr/ | کره | The Earth is not a perfect sphere.
+narrows | narrow | verb | /ˈneroʊ/ | محدود کردن | The police narrowed the search to two areas.
+trilateration | trilateration | noun | /ˌtraɪlætəˈreɪʃən/ | سه‌جانبه‌سازی (مکان‌یابی با سه فاصله) | GPS uses trilateration to find your position.
+essential | essential | adjective | /ɪˈsenʃəl/ | ضروری | Water is essential for life.
+microseconds | microsecond | noun | /ˈmaɪkroʊˌsekənd/ | میکروثانیه | The computer responds in microseconds.
+bounce | bounce | verb | /baʊns/ | بازتاب کردن، کمانه کردن | The ball bounced off the wall.
+accelerometers | accelerometer | noun | /əkˌseləˈrɑːmətɚ/ | شتاب‌سنج | Phones use accelerometers to count steps.
+infrastructure | infrastructure | noun | /ˈɪnfrəˌstrʌktʃɚ/ | زیرساخت | The country needs better infrastructure.
+aviation | aviation | noun | /ˌeɪviˈeɪʃən/ | هوانوردی | She works in the aviation industry.
+jamming | jamming | noun | /ˈdʒæmɪŋ/ | پارازیت، مسدودسازی امواج | Radio jamming made communication impossible.
+spoofing | spoofing | noun | /ˈspuːfɪŋ/ | جعل سیگنال یا هویت | Email spoofing is a common trick used by scammers.
+backup | backup | adjective | /ˈbækʌp/ | پشتیبان | Always keep a backup copy of your files.
+=== QUIZ
+Q: Main idea | What is the passage mainly about?
+A) The military history of the United States
+*B) How satellite navigation works and why precise timing is crucial
+C) The differences between GPS, Galileo and BeiDou
+D) The dangers of using mobile phones while driving
+E: The passage explains how phones calculate position from satellite signals and emphasises the importance of accurate clocks.
+Q: Detail | Why is a fourth satellite usually needed?
+A) To send information back to the satellites
+B) To work inside buildings and tunnels
+*C) To correct errors in the phone's less precise clock
+D) To find the altitude of the satellite
+E: "A fourth satellite is needed to correct for errors in the phone's own clock."
+Q: Inference | What would most likely happen if engineers ignored the effects of relativity?
+A) Phones would stop receiving satellite signals.
+B) Satellites would fall out of orbit.
+*C) Location information would become increasingly inaccurate each day.
+D) Atomic clocks would stop working.
+E: Without the correction, "GPS positions would drift by roughly ten kilometres every day."
+Q: Vocabulary | In "A third satellite narrows this down to two points", "narrows down" means:
+*A) reduces the number of possibilities
+B) makes something thinner
+C) moves something closer
+D) increases the distance
+E: The third satellite reduces the possible locations from a circle to two points.

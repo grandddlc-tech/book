@@ -1,0 +1,74 @@
+id: art-c1-1
+kind: fact
+key: art
+level: C1
+title: Paradise Enclosed
+---
+The English word "paradise" has an unexpected origin. It derives, via Greek, from the Old Persian "pairidaeza", meaning a walled enclosure. To the ancient Persians, the word described the royal parks and hunting grounds of the Achaemenid kings; to later civilisations, it came to signify heaven itself. This semantic journey captures something essential about the Persian garden, one of the most enduring and influential traditions in the history of landscape design: it was conceived not merely as a pleasant place to walk, but as an earthly representation of an ideal, ordered world.
+
+The tradition's roots extend back at least two and a half millennia. At Pasargadae, the capital founded by Cyrus the Great in the sixth century BCE, archaeologists have identified the remains of a palace garden laid out with a geometric precision that would characterise Persian gardens for centuries. Stone water channels, some still visible today, ran in straight lines through the grounds, and the arrangement suggests a deliberate division of space into regular sections, possibly an early form of what would later be called the "chahar bagh", or fourfold garden.
+
+The chahar bagh became the archetypal form of the Persian garden. In its classic version, two axial water channels intersect at right angles, dividing a rectangular enclosure into four quadrants, often with a pavilion or pool at the central point of intersection. The symbolism of this layout has been widely discussed. Scholars have linked the fourfold division to ancient cosmological ideas of a world divided into four parts, and, after the arrival of Islam, to the Qur'anic description of paradise, which mentions four rivers of water, milk, wine and honey. Some historians caution, however, against reading every garden as a coded religious statement; practical considerations of irrigation and the pleasure of symmetry were surely equally important.
+
+Indeed, the Persian garden is inseparable from the challenge of its environment. Much of the Iranian plateau is arid, with scorching summers and scant rainfall. Creating lush greenery in such conditions demanded remarkable ingenuity. Water was often brought from distant mountains through qanats, gently sloping underground tunnels that tapped into aquifers and channelled water over long distances with minimal evaporation. Within the garden, gravity drove the flow of water through channels, cascades and fountains, which not only irrigated the plants but also cooled the air and filled the space with a soothing sound. The garden was, in effect, a carefully engineered oasis, an assertion of order and abundance against the surrounding desert.
+
+The walls themselves were integral to this effect. They provided protection from wind and dust and offered privacy, but they also created a powerful psychological contrast. Passing through the gateway, a visitor moved abruptly from the harsh, dusty exterior into a shaded, fragrant world of cypress and plane trees, flowering shrubs and running water. The tall, slender cypress, an ancient symbol of eternity in Persian culture, frequently lined the main axes, while fruit trees such as pomegranates, apricots and oranges combined beauty with utility.
+
+The tradition flourished particularly under the Safavid dynasty in the sixteenth and seventeenth centuries, when Shah Abbas I transformed Isfahan into a city of gardens. The grand avenue of Chahar Bagh in Isfahan was lined with gardens and pavilions, and palaces such as Chehel Sotoun, whose name means "forty columns", were designed to interact with water: the twenty slender wooden columns of its veranda are reflected in a long pool, creating the illusion of forty. Further south, gardens such as Bagh-e Eram in Shiraz and the Fin Garden in Kashan, with its turquoise channels fed by a natural spring, remain celebrated examples.
+
+The influence of the Persian garden radiated far beyond Iran. Through the Islamic world, its principles reached Moorish Spain, where they shaped the courtyards of the Alhambra in Granada. In India, the Mughal emperors, who traced their ancestry to Central Asia and admired Persian culture, adopted and monumentalised the chahar bagh; the Taj Mahal itself stands at the end of a vast fourfold garden. Echoes of the form can even be detected in the formal gardens of Renaissance Europe.
+
+In 2011, UNESCO inscribed nine Persian gardens on its World Heritage List, recognising them as a collective masterpiece of human creative genius. The listing also acknowledges a fragile heritage: many historic gardens are threatened by urban development, falling water tables and the decline of traditional qanat systems.
+
+Ultimately, the Persian garden embodies a philosophy as much as an aesthetic. It expresses the conviction that human beings can create harmony through careful design, balancing geometry with nature, utility with beauty, and enclosure with abundance. In a world increasingly preoccupied with water scarcity and sustainable cities, its ancient lessons about working intelligently with a harsh environment may prove unexpectedly relevant.
+=== GLOSSARY
+enclosure | enclosure | noun | /ɪnˈkloʊʒɚ/ | محوطهٔ محصور | The animals are kept in a large enclosure.
+semantic | semantic | adjective | /sɪˈmæntɪk/ | معنایی | The two words have a semantic connection.
+enduring | enduring | adjective | /ɪnˈdʊrɪŋ/ | ماندگار، پایدار | Their friendship was enduring.
+millennia | millennium | noun | /mɪˈleniəm/ | هزاره | The city has existed for two millennia.
+geometric | geometric | adjective | /ˌdʒiːəˈmetrɪk/ | هندسی | The tiles have a geometric pattern.
+archetypal | archetypal | adjective | /ˌɑːrkiˈtaɪpəl/ | نمونهٔ اعلا، کهن‌الگویی | He is the archetypal businessman.
+axial | axial | adjective | /ˈæksiəl/ | محوری | The garden has an axial layout.
+intersect | intersect | verb | /ˌɪntɚˈsekt/ | قطع کردن، تقاطع داشتن | The two roads intersect near the bridge.
+quadrants | quadrant | noun | /ˈkwɑːdrənt/ | ربع، بخش یک‌چهارم | The city is divided into four quadrants.
+pavilion | pavilion | noun | /pəˈvɪljən/ | کوشک، عمارت باغ | They had tea in the garden pavilion.
+cosmological | cosmological | adjective | /ˌkɑːzməˈlɑːdʒɪkəl/ | کیهان‌شناختی | Ancient peoples had different cosmological beliefs.
+irrigation | irrigation | noun | /ˌɪrɪˈɡeɪʃən/ | آبیاری | Farmers depend on irrigation in dry areas.
+scorching | scorching | adjective | /ˈskɔːrtʃɪŋ/ | سوزان | It was a scorching summer day.
+scant | scant | adjective | /skænt/ | اندک، ناچیز | He paid scant attention to the warning.
+lush | lush | adjective | /lʌʃ/ | سرسبز و انبوه | The valley was lush and green.
+aquifers | aquifer | noun | /ˈækwəfɚ/ | سفرهٔ آب زیرزمینی | Wells draw water from underground aquifers.
+soothing | soothing | adjective | /ˈsuːðɪŋ/ | آرامش‌بخش | She has a soothing voice.
+assertion | assertion | noun | /əˈsɝːʃən/ | ادعا، ابراز | The building is an assertion of power.
+integral | integral | adjective | /ˈɪntəɡrəl/ | جدایی‌ناپذیر، اساسی | Music is an integral part of the film.
+fragrant | fragrant | adjective | /ˈfreɪɡrənt/ | خوشبو | The garden was full of fragrant roses.
+utility | utility | noun | /juːˈtɪləti/ | کاربرد، سودمندی | The design combines beauty and utility.
+monumentalised | monumentalise | verb | /ˌmɑːnjəˈmentəlaɪz/ | باشکوه و یادمانی کردن | The emperor monumentalised the garden design.
+inscribed | inscribe | verb | /ɪnˈskraɪb/ | ثبت کردن، حک کردن | The site was inscribed on the World Heritage List.
+aesthetic | aesthetic | noun | /esˈθetɪk/ | زیبایی‌شناسی | The building has a minimalist aesthetic.
+preoccupied | preoccupied | adjective | /priˈɑːkjəpaɪd/ | مشغول‌ذهن، درگیر | She seemed preoccupied with her problems.
+=== QUIZ
+Q: Main idea | What is the central idea of the passage?
+A) Persian gardens were built only for religious reasons.
+*B) The Persian garden is an ancient, influential tradition that combines symbolism, engineering and beauty.
+C) The Taj Mahal is the finest example of a Persian garden.
+D) UNESCO has saved all historic gardens in Iran.
+E: The passage covers the origins, design, environmental engineering, history and influence of Persian gardens.
+Q: Detail | What is the purpose of a qanat?
+A) To decorate the main axis of the garden
+B) To divide the garden into four parts
+*C) To carry water underground over long distances with little evaporation
+D) To provide shade for visitors
+E: Qanats are "gently sloping underground tunnels that tapped into aquifers and channelled water over long distances with minimal evaporation."
+Q: Inference | Why does the writer mention the Chehel Sotoun palace?
+A) To show that Safavid buildings were poorly built
+*B) To illustrate how architecture was designed to interact with water
+C) To explain the origin of the word "paradise"
+D) To compare Isfahan with Shiraz
+E: Its twenty columns are reflected in a pool, "creating the illusion of forty", an example of design interacting with water.
+Q: Vocabulary | In "scant rainfall", the word "scant" means:
+A) heavy
+B) seasonal
+C) unpredictable
+*D) very little
+E: The plateau is described as arid, so "scant rainfall" means very little rain.

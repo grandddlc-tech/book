@@ -1,0 +1,70 @@
+id: environment-b2-1
+kind: fact
+key: environment
+level: B2
+title: The Plastic Ocean
+---
+In 1997, a sailor named Charles Moore was crossing the Pacific Ocean on his way home from a race when he noticed something strange. For days, in the middle of the ocean, far from any coast, his boat passed through floating pieces of plastic: bottle caps, bags, fishing nets, and countless tiny fragments. Moore had discovered what is now called the Great Pacific Garbage Patch, and it helped to make the world aware of one of today's biggest environmental problems.
+
+Plastic is an extraordinary material. It is cheap, light, strong, and can be shaped into almost anything. Since large-scale production began in the 1950s, humans have made more than eight billion tonnes of it, and global production continues to rise. The problem is that the qualities that make plastic so useful also make it extremely difficult to get rid of. Most plastics do not biodegrade, meaning they are not broken down by bacteria or other living organisms. A plastic bottle may survive for hundreds of years.
+
+Only a small percentage of all plastic ever produced has been recycled. Much of the rest has been burned or buried in landfill sites, but a large amount ends up in the natural environment. Scientists estimate that millions of tonnes of plastic enter the oceans every year. It arrives through rivers, is blown from beaches and rubbish dumps, or is lost directly at sea, especially fishing equipment. In fact, abandoned fishing nets, sometimes called "ghost nets", make up a large part of the plastic in the Great Pacific Garbage Patch.
+
+The name "garbage patch" can be misleading. Many people imagine an island of rubbish that you could walk on. In reality, most of the plastic is broken into small pieces and spread through the water like pepper in soup. Ocean currents move in large circular systems called gyres, which collect floating material in certain areas. There are five major gyres in the world's oceans, and all of them contain high concentrations of plastic.
+
+Over time, sunlight, waves, and salt break plastic into smaller and smaller pieces. Pieces smaller than five millimetres are known as microplastics. Some microplastics are made small on purpose, such as the tiny beads once common in face scrubs and toothpaste. Others come from synthetic clothes: every time a polyester sweater is washed, it can release thousands of microscopic fibres, which are too small to be caught by water treatment plants.
+
+The effects on wildlife are serious. Sea turtles often mistake plastic bags for jellyfish, their favourite food. Seabirds feed bright pieces of plastic to their chicks, which may die with stomachs full of rubbish. Whales, seals, and dolphins become trapped in nets and drown. Studies have found plastic inside a large proportion of seabirds and in the bodies of animals living in the deepest ocean trenches, nearly eleven kilometres below the surface.
+
+Microplastics have also entered the human food chain. They have been found in seafood, salt, drinking water, and even the air. Recent studies have detected them in human blood and organs. Scientists do not yet know exactly what effects these particles have on human health, and research is ongoing. Some experts are concerned because plastics can contain chemicals that may affect hormones, and because microplastics can absorb other pollutants from the water.
+
+Solving the problem will not be easy, but there are reasons for optimism. Several organisations are developing technology to remove plastic from oceans and rivers. Many countries have introduced bans or taxes on single-use plastic bags, which have dramatically reduced their use. In some places, deposit schemes pay people a small amount for returning bottles, leading to very high recycling rates. Scientists are also developing new materials that break down more easily, and they have discovered bacteria and enzymes that can digest certain types of plastic.
+
+Most experts agree, however, that cleaning up is not enough. The most effective solution is to stop plastic from reaching the environment in the first place. This means producing less unnecessary plastic, designing products that can be reused or recycled, and improving waste collection, especially in countries where it is limited. Individuals can help by carrying reusable bags and bottles, avoiding unnecessary packaging, and disposing of rubbish responsibly.
+
+Charles Moore's accidental discovery showed that there is no "away" when we throw something away. The plastic we use for a few minutes can remain in the ocean for centuries, a lasting reminder that our everyday choices have consequences far beyond what we can see.
+=== GLOSSARY
+countless | countless | adjective | /ˈkaʊntləs/ | بی‌شمار | I've told you countless times.
+fragments | fragment | noun | /ˈfræɡmənt/ | تکه، قطعه | Fragments of glass were all over the floor.
+biodegrade | biodegrade | verb | /ˌbaɪoʊdɪˈɡreɪd/ | زیست‌تخریب شدن، تجزیه شدن طبیعی | Paper bags biodegrade quickly.
+landfill | landfill | noun | /ˈlændfɪl/ | محل دفن زباله | Most of our waste goes to landfill.
+abandoned | abandoned | adjective | /əˈbændənd/ | رهاشده | They found an abandoned car in the forest.
+misleading | misleading | adjective | /mɪsˈliːdɪŋ/ | گمراه‌کننده | The advertisement was misleading.
+currents | current | noun | /ˈkɝːənt/ | جریان (آب یا هوا) | Strong currents make swimming dangerous here.
+concentrations | concentration | noun | /ˌkɑːnsənˈtreɪʃən/ | غلظت، تراکم | There is a high concentration of salt in the water.
+synthetic | synthetic | adjective | /sɪnˈθetɪk/ | مصنوعی | Nylon is a synthetic material.
+microscopic | microscopic | adjective | /ˌmaɪkrəˈskɑːpɪk/ | میکروسکوپی، بسیار ریز | Microscopic organisms live in the soil.
+fibres | fibre | noun | /ˈfaɪbɚ/ | الیاف | Cotton fibres are soft and strong.
+drown | drown | verb | /draʊn/ | غرق شدن | He nearly drowned in the river.
+trenches | trench | noun | /trentʃ/ | گودال عمیق، ترانشه | The Mariana Trench is the deepest place in the ocean.
+pollutants | pollutant | noun | /pəˈluːtənt/ | آلاینده | Cars release pollutants into the air.
+optimism | optimism | noun | /ˈɑːptəmɪzəm/ | خوش‌بینی | There is growing optimism about the economy.
+single-use | single-use | adjective | /ˌsɪŋɡəl ˈjuːs/ | یک‌بارمصرف | Many cafés no longer use single-use cups.
+deposit | deposit | noun | /dɪˈpɑːzɪt/ | ودیعه، پول بازگشتی | You get your deposit back when you return the bottle.
+enzymes | enzyme | noun | /ˈenzaɪm/ | آنزیم | Enzymes help us digest food.
+disposing | dispose | verb | /dɪˈspoʊz/ | دور انداختن، دفع کردن (dispose of) | Please dispose of your rubbish properly.
+=== QUIZ
+Q: Main idea | What is the main purpose of the passage?
+A) To tell the life story of Charles Moore
+B) To argue that plastic should be banned completely
+*C) To explain the problem of ocean plastic, its effects, and possible solutions
+D) To describe how ocean gyres were discovered
+E: The passage describes where ocean plastic comes from, its effects on wildlife and humans, and possible solutions.
+Q: Detail | Why does the writer say the name "garbage patch" can be misleading?
+*A) Most of the plastic is in small pieces spread through the water, not a solid island.
+B) The patch is located near the coast, not in the middle of the ocean.
+C) Most of the rubbish in it is not plastic.
+D) The patch has already been cleaned up.
+E: "Many people imagine an island of rubbish... In reality, most of the plastic is broken into small pieces."
+Q: Inference | What does the writer suggest is the most important long-term solution?
+A) Developing more boats to collect plastic from the ocean
+B) Teaching sea turtles to avoid plastic bags
+*C) Preventing plastic from entering the environment in the first place
+D) Moving all waste to landfill sites
+E: "Cleaning up is not enough. The most effective solution is to stop plastic from reaching the environment in the first place."
+Q: Vocabulary | In "Most plastics do not biodegrade", "biodegrade" means to:
+A) melt in high temperatures
+*B) be broken down naturally by living organisms
+C) float on the surface of water
+D) be recycled into new products
+E: The text explains that this means plastics "are not broken down by bacteria or other living organisms."

@@ -1,0 +1,81 @@
+id: war-b2-1
+kind: story
+key: war
+level: B2
+title: The Last Letter from Ypres
+---
+The rain had not stopped for three days when Nurse Clara Whitfield arrived at the field hospital outside Ypres in the autumn of 1916. The hospital was nothing more than a row of canvas tents and a farmhouse with half its roof missing, but to the men who were carried there on stretchers, it was the closest thing to safety they had seen in months.
+
+Clara was twenty-two. She had trained in a quiet hospital in Manchester, where the worst injuries she treated were broken arms and burns from factory accidents. Nothing had prepared her for the endless line of wounded soldiers, the smell of mud and smoke, or the distant thunder of artillery that shook the ground day and night.
+
+On her second week, a young private named Thomas Reed was brought in with a serious wound to his leg. He was barely nineteen, with red hair and freckles, and he joked with the doctors even as they examined him. "I've had worse from my mother's cooking," he said, and the tired surgeon actually laughed.
+
+Thomas's leg was saved, but he had a fever, and the doctors were worried about infection. Clara sat with him during the long night shifts. He told her about his village in Kent, about the apple orchard behind his father's house, and about a girl named Lily who worked at the post office. "I never told her how I felt," he admitted. "I kept thinking there would be time after the war."
+
+One night, his fever rose dangerously high. In a moment of clarity, he pulled a folded piece of paper from under his pillow. "If something happens to me," he whispered, "please send this to Lily. Promise me." Clara promised, and she put the letter carefully in the pocket of her apron.
+
+By morning, the fever had broken. Thomas was weak but alive, and over the following days he grew stronger. Clara felt a quiet happiness she had not felt since leaving England. She returned the letter to him, smiling. "You can deliver it yourself," she said.
+
+Two weeks later, the hospital received orders to move closer to the front line. The army was preparing a new attack, and more wounded were expected. Thomas, now able to walk with a stick, was supposed to be sent back to England. But on the day of the transfer, there was confusion. The trucks were needed for supplies, and the lightly wounded men were told to wait.
+
+That evening, the shelling began without warning. Clara was changing bandages when the first shell landed near the farmhouse. The ground lifted under her feet, and a cloud of dust filled the tent. Patients screamed; lamps fell and went out. In the darkness, Clara heard a familiar voice shouting orders. It was Thomas. Leaning on his stick, he was helping other patients out of the damaged tent and towards the cellar of the farmhouse.
+
+Clara worked beside him, guiding men down the narrow stairs. They carried a soldier who could not walk, then another. When the last patient was inside, Thomas turned back. "There's a doctor still in the second tent," he said, and before Clara could stop him, he limped out into the smoke.
+
+He came back ten minutes later with the doctor, both of them covered in mud but unhurt. The shelling stopped soon after. In the cellar, by the light of a single candle, the men sat in silence. Then someone started to sing an old music-hall song, and one by one, the others joined in.
+
+Thomas was finally sent home in December. Before he left, he gave Clara a small apple carved from wood. "From the orchard," he said. "So you remember Kent, even though you've never been there."
+
+In the spring, a letter arrived at the hospital addressed to Nurse Whitfield. It was from Lily. She wrote that Thomas had walked into the post office one morning, still using his stick, and handed her a letter in person. They were going to be married in June. "He says he owes his life to you," Lily wrote, "but I think, from what he tells me, that many men owe their lives to him."
+
+Clara kept the wooden apple for the rest of her life. Years later, when her grandchildren asked about the war, she did not talk about the shells or the mud. She told them about a red-haired boy who was brave enough to go back into the smoke, and who was almost too shy to deliver a letter.
+=== GLOSSARY
+canvas | canvas | noun | /ˈkænvəs/ | برزنت، پارچهٔ ضخیم | They slept in a small canvas tent by the lake.
+stretchers | stretcher | noun | /ˈstretʃɚ/ | برانکارد | Two men carried the injured player off on a stretcher.
+wounded | wounded | adjective | /ˈwuːndɪd/ | زخمی | The wounded were taken to the nearest hospital.
+artillery | artillery | noun | /ɑːrˈtɪləri/ | توپخانه | The sound of artillery could be heard miles away.
+private | private | noun | /ˈpraɪvət/ | سرباز (پایین‌ترین درجه) | He joined the army as a private at eighteen.
+freckles | freckle | noun | /ˈfrekəl/ | کک‌ومک | She has freckles on her nose every summer.
+surgeon | surgeon | noun | /ˈsɝːdʒən/ | جراح | The surgeon operated on him for five hours.
+fever | fever | noun | /ˈfiːvɚ/ | تب | The baby had a high fever all night.
+infection | infection | noun | /ɪnˈfekʃən/ | عفونت | Clean the cut to prevent infection.
+shifts | shift | noun | /ʃɪft/ | شیفت کاری | Nurses often work twelve-hour shifts.
+orchard | orchard | noun | /ˈɔːrtʃɚd/ | باغ میوه | My grandfather planted a cherry orchard.
+admitted | admit | verb | /ədˈmɪt/ | اعتراف کردن | She admitted that she was nervous.
+clarity | clarity | noun | /ˈklerəti/ | وضوح، هوشیاری | He explained the rules with great clarity.
+apron | apron | noun | /ˈeɪprən/ | پیش‌بند | The chef wiped his hands on his apron.
+front line | front line | noun | /ˌfrʌnt ˈlaɪn/ | خط مقدم | Thousands of soldiers were sent to the front line.
+supplies | supplies | noun | /səˈplaɪz/ | تدارکات، آذوقه | The village ran out of medical supplies.
+shelling | shelling | noun | /ˈʃelɪŋ/ | گلوله‌باران | The shelling continued through the night.
+bandages | bandage | noun | /ˈbændɪdʒ/ | باند زخم | The nurse wrapped a bandage around his arm.
+cellar | cellar | noun | /ˈselɚ/ | زیرزمین | They kept wine and potatoes in the cellar.
+limped | limp | verb | /lɪmp/ | لنگیدن | After the game, he limped off the field.
+unhurt | unhurt | adjective | /ʌnˈhɝːt/ | سالم، آسیب‌ندیده | Luckily, the driver was unhurt.
+carved | carve | verb | /kɑːrv/ | کندن، حکاکی کردن | He carved a small bird out of wood.
+owes | owe | verb | /oʊ/ | مدیون بودن | I owe you a big thank-you for your help.
+shy | shy | adjective | /ʃaɪ/ | خجالتی | He was too shy to speak in class.
+=== QUIZ
+Q: Main idea | What is the story mainly about?
+A) The daily routine of nurses in British hospitals
+*B) A friendship between a nurse and a soldier who shows unexpected courage
+C) The planning of a major military attack near Ypres
+D) A soldier who refuses to return home after the war
+E: The story follows Clara and Thomas, from his recovery to his brave rescue of patients during the shelling.
+Q: Detail | Why was Thomas not sent back to England on the planned day?
+A) His fever had returned.
+B) He asked to stay and help the nurses.
+*C) The trucks were needed to carry supplies.
+D) The roads had been destroyed by shelling.
+E: The text says, "The trucks were needed for supplies, and the lightly wounded men were told to wait."
+Q: Inference | What does Lily's letter suggest about Thomas?
+A) He exaggerated his own role in the war.
+B) He was angry that he had to leave the hospital.
+C) He had forgotten about Clara after returning home.
+*D) He had told Lily about saving other people, but was modest about it.
+E: Lily writes that Thomas says he owes his life to Clara, but that many men owe their lives to him, which implies he described the events while giving credit to others.
+Q: Vocabulary | In the sentence "he limped out into the smoke", the word "limped" means:
+*A) walked with difficulty because of an injury
+B) ran very quickly
+C) crawled on his hands and knees
+D) walked silently and carefully
+E: Thomas was still using a stick because of his leg wound, so "limped" describes walking unevenly due to injury.

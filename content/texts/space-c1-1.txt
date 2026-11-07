@@ -1,0 +1,72 @@
+id: space-c1-1
+kind: fact
+key: space
+level: C1
+title: Worlds Beyond the Sun
+---
+For most of human history, the existence of planets orbiting other stars was a matter of philosophical speculation. The sixteenth-century Italian thinker Giordano Bruno proposed that the stars were distant suns with their own worlds, a view that contributed to his condemnation by the Inquisition. Yet until remarkably recently, there was no empirical evidence that such planets existed at all. The first confirmed discovery of a planet orbiting a Sun-like star came only in 1995. Today, astronomers have catalogued more than five thousand exoplanets, and statistical analyses suggest that planets are not the exception but the rule: on average, every star in our galaxy appears to host at least one.
+
+Detecting exoplanets directly is extraordinarily difficult. A planet is typically billions of times fainter than its host star and lies, from our perspective, very close to it, so that its feeble light is overwhelmed by the star's glare. Consequently, astronomers have mostly relied on indirect methods, inferring a planet's presence from its effects on the star.
+
+The first technique to achieve major success was the radial velocity method. As a planet orbits, its gravity tugs the star in a small circle, causing it to move alternately towards and away from Earth. This motion induces a minute shift in the wavelengths of the star's light, towards blue as it approaches and towards red as it recedes, an instance of the Doppler effect. In 1995, the Swiss astronomers Michel Mayor and Didier Queloz used this method to detect 51 Pegasi b, a planet roughly half the mass of Jupiter orbiting its star in just over four days. The discovery astonished astronomers, whose theories had predicted that giant planets should form far from their stars. Such "hot Jupiters" forced a fundamental rethinking of how planetary systems evolve, and the discovery earned its authors the Nobel Prize in 2019.
+
+The most prolific technique, however, has been the transit method. If a planet's orbit is aligned so that it passes in front of its star from our viewpoint, it blocks a tiny fraction of the starlight, causing a slight, periodic dimming. A planet the size of Jupiter crossing a Sun-like star reduces its brightness by about one percent; an Earth-sized planet, by less than one hundredth of a percent. NASA's Kepler space telescope, launched in 2009, monitored roughly 150,000 stars simultaneously for such dips and identified thousands of candidate planets. Its successor, TESS, surveys nearly the entire sky.
+
+Combining the two methods yields particularly valuable information. Transits reveal a planet's diameter, while radial velocity measurements reveal its mass; together, they allow astronomers to calculate its density and thus infer whether it is predominantly rocky, gaseous or perhaps water-rich. Moreover, when a planet transits, a small portion of starlight filters through its atmosphere, and different molecules absorb light at characteristic wavelengths. By analysing this spectrum, astronomers can identify atmospheric constituents. The James Webb Space Telescope, launched in 2021, has already detected water vapour, carbon dioxide and other compounds in the atmospheres of several distant worlds.
+
+Perhaps the most striking revelation of exoplanet research is the sheer diversity of planetary systems. Many contain types of planets absent from our own solar system, notably "super-Earths" and "mini-Neptunes", intermediate in size between Earth and Neptune, which appear to be the most common planets in the galaxy. Some planets orbit two stars at once, like the fictional Tatooine; others follow highly eccentric orbits or circle their stars in hours. Our solar system, with its neat arrangement of small rocky planets close in and gas giants farther out, increasingly looks like one configuration among many rather than a universal template.
+
+Inevitably, the search has focused on the most tantalising question: are there planets capable of supporting life? Astronomers speak of a "habitable zone", the range of distances from a star within which a planet's surface temperature might permit liquid water. Several Earth-sized planets have been found in such zones, including some in the TRAPPIST-1 system, where seven rocky planets orbit a small, cool red dwarf star. Being in the habitable zone, however, does not guarantee habitability. A planet's atmosphere, magnetic field, geological activity and the behaviour of its star all matter; red dwarfs, for instance, frequently emit violent flares that could strip away atmospheres.
+
+The ultimate goal is to detect biosignatures, combinations of atmospheric gases, such as oxygen alongside methane, that would be difficult to explain without biological activity. Such a detection would require extraordinary caution, since geological or chemical processes can mimic biological signals. Future telescopes, designed specifically to image Earth-like planets directly, may eventually make this possible.
+
+Within a single generation, exoplanets have moved from speculation to routine discovery. Bruno could not prove his conjecture; we can now measure the atmospheres of worlds he could only imagine.
+=== GLOSSARY
+speculation | speculation | noun | /ˌspekjəˈleɪʃən/ | گمانه‌زنی | There is speculation that he will resign.
+condemnation | condemnation | noun | /ˌkɑːndemˈneɪʃən/ | محکومیت | The attack received worldwide condemnation.
+empirical | empirical | adjective | /ɪmˈpɪrɪkəl/ | تجربی، مبتنی بر مشاهده | There is no empirical evidence for this claim.
+catalogued | catalogue | verb | /ˈkætəlɑːɡ/ | فهرست‌برداری کردن | The museum has catalogued every item.
+feeble | feeble | adjective | /ˈfiːbəl/ | ضعیف | We saw the feeble light of a candle.
+glare | glare | noun | /ɡler/ | نور خیره‌کننده | Sunglasses reduce the glare of the sun.
+induces | induce | verb | /ɪnˈduːs/ | باعث شدن، القا کردن | The drug induces sleep.
+minute | minute | adjective | /maɪˈnuːt/ | بسیار ریز | The changes were minute.
+prolific | prolific | adjective | /prəˈlɪfɪk/ | پرکار، پربار | She is a prolific writer.
+aligned | aligned | adjective | /əˈlaɪnd/ | هم‌راستا | Make sure the pictures are aligned.
+periodic | periodic | adjective | /ˌpɪriˈɑːdɪk/ | دوره‌ای | The machine needs periodic checks.
+dips | dip | noun | /dɪp/ | افت، کاهش | There was a dip in sales in January.
+predominantly | predominantly | adverb | /prɪˈdɑːmɪnəntli/ | عمدتاً | The area is predominantly agricultural.
+constituents | constituent | noun | /kənˈstɪtʃuənt/ | جزء تشکیل‌دهنده | Oxygen is a constituent of water.
+revelation | revelation | noun | /ˌrevəˈleɪʃən/ | کشف شگفت‌آور | The news came as a revelation.
+eccentric | eccentric | adjective | /ɪkˈsentrɪk/ | (مدار) بیضوی و نامتقارن؛ عجیب | Comets have eccentric orbits.
+configuration | configuration | noun | /kənˌfɪɡjəˈreɪʃən/ | آرایش، پیکربندی | The configuration of the seats can be changed.
+template | template | noun | /ˈtemplɪt/ | الگو | Use this document as a template.
+tantalising | tantalising | adjective | /ˈtæntəlaɪzɪŋ/ | وسوسه‌انگیز | There was a tantalising smell of food.
+habitable | habitable | adjective | /ˈhæbɪtəbəl/ | قابل سکونت | The house is no longer habitable.
+flares | flare | noun | /fler/ | شعله، فوران (ستاره‌ای) | Solar flares can disrupt satellites.
+mimic | mimic | verb | /ˈmɪmɪk/ | تقلید کردن | Parrots can mimic human speech.
+conjecture | conjecture | noun | /kənˈdʒektʃɚ/ | حدس، فرضیه | His theory is pure conjecture.
+=== QUIZ
+Q: Main idea | What is the main subject of the passage?
+A) The life and death of Giordano Bruno
+*B) How exoplanets are detected and what their discovery has revealed
+C) The design of the James Webb Space Telescope
+D) Why life cannot exist around red dwarf stars
+E: The passage describes detection methods (radial velocity, transit, spectroscopy) and the diversity and habitability of exoplanets.
+Q: Detail | Why did the discovery of 51 Pegasi b surprise astronomers?
+A) It was the first planet found by the transit method.
+B) It orbited two stars at once.
+*C) Theories predicted giant planets should form far from their stars, but it was very close to its star.
+D) It showed clear signs of life.
+E: Astronomers' "theories had predicted that giant planets should form far from their stars", yet this planet orbited in about four days.
+Q: Inference | Why is combining the transit and radial velocity methods especially useful?
+A) It allows astronomers to see planets directly.
+B) It makes telescopes cheaper to build.
+*C) It allows astronomers to estimate what a planet is made of.
+D) It proves that a planet is in the habitable zone.
+E: Transits give diameter and radial velocity gives mass; together they give density, which shows whether a planet is rocky or gaseous.
+Q: Vocabulary | In "The most prolific technique, however, has been the transit method", "prolific" means:
+A) the oldest
+B) the most accurate
+*C) producing a great number of results
+D) the most expensive
+E: The transit method has "identified thousands of candidate planets", so "prolific" means highly productive.

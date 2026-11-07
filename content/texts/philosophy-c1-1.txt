@@ -1,0 +1,71 @@
+id: philosophy-c1-1
+kind: fact
+key: philosophy
+level: C1
+title: The Ship That Was Replaced
+---
+According to the Greek historian Plutarch, the Athenians preserved the ship in which the legendary hero Theseus had returned from Crete, keeping it in the harbour for centuries as a monument. As its timbers decayed, they were removed one by one and replaced with new wood, until eventually not a single original plank remained. Philosophers, Plutarch reports, used the vessel as an illustration of a perplexing question: was it still the same ship?
+
+The puzzle, known as the Ship of Theseus, has endured for more than two thousand years because it exposes a deep tension in our concept of identity. On the one hand, the replacement was gradual, and at no point did anyone build a new ship; there was continuity of form, function and name. On the other hand, the material composition had changed entirely. If identity resides in physical matter, the ship ceased to exist at some point; if it resides in structure or history, it survived.
+
+The seventeenth-century English philosopher Thomas Hobbes added an ingenious twist. Suppose, he proposed, that someone collected the discarded original planks and reassembled them into a ship. We would then have two vessels with competing claims to be the Ship of Theseus: one possessing spatio-temporal continuity with the original, the other possessing its original matter. Which, if either, is the real one? The difficulty is not resolved by gathering more facts, since we already know everything that happened. The disagreement concerns how we should apply our concepts, not what the world contains.
+
+Philosophers have proposed various responses. One view, sometimes called mereological essentialism, holds that an object is defined by its parts, so that replacing even a single plank creates, strictly speaking, a different ship. This position has the virtue of consistency, but it implies that virtually nothing persists through time, since most objects constantly gain and lose material. Another view emphasises continuity: an object persists as long as changes occur gradually and its organisation is maintained. A more radical approach, associated with some contemporary metaphysicians, treats objects as "four-dimensional", extended through time as well as space, so that the ship at any moment is merely a temporal part, or stage, of a larger whole.
+
+Still others adopt a deflationary stance, suggesting that the question has no deep answer at all. On this view, the word "same" is a practical tool whose application depends on our interests. For a museum curator concerned with authenticity, the reassembled original planks might matter most; for a sailor or an insurance company, the continuously maintained ship might be the relevant one. There is no further fact, beyond our conventions, about which ship is "really" the original.
+
+The puzzle acquires far greater urgency when applied not to ships but to persons. The cells of the human body are continually renewed, and although the popular claim that we replace every cell every seven years is a considerable oversimplification, a substantial proportion of our matter is indeed exchanged over time. Our beliefs, memories and personalities also change, sometimes dramatically. In what sense, then, is the adult the same person as the child in old photographs?
+
+John Locke, writing in the late seventeenth century, offered an influential answer: personal identity consists not in the continuity of a body or a soul but in the continuity of consciousness, particularly memory. A person at a later time is the same as a person at an earlier time if the later can remember the experiences of the earlier. Critics soon identified problems. Thomas Reid pointed out that a brave officer might remember being a boy who was flogged, and an old general might remember being the officer, yet not remember the flogging; by Locke's criterion, the general would be the officer, and the officer the boy, but the general would not be the boy, which violates the logic of identity.
+
+In the twentieth century, Derek Parfit pushed these questions further through vivid thought experiments involving teleportation and brain division. Imagine a machine that records your complete physical state, destroys your body and reconstructs an exact replica on Mars. Is the person who steps out on Mars you? What if the machine malfunctions and fails to destroy the original, producing two of you? Parfit concluded, controversially, that personal identity is not what fundamentally matters. What matters, he argued, is psychological continuity and connectedness, which can hold in degrees and need not be a matter of all or nothing. He reported finding this conclusion liberating: it loosened his concern with his own future death and made him more concerned with the lives of others.
+
+These debates are not purely abstract. They inform discussions in medical ethics, for instance regarding patients with severe dementia, and they have become increasingly relevant as technologists speculate about uploading minds into computers. The humble ship in the Athenian harbour, it turns out, carries some of the heaviest cargo in philosophy: questions about what we are, and what it means to survive.
+=== GLOSSARY
+timbers | timber | noun | /ˈtɪmbɚ/ | الوار، تیر چوبی | The old house was built with oak timbers.
+decayed | decay | verb | /dɪˈkeɪ/ | پوسیدن، فاسد شدن | The fallen leaves slowly decayed.
+plank | plank | noun | /plæŋk/ | تخته | They walked across a wooden plank.
+perplexing | perplexing | adjective | /pɚˈpleksɪŋ/ | گیج‌کننده | It's a perplexing problem.
+continuity | continuity | noun | /ˌkɑːntəˈnuːəti/ | پیوستگی، تداوم | The new manager provides continuity.
+composition | composition | noun | /ˌkɑːmpəˈzɪʃən/ | ترکیب، ساختار | The chemical composition of the soil has changed.
+resides | reside | verb | /rɪˈzaɪd/ | قرار داشتن، ساکن بودن | Power resides with the people.
+discarded | discard | verb | /dɪˈskɑːrd/ | دور انداختن | He discarded the old newspapers.
+reassembled | reassemble | verb | /ˌriːəˈsembəl/ | دوباره سوار کردن | They reassembled the engine.
+persists | persist | verb | /pɚˈsɪst/ | ادامه یافتن، پابرجا ماندن | If the pain persists, see a doctor.
+metaphysicians | metaphysician | noun | /ˌmetəfɪˈzɪʃən/ | متخصص متافیزیک | Metaphysicians study the nature of reality.
+deflationary | deflationary | adjective | /dɪˈfleɪʃəneri/ | کوچک‌انگارانه، کاهشی (در فلسفه) | He takes a deflationary view of truth.
+authenticity | authenticity | noun | /ˌɑːθenˈtɪsəti/ | اصالت | Experts questioned the authenticity of the painting.
+urgency | urgency | noun | /ˈɝːdʒənsi/ | فوریت | There is a sense of urgency about the problem.
+oversimplification | oversimplification | noun | /ˌoʊvɚˌsɪmpləfɪˈkeɪʃən/ | ساده‌سازی بیش از حد | That's a dangerous oversimplification.
+flogged | flog | verb | /flɑːɡ/ | شلاق زدن | Prisoners were flogged in the past.
+criterion | criterion | noun | /kraɪˈtɪriən/ | معیار | Price is not the only criterion.
+replica | replica | noun | /ˈreplɪkə/ | نسخهٔ بدلی، ماکت | The museum displays a replica of the ship.
+malfunctions | malfunction | verb | /ˌmælˈfʌŋkʃən/ | خراب شدن، درست کار نکردن | The computer malfunctioned during the test.
+liberating | liberating | adjective | /ˈlɪbəreɪtɪŋ/ | رهایی‌بخش | Quitting my job was a liberating experience.
+dementia | dementia | noun | /dɪˈmenʃə/ | زوال عقل | Her grandmother suffers from dementia.
+cargo | cargo | noun | /ˈkɑːrɡoʊ/ | بار، محموله | The ship was carrying cargo to Asia.
+=== QUIZ
+Q: Main idea | What is the passage mainly concerned with?
+A) The history of Greek shipbuilding
+*B) Philosophical questions about identity and persistence, applied to objects and persons
+C) The technology of teleportation
+D) Why Locke's theory of memory is correct
+E: The passage uses the Ship of Theseus to explore theories of identity, then applies them to personal identity.
+Q: Detail | What problem did Thomas Reid identify in Locke's theory?
+A) Memory is unreliable and easily changed.
+B) Locke ignored the role of the body.
+*C) Memory chains can make A identical to B and B to C, while A is not identical to C.
+D) Locke's theory cannot explain teleportation.
+E: Reid's example of the boy, the officer and the general shows a breakdown in "the logic of identity."
+Q: Inference | Why does Hobbes's version of the puzzle make it harder?
+A) It proves that the original ship never existed.
+*B) It creates two ships with competing claims to be the original.
+C) It shows that the Athenians lied about the ship.
+D) It suggests that wood cannot be reused.
+E: One ship has continuity, the other has the original matter, so both have "competing claims to be the Ship of Theseus."
+Q: Vocabulary | In "By Locke's criterion, the general would be the officer", "criterion" means:
+A) a historical example
+*B) a standard used to make a judgement
+C) a personal opinion
+D) a legal punishment
+E: Locke's memory-based test is the standard for deciding whether two people are the same person.

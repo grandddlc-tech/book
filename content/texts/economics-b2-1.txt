@@ -1,0 +1,70 @@
+id: economics-b2-1
+kind: fact
+key: economics
+level: B2
+title: Why Prices Keep Rising
+---
+Ask your grandparents how much a loaf of bread or a cinema ticket cost when they were young, and the answer will probably surprise you. Over time, the prices of almost everything tend to rise. Economists call this general increase in prices inflation. A small amount of inflation is considered normal and even healthy, but when prices rise too quickly, the effects can be painful, especially for people with low incomes.
+
+Inflation is usually measured by tracking the price of a "basket" of goods and services that a typical household buys, such as food, rent, transport, clothing, and electricity. Government statistics offices check these prices regularly and calculate how much the total cost has changed compared with the year before. If the basket costs five percent more than last year, the inflation rate is five percent. In other words, money has lost some of its purchasing power: the same amount of money buys fewer things.
+
+Why does inflation happen? Economists generally describe two main types. The first is "demand-pull" inflation. This occurs when people and businesses want to buy more goods and services than the economy can produce. When demand is greater than supply, sellers can raise their prices. This often happens when an economy is growing quickly, when people feel confident and borrow more, or when governments spend a lot of money.
+
+The second type is "cost-push" inflation. This occurs when the costs of producing goods increase, and businesses pass those costs on to customers. A sharp rise in the price of oil, for example, makes transport, heating, and manufacturing more expensive, which in turn raises the prices of many other products. Natural disasters, wars, and problems in global supply chains can all push costs up. After the COVID-19 pandemic, many countries experienced this kind of inflation, as factories reopened, shipping became more expensive, and energy prices rose sharply.
+
+Money itself also plays an important role. If a government or central bank creates a large amount of new money without a matching increase in goods and services, each unit of money becomes less valuable. The most extreme examples of this are cases of hyperinflation. In Germany in 1923, prices rose so fast that workers were paid twice a day and rushed to spend their wages before they lost value. In Zimbabwe in the late 2000s, the central bank eventually printed a one-hundred-trillion-dollar note, which was not enough to buy a bus ticket.
+
+Inflation does not affect everyone equally. People who borrowed money at a fixed interest rate may actually benefit, because the real value of their debt falls. On the other hand, people who have saved money in the bank may lose out if the interest they earn is lower than the inflation rate. Workers suffer if their wages do not rise as fast as prices, and people on fixed incomes, such as many pensioners, are particularly vulnerable. Poorer households are often hit hardest, because they spend a larger share of their income on essentials like food and energy, whose prices tend to rise quickly.
+
+Uncertainty is another problem. When inflation is high and unpredictable, businesses find it difficult to plan and may delay investment. People may rush to buy things before prices rise further, which can push inflation even higher. This is why many central banks try to keep inflation low and stable, usually aiming for a target of around two percent a year.
+
+The main tool central banks use is the interest rate. When inflation is too high, they raise interest rates. This makes borrowing more expensive and saving more attractive, so people and businesses spend less, which reduces demand and slows the rise in prices. However, higher interest rates can also slow economic growth and increase unemployment. When inflation is too low, central banks may lower interest rates to encourage spending.
+
+Interestingly, falling prices, known as deflation, are not necessarily good news either. If people expect prices to fall, they may delay purchases, which reduces demand, forces businesses to cut jobs, and can lead to a long economic slump. Japan struggled with this problem for many years.
+
+Inflation, then, is a balancing act. A little helps the economy run smoothly, but too much, or too little, can cause serious harm. Understanding how it works can help individuals make better decisions about saving, borrowing, and spending their money.
+=== GLOSSARY
+loaf | loaf | noun | /loʊf/ | قرص (نان) | I bought a loaf of bread.
+inflation | inflation | noun | /ɪnˈfleɪʃən/ | تورم | Inflation reached ten percent last year.
+incomes | income | noun | /ˈɪnkʌm/ | درآمد | Families on low incomes need support.
+purchasing power | purchasing power | noun | /ˈpɝːtʃəsɪŋ ˌpaʊɚ/ | قدرت خرید | Inflation reduces purchasing power.
+demand | demand | noun | /dɪˈmænd/ | تقاضا | There is a high demand for nurses.
+supply | supply | noun | /səˈplaɪ/ | عرضه | Supply did not meet demand.
+borrow | borrow | verb | /ˈbɑːroʊ/ | قرض گرفتن | Can I borrow your pen?
+supply chains | supply chain | noun | /səˈplaɪ tʃeɪn/ | زنجیرهٔ تأمین | The war disrupted global supply chains.
+pandemic | pandemic | noun | /pænˈdemɪk/ | همه‌گیری | The pandemic changed the way we work.
+hyperinflation | hyperinflation | noun | /ˌhaɪpɚɪnˈfleɪʃən/ | ابرتورم | Hyperinflation destroyed people's savings.
+wages | wage | noun | /weɪdʒ/ | دستمزد | Workers demanded higher wages.
+interest rate | interest rate | noun | /ˈɪntrəst reɪt/ | نرخ بهره | The bank raised its interest rate.
+debt | debt | noun | /det/ | بدهی | He is trying to pay off his debt.
+pensioners | pensioner | noun | /ˈpenʃənɚ/ | بازنشسته (حقوق‌بگیر) | Many pensioners struggle with heating costs.
+essentials | essential | noun | /ɪˈsenʃəl/ | اقلام ضروری | Food and water are essentials.
+uncertainty | uncertainty | noun | /ʌnˈsɝːtənti/ | عدم قطعیت، بلاتکلیفی | There is uncertainty about the future.
+unemployment | unemployment | noun | /ˌʌnɪmˈplɔɪmənt/ | بیکاری | Unemployment has fallen this year.
+deflation | deflation | noun | /dɪˈfleɪʃən/ | کاهش عمومی قیمت‌ها | Deflation can harm the economy.
+slump | slump | noun | /slʌmp/ | رکود | The housing market is in a slump.
+=== QUIZ
+Q: Main idea | What is the main purpose of the passage?
+A) To compare the economies of Germany and Zimbabwe
+*B) To explain what inflation is, why it happens and how it affects people
+C) To argue that central banks should stop raising interest rates
+D) To give advice on how to invest money
+E: The passage defines inflation, describes its causes and effects, and explains how central banks try to control it.
+Q: Detail | How do central banks usually try to reduce high inflation?
+A) By printing more money
+B) By lowering taxes
+*C) By raising interest rates
+D) By fixing the prices of food
+E: "When inflation is too high, they raise interest rates. This makes borrowing more expensive."
+Q: Inference | Why are poorer households often hit hardest by inflation?
+A) They usually have large bank savings.
+B) They borrow more money than other people.
+*C) A larger part of their income goes on basic goods whose prices rise quickly.
+D) They receive higher interest on their savings.
+E: They "spend a larger share of their income on essentials like food and energy, whose prices tend to rise quickly."
+Q: Vocabulary | In "money has lost some of its purchasing power", "purchasing power" means:
+*A) the amount of goods and services money can buy
+B) the speed at which people spend money
+C) the total amount of money in a country
+D) the ability to borrow money from a bank
+E: The text explains it directly: "the same amount of money buys fewer things."

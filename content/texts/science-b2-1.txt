@@ -1,0 +1,69 @@
+id: science-b2-1
+kind: fact
+key: science
+level: B2
+title: Inside a Lightning Bolt
+---
+Every second, somewhere on Earth, lightning strikes around forty to fifty times. That adds up to well over a billion flashes a year. For most of human history, people explained lightning as the anger of the gods. Today, scientists understand much of what happens inside a thunderstorm, although some parts of the process are still surprisingly mysterious.
+
+Lightning begins with ice. Inside a tall storm cloud, called a cumulonimbus, strong currents of air carry water droplets upward, where the temperature is far below freezing. The droplets turn into small ice crystals and softer pellets of ice known as graupel. As these particles are thrown around by the wind, they crash into each other millions of times. Each collision transfers a tiny electric charge. In general, the lighter ice crystals become positively charged and rise to the top of the cloud, while the heavier graupel becomes negatively charged and stays lower down.
+
+The result is a cloud that acts like a giant battery, with a positive top and a negative bottom. The ground below, meanwhile, becomes positively charged in response. Air is normally a good insulator, which means it does not allow electricity to flow easily. But when the difference in charge becomes large enough, the air can no longer hold it back.
+
+What happens next takes only a fraction of a second. First, an invisible channel of charged air, called a stepped leader, moves down from the cloud in a series of short jumps, each about fifty metres long. At the same time, objects on the ground, such as trees, towers, and even people, may send up their own weak channels, called streamers. When a leader and a streamer meet, a complete path is formed, and a powerful current rushes through it. This is the bright flash we see, known as the return stroke. Interestingly, it actually travels upward, from the ground to the cloud, although it happens far too quickly for our eyes to notice.
+
+The return stroke is extremely hot. For a brief moment, the air inside the channel reaches about 30,000 degrees Celsius, roughly five times hotter than the surface of the Sun. This sudden heat makes the air expand explosively, creating a shock wave that we hear as thunder. Because light travels much faster than sound, we always see the flash before we hear the thunder. You can estimate how far away a storm is by counting the seconds between the two: every three seconds equals approximately one kilometre.
+
+Despite its power, lightning does not always hit the ground. In fact, most lightning stays inside the cloud or jumps between clouds. Only about a quarter of all flashes reach the Earth's surface. When they do, however, the effects can be serious. Lightning causes forest fires, damages buildings, and kills a significant number of people each year, mostly those who are outdoors during storms.
+
+Fortunately, simple precautions greatly reduce the risk. The safest place during a thunderstorm is inside a solid building or a car with a metal roof, which carries the current around the people inside. Standing under a tall tree is dangerous, since lightning often strikes the highest object in an area. Experts also warn that lightning can strike up to fifteen kilometres away from the centre of a storm, so if you can hear thunder, you are close enough to be hit.
+
+Scientists continue to study lightning with high-speed cameras, satellites, and special radio sensors. One open question is how lightning actually starts. The electric fields measured inside clouds seem too weak to break down the air on their own. Some researchers believe that cosmic rays, high-energy particles from space, may provide the initial spark. Others are investigating strange flashes above thunderstorms, with names like red sprites and blue jets, which reach high into the atmosphere.
+
+Lightning may be one of the most familiar natural events, yet it continues to surprise us. Each flash is a reminder that even the most common things in nature can hide complex and fascinating science.
+=== GLOSSARY
+strikes | strike | verb | /straɪk/ | اصابت کردن، زدن | The tree was struck by lightning.
+droplets | droplet | noun | /ˈdrɑːplət/ | قطرهٔ ریز | Droplets of water covered the window.
+freezing | freezing | adjective | /ˈfriːzɪŋ/ | یخ‌زده، زیر صفر | It's freezing outside today.
+pellets | pellet | noun | /ˈpelɪt/ | گلولهٔ ریز | The birds were fed with small pellets.
+collision | collision | noun | /kəˈlɪʒən/ | برخورد، تصادف | Two cars were involved in a collision.
+charge | charge | noun | /tʃɑːrdʒ/ | بار الکتریکی | Electrons have a negative charge.
+insulator | insulator | noun | /ˈɪnsəleɪtɚ/ | عایق | Rubber is a good insulator.
+fraction | fraction | noun | /ˈfrækʃən/ | کسر، بخش بسیار کوچک | It happened in a fraction of a second.
+invisible | invisible | adjective | /ɪnˈvɪzəbəl/ | نامرئی | Air is invisible but essential.
+brief | brief | adjective | /briːf/ | کوتاه | There was a brief pause before he answered.
+expand | expand | verb | /ɪkˈspænd/ | منبسط شدن، گسترش یافتن | Metals expand when they are heated.
+shock wave | shock wave | noun | /ˈʃɑːk weɪv/ | موج ضربه‌ای | The explosion sent a shock wave through the city.
+estimate | estimate | verb | /ˈestəmeɪt/ | تخمین زدن | Can you estimate the cost of the repairs?
+significant | significant | adjective | /sɪɡˈnɪfɪkənt/ | قابل‌توجه | There was a significant increase in prices.
+precautions | precaution | noun | /prɪˈkɑːʃən/ | اقدام احتیاطی | Take precautions to protect your data.
+sensors | sensor | noun | /ˈsensɚ/ | حسگر | The lights are controlled by a motion sensor.
+cosmic | cosmic | adjective | /ˈkɑːzmɪk/ | کیهانی | Cosmic dust is found throughout space.
+initial | initial | adjective | /ɪˈnɪʃəl/ | اولیه | The initial results look promising.
+atmosphere | atmosphere | noun | /ˈætməsfɪr/ | جو (زمین) | Carbon dioxide traps heat in the atmosphere.
+fascinating | fascinating | adjective | /ˈfæsəneɪtɪŋ/ | جذاب، شگفت‌انگیز | She told us a fascinating story.
+=== QUIZ
+Q: Main idea | What is the main purpose of the passage?
+A) To warn readers about the dangers of forest fires
+*B) To explain how lightning forms and what scientists still do not understand
+C) To compare ancient and modern beliefs about thunder
+D) To describe new technology used to stop lightning
+E: The passage explains the formation of lightning step by step and ends with open questions such as how lightning actually starts.
+Q: Detail | According to the text, what causes the sound of thunder?
+A) Ice particles colliding inside the cloud
+B) The stepped leader moving towards the ground
+*C) Air expanding rapidly because of extreme heat
+D) Electricity flowing between two clouds
+E: The heat "makes the air expand explosively, creating a shock wave that we hear as thunder."
+Q: Inference | Why does the writer mention that electric fields in clouds "seem too weak"?
+*A) To show that the start of lightning is not yet fully explained
+B) To prove that cosmic rays cause all lightning
+C) To suggest that most lightning measurements are wrong
+D) To explain why lightning rarely reaches the ground
+E: The weak fields create a puzzle, which is why researchers are investigating other explanations such as cosmic rays.
+Q: Vocabulary | In "Air is normally a good insulator", the word "insulator" refers to a material that:
+A) produces electricity
+B) stores heat
+*C) does not allow electricity to pass easily
+D) attracts charged particles
+E: The text explains that an insulator "does not allow electricity to flow easily."

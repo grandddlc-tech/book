@@ -1,0 +1,72 @@
+id: environment-c1-1
+kind: fact
+key: environment
+level: C1
+title: When the Wolves Came Back
+---
+In 1995, after an absence of roughly seventy years, grey wolves were reintroduced to Yellowstone National Park in the western United States. Fourteen animals captured in Canada were released into the park that winter, followed by more the next year. The decision was fiercely contested: ranchers feared for their livestock, hunters for the elk herds, and some scientists doubted whether a predator eradicated so thoroughly could re-establish itself at all. Three decades later, the Yellowstone wolves have become perhaps the most celebrated example of "rewilding", a conservation approach that seeks to restore natural processes rather than simply protecting individual species or landscapes.
+
+The wolves' absence had left a profound imprint on the ecosystem. Without their principal predator, elk populations had grown dramatically, and the animals browsed freely along riverbanks, consuming young willow, aspen and cottonwood trees. Ecologists observed that many of these trees had essentially stopped regenerating. As vegetation along the rivers declined, banks eroded, and the habitats that depended on them, those of beavers, songbirds and fish, deteriorated.
+
+The return of wolves, according to an influential narrative, triggered what ecologists call a trophic cascade: a chain reaction in which changes at the top of a food web ripple down through successive levels. Wolves reduced elk numbers, and, crucially, altered their behaviour. Elk began to avoid areas where they were vulnerable to attack, such as narrow valleys and riverbanks, a phenomenon sometimes described as the "ecology of fear". Relieved of constant grazing pressure, trees began to recover in some places. Beavers, which rely on willows for food and building material, returned, and their dams created ponds and wetlands that benefited fish, amphibians and birds. Wolf kills also provided carrion for scavengers such as ravens, eagles and bears.
+
+This story has been enormously appealing, popularised in documentaries and a widely shared online video claiming that wolves had even "changed the course of rivers". In recent years, however, many ecologists have urged caution. Elk numbers declined for multiple reasons, including hunting outside the park, drought, and predation by bears and cougars, whose populations were also changing. Some studies found that the recovery of willows and aspen was patchy and modest, confined to particular locations rather than transforming the entire park. In places where streams had eroded deeply during the decades of overgrazing, the water table had fallen so far that young trees struggled to survive regardless of how many elk were present. Others argue that measuring the "ecology of fear" is notoriously difficult and that its effects may have been overstated.
+
+The scientific debate does not suggest that wolves are unimportant; few ecologists dispute that apex predators play significant ecological roles. Rather, it illustrates a broader truth about ecosystems: they are shaped by complex, interacting factors, and simple narratives, however compelling, rarely capture their full intricacy. Indeed, some researchers have pointed out that the damage caused by a predator's prolonged absence may not be easily reversed by its return, a sobering lesson for conservation elsewhere.
+
+Rewilding projects have since multiplied around the world, varying considerably in scale and ambition. In Europe, abandoned farmland is increasingly left to regenerate naturally, and species such as beavers, lynx and bison have been reintroduced in several countries. In the Netherlands, the Oostvaardersplassen reserve attempted to recreate a self-regulating ecosystem using large grazing animals, but became controversial when thousands of animals starved during harsh winters, prompting public outrage and a change of management. In Britain, the reintroduction of beavers has been welcomed by many for its potential to reduce flooding and improve water quality, while some farmers worry about damage to their land.
+
+These cases highlight the social dimension of rewilding. Ecological restoration does not occur in a vacuum; it involves people whose livelihoods, values and sense of place may be affected. Successful projects increasingly emphasise consultation with local communities, compensation schemes for livestock losses and clear communication about realistic outcomes.
+
+Proponents argue that rewilding offers a hopeful alternative to the gloomy narrative of environmental decline, demonstrating that nature can recover remarkably when given the opportunity. Critics caution that it should not be seen as a cure-all or as a substitute for protecting existing wild areas. Both perspectives contain an element of truth. The Yellowstone wolves did not single-handedly restore a damaged landscape, but they reminded the world that ecosystems are dynamic systems of relationships, and that restoring those relationships, carefully and with humility, can be among the most powerful tools conservation possesses.
+=== GLOSSARY
+reintroduced | reintroduce | verb | /ˌriːɪntrəˈduːs/ | دوباره وارد کردن (گونه به طبیعت) | Bears were reintroduced to the mountains.
+ranchers | rancher | noun | /ˈræntʃɚ/ | دامدار | Ranchers raise cattle on large farms.
+livestock | livestock | noun | /ˈlaɪvstɑːk/ | دام | The flood killed many livestock.
+eradicated | eradicate | verb | /ɪˈrædɪkeɪt/ | ریشه‌کن کردن | Smallpox has been eradicated.
+imprint | imprint | noun | /ˈɪmprɪnt/ | اثر، رد | The war left a deep imprint on the country.
+browsed | browse | verb | /braʊz/ | چریدن برگ و شاخه | Deer browsed on the young trees.
+regenerating | regenerate | verb | /rɪˈdʒenəreɪt/ | بازسازی شدن | The forest is slowly regenerating after the fire.
+eroded | erode | verb | /ɪˈroʊd/ | فرسایش یافتن | The cliffs have been eroded by the sea.
+deteriorated | deteriorate | verb | /dɪˈtɪriəreɪt/ | بدتر شدن | His health deteriorated quickly.
+trophic | trophic | adjective | /ˈtroʊfɪk/ | مربوط به زنجیرهٔ غذایی | Plants are at the lowest trophic level.
+cascade | cascade | noun | /kæˈskeɪd/ | زنجیره، آبشار (رویدادها) | The decision caused a cascade of problems.
+ripple | ripple | verb | /ˈrɪpəl/ | موج‌وار گسترش یافتن | The effects rippled through the economy.
+vulnerable | vulnerable | adjective | /ˈvʌlnɚəbəl/ | آسیب‌پذیر | Old people are vulnerable to the cold.
+carrion | carrion | noun | /ˈkeriən/ | لاشه | Vultures feed on carrion.
+scavengers | scavenger | noun | /ˈskævɪndʒɚ/ | لاشخور | Hyenas are scavengers.
+patchy | patchy | adjective | /ˈpætʃi/ | نامنظم، پراکنده | The evidence is patchy.
+apex predators | apex predator | noun | /ˌeɪpeks ˈpredətɚ/ | شکارچی رأس زنجیره | Lions are apex predators.
+intricacy | intricacy | noun | /ˈɪntrɪkəsi/ | پیچیدگی | The intricacy of the design is amazing.
+sobering | sobering | adjective | /ˈsoʊbɚɪŋ/ | تأمل‌برانگیز و جدی | The report makes sobering reading.
+outrage | outrage | noun | /ˈaʊtreɪdʒ/ | خشم عمومی | The decision caused public outrage.
+livelihoods | livelihood | noun | /ˈlaɪvlihʊd/ | معیشت، امرار معاش | Fishing is their main livelihood.
+compensation | compensation | noun | /ˌkɑːmpenˈseɪʃən/ | غرامت | She received compensation for her injuries.
+proponents | proponent | noun | /prəˈpoʊnənt/ | طرفدار، حامی | He is a leading proponent of free trade.
+cure-all | cure-all | noun | /ˈkjʊr ɑːl/ | نوشدارو، راه‌حل همه‌چیز | Technology is not a cure-all for education.
+humility | humility | noun | /hjuːˈmɪləti/ | فروتنی | She accepted the prize with humility.
+=== QUIZ
+Q: Main idea | Which statement best expresses the main idea of the passage?
+A) Wolves single-handedly restored the Yellowstone ecosystem.
+B) Rewilding projects always fail because of local opposition.
+*C) Rewilding can be powerful, but ecosystems are complex and simple success stories can be exaggerated.
+D) Elk are the most important species in Yellowstone.
+E: The writer presents the popular wolf story, then the scientific doubts, and concludes that wolves helped but did not "single-handedly restore a damaged landscape."
+Q: Detail | According to the passage, why did some young trees fail to recover even with fewer elk?
+A) Beavers ate them.
+*B) Erosion had lowered the water table too much.
+C) Wolves damaged them.
+D) Tourists trampled them.
+E: "The water table had fallen so far that young trees struggled to survive regardless of how many elk were present."
+Q: Inference | What does the Oostvaardersplassen example mainly show?
+A) Large grazing animals cannot survive in Europe.
+B) Rewilding is more successful in Europe than in America.
+*C) Rewilding can provoke strong public reactions and raise ethical concerns.
+D) Beavers are better than wolves for restoring ecosystems.
+E: The starvation of thousands of animals caused "public outrage and a change of management", illustrating the social side of rewilding.
+Q: Vocabulary | In "the recovery of willows and aspen was patchy and modest", "patchy" means:
+A) complete and rapid
+*B) uneven, happening only in some places
+C) caused by disease
+D) carefully planned
+E: The phrase "confined to particular locations" explains that the recovery was uneven, which is the meaning of "patchy".

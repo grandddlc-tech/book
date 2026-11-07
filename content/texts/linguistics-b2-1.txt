@@ -1,0 +1,67 @@
+id: linguistics-b2-1
+kind: fact
+key: linguistics
+level: B2
+title: How Babies Crack the Code
+---
+Learning a new language as an adult is hard work. We study grammar tables, memorise vocabulary lists, and still struggle to understand fast conversations. Yet every healthy baby in the world learns at least one language without any lessons at all. By the age of five, most children can understand and produce complex sentences, and they do it without ever being taught a single grammar rule. How do they manage it?
+
+The process begins earlier than most people think. Research shows that babies start learning about language before they are even born. In the last months of pregnancy, the unborn baby can hear sounds from outside the womb, especially the mother's voice. Studies have found that newborn babies prefer the sound of their mother's voice to other voices, and they prefer the language their mother spoke during pregnancy to an unfamiliar language. Some research even suggests that the melody of newborns' cries is influenced by the language they heard in the womb.
+
+In their first months, babies are what some researchers call "citizens of the world". They can distinguish between almost all the speech sounds used in the world's languages, including sounds that their parents cannot hear as different. For example, Japanese adults often find it difficult to distinguish between the English sounds "r" and "l", but Japanese babies of six months can easily tell them apart. By the end of their first year, however, this ability begins to narrow. Babies become specialists in the sounds of the language around them and gradually lose sensitivity to sounds that are not important in that language.
+
+At around six months, babies begin to babble, producing repeated syllables such as "ba-ba-ba" or "da-da-da". Babbling may sound meaningless, but it is an important form of practice. Deaf babies who are exposed to sign language even "babble" with their hands, producing repetitive movements that resemble signs. This suggests that babbling is not simply about making noise but about learning the building blocks of language, whatever form it takes.
+
+One of the most difficult challenges for a baby is to find where words begin and end. In normal speech, we do not pause between words; they flow together in a continuous stream. Researchers have discovered that babies solve this problem by paying attention to statistics. In a famous experiment in 1996, psychologist Jenny Saffran played eight-month-old babies a stream of invented syllables with no pauses. Certain syllables always appeared together, while others combined only occasionally. After just two minutes, the babies could tell the difference between the "words" that always appeared together and random combinations. Without realising it, they were calculating probabilities.
+
+Most children say their first word around their first birthday. For several months, vocabulary grows slowly, and then, at around eighteen months, many children experience a "vocabulary explosion", sometimes learning several new words a day. Soon they begin combining words into short phrases like "more milk" or "daddy gone".
+
+Children's mistakes reveal a great deal about how they learn. A child who says "I goed to the park" or "two mouses" has never heard an adult say these things. Instead, the child has worked out a general rule, such as adding "-ed" for the past tense, and is applying it to every verb, including irregular ones. These errors show that children are not simply copying what they hear; they are actively discovering the patterns of their language.
+
+Scientists still debate how much of this ability is innate. The linguist Noam Chomsky argued that humans are born with a "universal grammar", a built-in knowledge of the basic structure that all languages share. Other researchers believe that children learn language mainly through powerful general learning abilities and rich social interaction. Most experts today agree that both biology and environment play important roles.
+
+What is clear is that interaction matters. Studies have shown that babies learn sounds from a live person far better than from a video or audio recording of the same person. Talking with babies, responding to their sounds, reading together, and singing all support language development. The quantity and quality of conversation children experience in their early years is linked to their later vocabulary and reading skills.
+
+So the next time you struggle with a new language, remember that you were once an extraordinary language learner. As a baby, you cracked one of the most complex codes in the world, and you did it while learning to walk.
+=== GLOSSARY
+memorise | memorise | verb | /ˈmeməraɪz/ | حفظ کردن | I have to memorise this poem.
+pregnancy | pregnancy | noun | /ˈpreɡnənsi/ | بارداری | She felt tired during her pregnancy.
+womb | womb | noun | /wuːm/ | رحم | The baby grows in its mother's womb.
+newborn | newborn | adjective | /ˈnuːbɔːrn/ | نوزاد، تازه متولد | Newborn babies sleep most of the day.
+distinguish | distinguish | verb | /dɪˈstɪŋɡwɪʃ/ | تشخیص دادن، فرق گذاشتن | Can you distinguish between the twins?
+specialists | specialist | noun | /ˈspeʃəlɪst/ | متخصص | She is a heart specialist.
+babble | babble | verb | /ˈbæbəl/ | غان‌وغون کردن (نوزاد) | The baby babbled happily in her bed.
+syllables | syllable | noun | /ˈsɪləbəl/ | هجا | "Banana" has three syllables.
+resemble | resemble | verb | /rɪˈzembəl/ | شبیه بودن | She resembles her grandmother.
+continuous | continuous | adjective | /kənˈtɪnjuəs/ | پیوسته | There was continuous rain for three days.
+probabilities | probability | noun | /ˌprɑːbəˈbɪləti/ | احتمال | What is the probability of rain tomorrow?
+explosion | explosion | noun | /ɪkˈsploʊʒən/ | انفجار، رشد ناگهانی | There has been an explosion in online shopping.
+irregular | irregular | adjective | /ɪˈreɡjələr/ | بی‌قاعده | "Go" is an irregular verb.
+innate | innate | adjective | /ɪˈneɪt/ | ذاتی، فطری | Babies have an innate fear of falling.
+interaction | interaction | noun | /ˌɪntɚˈækʃən/ | تعامل | Children need social interaction.
+cracked | crack | verb | /kræk/ | رمزگشایی کردن، حل کردن | The police cracked the code.
+=== QUIZ
+Q: Main idea | What is the main topic of the passage?
+A) Why adults cannot learn foreign languages
+*B) How babies and young children learn their first language
+C) The differences between Japanese and English sounds
+D) Noam Chomsky's theory of universal grammar
+E: The passage follows language learning from before birth through babbling, first words and grammar.
+Q: Detail | What did Jenny Saffran's experiment show?
+A) Babies prefer their mother's voice.
+B) Babies learn better from videos than from people.
+*C) Babies can use statistical patterns to identify word-like units.
+D) Babies babble with their hands.
+E: The babies "could tell the difference between the 'words' that always appeared together and random combinations... they were calculating probabilities."
+Q: Inference | What do mistakes like "I goed" suggest about children's learning?
+*A) Children work out general rules rather than simply copying adults.
+B) Children have poor hearing.
+C) Parents often use incorrect grammar.
+D) Irregular verbs are learned before regular ones.
+E: Children have never heard "goed"; they create it by applying a rule they discovered.
+Q: Vocabulary | In "Scientists still debate how much of this ability is innate", "innate" means:
+A) learned at school
+*B) present from birth
+C) very rare
+D) easy to lose
+E: The following sentences contrast being "born with" knowledge with learning through the environment, so "innate" means inborn.

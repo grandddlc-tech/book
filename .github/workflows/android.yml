@@ -3,7 +3,7 @@ name: Android APK
 on:
   push:
     branches: [ccr-a68251be-qxa4n6, main]
-    paths: ["src/**", "android/**", "build.sh", ".github/workflows/android.yml"]
+    paths: ["src/**", "android/**", "tools/**", "build.sh", ".github/workflows/android.yml"]
   workflow_dispatch:
 
 permissions:
@@ -23,9 +23,11 @@ jobs:
           gradle-version: "8.14.3"
       - name: Bundle web app into the APK
         run: |
-          ./build.sh
+          python3 tools/build_content.py
+          python3 tools/build_app.py
           mkdir -p android/app/src/main/assets
-          cp index.html android/app/src/main/assets/index.html
+          { printf '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"></head><body>\n'; cat src/app.html; printf '\n</body></html>\n'; } > android/app/src/main/assets/index.html
+          cp content/texts.json android/app/src/main/assets/texts.json
       - name: Prepare signing key
         env:
           KEYSTORE_B64: ${{ secrets.LUMEN_KEYSTORE_B64 }}

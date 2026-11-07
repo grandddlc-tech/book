@@ -1,0 +1,69 @@
+id: psychology-c1-1
+kind: fact
+key: psychology
+level: C1
+title: The Discomfort of Contradiction
+---
+In 1954, a small group of followers gathered in a suburban house in the American Midwest to await the end of the world. Their leader, a woman named Dorothy Martin, had announced that she was receiving messages from beings on a distant planet, who had warned that a catastrophic flood would destroy much of the continent before dawn on 21 December. The faithful would be rescued by a flying saucer at midnight. Many members had quit their jobs, given away their possessions and severed ties with sceptical relatives. Among the people sitting in the house that night, unbeknownst to the group, were several social psychologists who had infiltrated it to observe what would happen when the prophecy failed.
+
+Midnight came and went. No saucer appeared, and no flood followed. Yet the outcome that the researchers documented was, to many observers, deeply counterintuitive. Rather than abandoning their beliefs, many of the most committed members became more fervent. Shortly before dawn, Martin announced a new message: the group's devotion had spread so much light that the world had been spared. Members who had previously avoided publicity now began contacting newspapers and actively seeking converts.
+
+The lead researcher, Leon Festinger, interpreted these events through a theory he was then developing, which he called cognitive dissonance. Published in 1957, it proposed that people experience psychological discomfort when they hold two cognitions, that is, beliefs, attitudes or pieces of knowledge, that are inconsistent with one another, or when their actions conflict with their beliefs. This discomfort, Festinger argued, motivates people to reduce the inconsistency, and they can do so in several ways: by changing a belief, by changing their behaviour, by acquiring new information that supports their position, or by minimising the importance of the conflict.
+
+The cult members faced a particularly acute form of dissonance. Having sacrificed so much, they could hardly accept that they had simply been wrong without confronting the painful conclusion that their sacrifices had been pointless. Reinterpreting the failed prophecy as a success, and seeking social validation from new believers, offered a less costly resolution.
+
+Festinger and his colleague James Carlsmith later tested the theory in a now-famous laboratory experiment. Participants spent an hour performing deliberately tedious tasks, such as turning pegs on a board. They were then asked to tell the next participant that the tasks had been enjoyable, and were paid either one dollar or twenty dollars for doing so. Afterwards, when asked how much they had actually enjoyed the tasks, those paid only one dollar rated them significantly more positively than those paid twenty. The explanation, according to dissonance theory, was that twenty dollars provided ample external justification for lying, whereas one dollar did not. Participants in the low-payment condition, unable to justify their behaviour by the reward, resolved their discomfort by persuading themselves that the tasks had not been so dull after all.
+
+The theory has since been applied to a remarkable range of behaviour. Smokers who are aware of the health risks may downplay the evidence or emphasise the stress-relieving benefits of cigarettes. People who have just made a difficult decision, such as choosing between two similar job offers, tend afterwards to inflate the merits of the option they chose and disparage the one they rejected, a phenomenon known as post-decision dissonance. The more effort we invest in obtaining something, research suggests, the more we tend to value it; this "effort justification" may help explain why demanding initiation rituals can strengthen loyalty to a group.
+
+Dissonance theory has not escaped criticism. Some psychologists proposed alternative explanations for the classic findings; Daryl Bem's self-perception theory, for instance, suggested that people simply infer their attitudes by observing their own behaviour, without any need for uncomfortable tension. Others have questioned how far the original experiments generalise across cultures, noting that the need for personal consistency may be stronger in individualistic societies. Nevertheless, studies measuring physiological arousal have provided evidence that inconsistency can indeed produce genuine discomfort, and the core idea remains one of the most influential in social psychology.
+
+Understanding dissonance has practical value. It suggests why presenting people with contrary evidence often fails to change their minds, and why it may even entrench their views when those views are tied to identity or past commitments. Persuasion may be more effective when it allows people to change their opinions without feeling foolish. On a personal level, recognising the characteristic discomfort of dissonance may help us notice when we are rationalising rather than reasoning, a small but valuable step towards intellectual honesty.
+=== GLOSSARY
+catastrophic | catastrophic | adjective | /ˌkætəˈstrɑːfɪk/ | فاجعه‌بار | The earthquake had catastrophic effects.
+severed | sever | verb | /ˈsevɚ/ | قطع کردن (رابطه) | He severed all contact with his family.
+unbeknownst | unbeknownst | adverb | /ˌʌnbɪˈnoʊnst/ | بی‌خبر از | Unbeknownst to her, they had planned a party.
+infiltrated | infiltrate | verb | /ˈɪnfɪltreɪt/ | نفوذ کردن | A journalist infiltrated the gang.
+prophecy | prophecy | noun | /ˈprɑːfəsi/ | پیشگویی | The prophecy came true.
+counterintuitive | counterintuitive | adjective | /ˌkaʊntɚɪnˈtuːɪtɪv/ | خلاف انتظار و شهود | The results were counterintuitive.
+fervent | fervent | adjective | /ˈfɝːvənt/ | پرشور، متعصب | He is a fervent supporter of the team.
+converts | convert | noun | /ˈkɑːnvɝːt/ | گرونده، نوکیش | The movement gained many new converts.
+dissonance | dissonance | noun | /ˈdɪsənəns/ | ناهماهنگی، ناسازگاری | There is a dissonance between what he says and does.
+cognitions | cognition | noun | /kɑːɡˈnɪʃən/ | شناخت، باور ذهنی | The study looked at memory and cognition.
+acute | acute | adjective | /əˈkjuːt/ | شدید، حاد | There is an acute shortage of nurses.
+validation | validation | noun | /ˌvæləˈdeɪʃən/ | تأیید | Teenagers often seek validation from friends.
+ample | ample | adjective | /ˈæmpəl/ | کافی و فراوان | There is ample time to finish.
+justification | justification | noun | /ˌdʒʌstəfɪˈkeɪʃən/ | توجیه | There is no justification for violence.
+downplay | downplay | verb | /ˌdaʊnˈpleɪ/ | کم‌اهمیت جلوه دادن | The government tried to downplay the crisis.
+inflate | inflate | verb | /ɪnˈfleɪt/ | بزرگ‌نمایی کردن | He tends to inflate his achievements.
+disparage | disparage | verb | /dɪˈsperɪdʒ/ | تحقیر کردن، بد جلوه دادن | Don't disparage other people's work.
+initiation | initiation | noun | /ɪˌnɪʃiˈeɪʃən/ | آیین ورود، پاگشایی | The club has a strange initiation ceremony.
+infer | infer | verb | /ɪnˈfɝː/ | استنباط کردن | What can we infer from this data?
+arousal | arousal | noun | /əˈraʊzəl/ | برانگیختگی (جسمی) | Fear causes physical arousal.
+entrench | entrench | verb | /ɪnˈtrentʃ/ | تثبیت کردن، ریشه‌دار کردن | The policy entrenched inequality.
+rationalising | rationalise | verb | /ˈræʃənəlaɪz/ | توجیه کردن (با دلیل‌تراشی) | He rationalised his decision to skip the gym.
+=== QUIZ
+Q: Main idea | What is the passage primarily about?
+A) The history of a religious group in the 1950s
+*B) The theory of cognitive dissonance, its evidence, applications and criticisms
+C) Why smoking is harmful to health
+D) How to design psychological experiments ethically
+E: The passage introduces Festinger's theory through the cult story, then describes experiments, applications and criticisms.
+Q: Detail | In Festinger and Carlsmith's experiment, which participants rated the tasks most positively?
+*A) Those who were paid one dollar
+B) Those who were paid twenty dollars
+C) Those who refused to lie
+D) Those who did not perform the tasks
+E: "Those paid only one dollar rated them significantly more positively than those paid twenty."
+Q: Inference | Why did the cult members become more committed after the prophecy failed?
+A) They received real evidence that the flood had been stopped.
+B) They were paid by the researchers to continue.
+*C) Admitting they were wrong would have made their great sacrifices seem pointless.
+D) They wanted to become famous in the newspapers.
+E: "Having sacrificed so much, they could hardly accept that they had simply been wrong without confronting the painful conclusion that their sacrifices had been pointless."
+Q: Vocabulary | In "it may even entrench their views", "entrench" means:
+A) weaken
+B) hide
+C) change completely
+*D) establish more firmly
+E: Contrary evidence can make people hold their views more strongly, which is the meaning of "entrench".

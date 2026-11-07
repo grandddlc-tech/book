@@ -1,0 +1,68 @@
+id: psychology-b2-1
+kind: fact
+key: psychology
+level: B2
+title: Why We Put Things Off
+---
+You have an important essay due on Friday. On Monday, you decide to start it after lunch. After lunch, you check your phone "for just five minutes", which somehow becomes an hour. By Thursday night, you are writing in a panic, promising yourself that next time will be different. If this sounds familiar, you are not alone. Studies suggest that around twenty percent of adults are chronic procrastinators, and the figure among university students is much higher.
+
+For a long time, procrastination was seen as a simple problem of laziness or poor time management. The solution seemed obvious: buy a planner, make a to-do list, and try harder. However, psychologists now believe that this view misses the real cause. According to researchers such as Tim Pychyl and Fuschia Sirois, procrastination is mainly a problem of managing emotions, not time.
+
+The basic idea is this. When we face a task that makes us feel bad, perhaps because it is boring, difficult, confusing, or connected with a fear of failure, our brain looks for a way to escape that unpleasant feeling. Putting the task off provides immediate relief. Watching a video or tidying the kitchen feels better than staring at a blank page. The problem is that this relief is temporary. The task does not disappear, and the bad feelings usually return later, often stronger, together with guilt and stress.
+
+Brain research supports this explanation. Scientists often describe a conflict between two systems. One involves the limbic system, an older part of the brain that responds quickly to emotions and seeks immediate rewards. The other involves the prefrontal cortex, which is responsible for planning and long-term goals. When a task feels threatening, the emotional system often wins, at least in the short term.
+
+There is also a psychological effect known as "temporal discounting". Humans tend to value rewards in the present much more than rewards in the future. The satisfaction of finishing an essay next week feels distant and abstract, while the pleasure of watching a series feels real and immediate. Interestingly, research by Hal Hershfield has shown that many people think about their "future self" almost as if it were a stranger. When we procrastinate, we are, in a sense, giving our problems to someone else, a future person who will have to deal with them.
+
+Procrastination is not harmless. Chronic procrastinators tend to experience higher levels of stress and anxiety, and some studies have linked the habit to poorer sleep and health. Students who procrastinate often receive lower marks, and at work, putting things off can damage careers.
+
+So what actually helps? Since the root of the problem is emotional, the most effective strategies tend to focus on feelings. One surprising finding is the importance of self-forgiveness. In a study of university students, those who forgave themselves for procrastinating before their first exam procrastinated less before the next one. Criticising yourself harshly, it seems, only adds to the negative emotions that cause the problem in the first place.
+
+Another useful technique is to make the first step as small as possible. Instead of "write the essay", the goal becomes "open the document and write one sentence". Starting is often the hardest part; once we begin, the task usually feels less unpleasant than we expected. Some people use the "Pomodoro technique", working for twenty-five minutes and then taking a short break, which makes a large task feel more manageable.
+
+Changing the environment can also make a big difference. Putting your phone in another room, blocking distracting websites, or working in a library removes easy escapes. Finally, connecting a task to personal values can increase motivation. Asking "Why does this matter to me?" can make a boring assignment feel more meaningful.
+
+Procrastination, then, is not a sign that someone is lazy or weak. It is a very human response to uncomfortable feelings. Understanding this does not make the problem disappear, but it does suggest a kinder and more effective approach. The next time you find yourself avoiding a task, instead of asking "What is wrong with me?", it may be more useful to ask, "What feeling am I trying to avoid?"
+=== GLOSSARY
+panic | panic | noun | /ˈpænɪk/ | وحشت، هول | She was in a panic when she lost her passport.
+chronic | chronic | adjective | /ˈkrɑːnɪk/ | مزمن، همیشگی | He suffers from chronic back pain.
+procrastinators | procrastinator | noun | /proʊˈkræstɪneɪtɚ/ | اهمال‌کار | I'm a terrible procrastinator.
+laziness | laziness | noun | /ˈleɪzinəs/ | تنبلی | His laziness cost him the job.
+relief | relief | noun | /rɪˈliːf/ | آسودگی، تسکین | It was a relief to hear she was safe.
+temporary | temporary | adjective | /ˈtempəreri/ | موقت | She found a temporary job for the summer.
+guilt | guilt | noun | /ɡɪlt/ | احساس گناه | He felt guilt for lying to his friend.
+threatening | threatening | adjective | /ˈθretənɪŋ/ | تهدیدآمیز | The sky looked dark and threatening.
+abstract | abstract | adjective | /ˈæbstrækt/ | انتزاعی | Love is an abstract idea.
+anxiety | anxiety | noun | /æŋˈzaɪəti/ | اضطراب | Exams cause a lot of anxiety.
+strategies | strategy | noun | /ˈstrætədʒi/ | راهبرد | We need a new strategy to win.
+self-forgiveness | self-forgiveness | noun | /ˌself fɚˈɡɪvnəs/ | بخشیدن خود | Self-forgiveness helps people move on from mistakes.
+harshly | harshly | adverb | /ˈhɑːrʃli/ | به‌تندی، با سختگیری | The teacher spoke to him harshly.
+manageable | manageable | adjective | /ˈmænɪdʒəbəl/ | قابل مدیریت | Break the work into manageable parts.
+distracting | distracting | adjective | /dɪˈstræktɪŋ/ | حواس‌پرت‌کن | The noise outside was very distracting.
+motivation | motivation | noun | /ˌmoʊtəˈveɪʃən/ | انگیزه | She lacks the motivation to study.
+assignment | assignment | noun | /əˈsaɪnmənt/ | تکلیف، پروژه | The teacher gave us a difficult assignment.
+=== QUIZ
+Q: Main idea | According to the passage, what is the main cause of procrastination?
+A) Poor time management skills
+B) Laziness and lack of discipline
+*C) Difficulty dealing with negative emotions linked to a task
+D) Too much use of mobile phones
+E: Researchers believe "procrastination is mainly a problem of managing emotions, not time."
+Q: Detail | What did the study of university students find about self-forgiveness?
+A) Students who forgave themselves got lower marks.
+*B) Students who forgave themselves procrastinated less before the next exam.
+C) Self-forgiveness made students more relaxed but more lazy.
+D) Self-forgiveness had no effect on behaviour.
+E: Students who forgave themselves after the first exam "procrastinated less before the next one."
+Q: Inference | Why does the writer mention that people see their "future self" as a stranger?
+A) To show that people have poor memories
+B) To argue that planning for the future is impossible
+*C) To explain why it is easy to leave problems for later
+D) To suggest that people should avoid long-term goals
+E: If the future self feels like someone else, delaying a task feels like giving the problem to "someone else, a future person."
+Q: Vocabulary | In "Putting the task off provides immediate relief", the word "relief" means:
+A) a feeling of guilt
+*B) a pleasant feeling when something unpleasant stops
+C) a reward from someone else
+D) a period of rest at work
+E: Avoiding the task removes the bad feeling for a while, which is what "relief" describes.

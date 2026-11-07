@@ -1,0 +1,87 @@
+id: love-b2-1
+kind: story
+key: love
+level: B2
+title: The Umbrella in Lisbon
+---
+It started to rain just as Mina stepped out of the tram in the old part of Lisbon. Not a gentle rain, either, but the sudden, heavy kind that turns narrow streets into rivers within seconds. She had left her umbrella in the hotel, of course. She ran towards the nearest shelter, a small doorway beneath a sign that said Livraria, and almost crashed into a man who was standing there with a large black umbrella and an armful of books.
+
+"Sorry!" she said, laughing and pushing wet hair out of her eyes.
+
+"Don't be," he replied in English with a soft accent. "This doorway is big enough for two people and about six books." He held up his books as if to prove it.
+
+His name was Tiago, and he owned the bookshop behind them, which, he explained, was closed for lunch. Mina told him she was from Tehran, that she was an architect, and that she had come to Lisbon for a conference about old buildings. She had escaped from the afternoon sessions to see the city with her own eyes instead of on a screen.
+
+"Then you are in the right place," Tiago said. "This street is older than most countries." He pointed to the tiles on the building opposite, blue and white, some cracked, some missing. "Those were made by hand more than two hundred years ago. Every time one breaks, my neighbour tries to find a replacement. It is like a puzzle that never ends."
+
+The rain continued, and they continued talking. They discovered that they both loved the poetry of Hafez, though Tiago had only read it in Portuguese translation. Mina recited a few lines in Persian, and he listened with his eyes closed, as though the meaning could reach him through the music of the words alone.
+
+When the rain finally stopped, the sun came out so brightly that the wet street shone like glass. Tiago offered to show her a viewpoint that tourists rarely found. They climbed steep stairs between houses with laundry hanging from the windows, until they reached a small square with a single orange tree and a view over the red roofs to the river.
+
+"Do you bring every lost tourist here?" Mina asked, half joking.
+
+"Only the ones who quote Hafez," he answered.
+
+They spent the rest of the afternoon walking. He showed her a café where old men played cards, a church with a ceiling painted like the night sky, and a shop that had sold nothing but gloves for over a century. She showed him how to look at a building the way an architect does: noticing the rhythm of the windows, the way the light fell on stone, the small decisions that made a place feel human.
+
+As evening came, Mina remembered the conference dinner. She had promised her colleagues she would be there. At the bottom of the stairs, they stood awkwardly, neither wanting to say goodbye.
+
+"I fly home on Sunday," she said.
+
+"Then you have two more days," he said. "Come to the shop tomorrow. I will find you a book."
+
+But the next day, the conference organisers changed the schedule, and Mina spent the whole day presenting and answering questions. By the time she was free, it was late, and the bookshop was dark. On Sunday morning, she took a taxi to the street before going to the airport, but a sign on the door said the shop was closed for a family emergency. She left a note under the door with her email address, not knowing whether he would ever find it.
+
+For three weeks, there was nothing. Mina told herself it had been a lovely afternoon and nothing more. Then, one evening in Tehran, a small package arrived at her office. Inside was a second-hand copy of Hafez in Portuguese, its pages soft with age. On the first page, Tiago had written: "My father was ill, but he is better now. I found your note under a pile of letters. The orange tree in the square is flowering. It would like to see you again."
+
+Mina laughed out loud, startling her colleague at the next desk. Then she opened her laptop and began to look at flights to Lisbon. This time, she thought, she would remember her umbrella. Or perhaps, on second thought, she would leave it behind on purpose.
+=== GLOSSARY
+tram | tram | noun | /træm/ | تراموا | We took the tram to the city centre.
+shelter | shelter | noun | /ˈʃeltɚ/ | سرپناه | We found shelter from the storm in a barn.
+armful | armful | noun | /ˈɑːrmfʊl/ | یک بغل | She came in with an armful of flowers.
+conference | conference | noun | /ˈkɑːnfɚəns/ | همایش، کنفرانس | He spoke at a medical conference in Berlin.
+tiles | tile | noun | /taɪl/ | کاشی | The kitchen floor is covered with white tiles.
+cracked | cracked | adjective | /krækt/ | ترک‌خورده | Don't drink from that cracked glass.
+replacement | replacement | noun | /rɪˈpleɪsmənt/ | جایگزین | We need a replacement for the broken part.
+recited | recite | verb | /rɪˈsaɪt/ | از بر خواندن | The child recited a poem in front of the class.
+viewpoint | viewpoint | noun | /ˈvjuːpɔɪnt/ | نقطهٔ دید، مکان تماشا | From the viewpoint, you can see the whole valley.
+steep | steep | adjective | /stiːp/ | پرشیب | The road up the mountain is very steep.
+laundry | laundry | noun | /ˈlɑːndri/ | لباس‌های شسته‌شده | She hung the laundry outside to dry.
+quote | quote | verb | /kwoʊt/ | نقل قول کردن | He likes to quote famous writers.
+ceiling | ceiling | noun | /ˈsiːlɪŋ/ | سقف | There is a crack in the bedroom ceiling.
+century | century | noun | /ˈsentʃəri/ | قرن | The castle was built in the 12th century.
+rhythm | rhythm | noun | /ˈrɪðəm/ | ریتم، نظم تکرارشونده | The rhythm of the waves helped me sleep.
+colleagues | colleague | noun | /ˈkɑːliːɡ/ | همکار | I had lunch with my colleagues.
+awkwardly | awkwardly | adverb | /ˈɑːkwɚdli/ | با معذب بودن، ناشیانه | He smiled awkwardly and looked away.
+schedule | schedule | noun | /ˈskedʒuːl/ | برنامهٔ زمانی | The flight schedule changed at the last minute.
+emergency | emergency | noun | /ɪˈmɝːdʒənsi/ | وضعیت اضطراری | Call this number in an emergency.
+package | package | noun | /ˈpækɪdʒ/ | بسته | The package arrived two days late.
+second-hand | second-hand | adjective | /ˌsekənd ˈhænd/ | دست‌دوم | He bought a second-hand car.
+flowering | flower | verb | /ˈflaʊɚ/ | گل دادن، شکوفه دادن | The roses are flowering early this year.
+startling | startle | verb | /ˈstɑːrtəl/ | از جا پراندن، ترساندن | The loud noise startled the birds.
+on purpose | on purpose | phrase | /ɑːn ˈpɝːpəs/ | عمداً | She didn't break it on purpose.
+=== QUIZ
+Q: Main idea | What is the main focus of the story?
+A) The history of tiles and buildings in Lisbon
+B) The problems of attending an international conference
+*C) A chance meeting that develops into a possible romance
+D) A bookshop owner's efforts to save his family business
+E: The story begins with Mina and Tiago sharing a doorway in the rain and ends with her planning to return to Lisbon to see him.
+Q: Detail | Why couldn't Mina visit the bookshop on the next day?
+A) The shop was closed for a holiday.
+*B) The conference schedule changed and she was busy all day.
+C) She could not remember the name of the street.
+D) She had to fly home earlier than planned.
+E: The text says the organisers "changed the schedule, and Mina spent the whole day presenting and answering questions."
+Q: Inference | What does Tiago mean when he writes that the orange tree "would like to see you again"?
+A) He wants to sell her a photograph of the tree.
+B) He is worried the tree will die without care.
+C) He is inviting her to a flower festival in the square.
+*D) He is indirectly saying that he himself wants to see her again.
+E: The tree is in the square where they shared a special moment, so the line is a gentle, poetic way of expressing his own wish.
+Q: Vocabulary | In "She found shelter from the rain in a doorway", the word "shelter" is closest in meaning to:
+A) a small shop
+*B) a place that gives protection
+C) a narrow street
+D) a waiting room
+E: Mina ran to the doorway to stay dry, so "shelter" means a place that protects you from bad weather or danger.

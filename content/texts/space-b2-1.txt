@@ -1,0 +1,70 @@
+id: space-b2-1
+kind: fact
+key: space
+level: B2
+title: The Search for Life on Mars
+---
+For more than a century, Mars has fascinated people more than any other planet. In the late 1800s, the Italian astronomer Giovanni Schiaparelli described dark lines on its surface, which he called "canali", meaning channels. When the word was translated into English as "canals", some people, including the American businessman Percival Lowell, became convinced that intelligent Martians had built huge waterways to bring water from the poles to their dry cities. The idea inspired countless novels and films. Unfortunately, the canals turned out to be optical illusions. But the question behind them, whether life exists or once existed on Mars, remains one of the most important in science.
+
+At first glance, modern Mars looks like a very unfriendly place for life. Its atmosphere is extremely thin, about one percent as dense as Earth's, and consists mostly of carbon dioxide. The average surface temperature is around minus sixty degrees Celsius. Because Mars has no global magnetic field and little atmosphere, the surface is exposed to strong radiation from the Sun and from space. Liquid water cannot remain stable on the surface for long; it would quickly freeze or evaporate.
+
+However, Mars was not always like this. Evidence collected by orbiting satellites and robotic rovers shows that billions of years ago, the planet was warmer and wetter. Spacecraft have photographed ancient river valleys, deltas where rivers once flowed into lakes, and minerals that only form in the presence of water. Some scientists believe that Mars may even have had a large ocean covering part of its northern hemisphere. At that time, conditions on Mars may have been quite similar to those on the early Earth, when life first appeared here.
+
+This is why the search for life on Mars focuses mainly on the past. Scientists are looking for biosignatures: chemical or physical evidence that living organisms once existed. On Earth, ancient microorganisms have left behind fossils, layered rock structures, and particular chemical patterns. Researchers hope to find similar traces on Mars.
+
+Several missions have been designed for this purpose. NASA's Curiosity rover, which landed in 2012 in a large crater called Gale, discovered that the crater once contained a lake that could have supported microbial life. It also detected organic molecules, the carbon-based building blocks of life, preserved in ancient rocks. While organic molecules can also be produced without life, their presence was an important step. Curiosity has also measured mysterious changes in the amount of methane in the atmosphere. On Earth, most methane is produced by living organisms, although it can also come from geological processes.
+
+In 2021, NASA's Perseverance rover landed in Jezero Crater, the site of an ancient lake and river delta. Its main task is to search for signs of ancient life and to collect rock samples in small metal tubes. These samples are intended to be brought back to Earth by a future mission, where they could be studied with equipment far more powerful than anything that can be sent to Mars. However, the sample return mission has faced major problems with cost and planning, and its future is uncertain.
+
+Some scientists believe that if life ever existed on Mars, it might still survive today, deep underground. Below the surface, organisms would be protected from radiation, and there may be liquid water. Radar measurements from orbit have suggested the possible presence of liquid water beneath the ice at the planet's south pole, though this interpretation is still debated.
+
+Discovering life on Mars, even simple microbes, would have enormous consequences. If life began independently on two planets in the same solar system, it would suggest that life may be common throughout the universe. On the other hand, if Mars had suitable conditions for life but life never appeared, it might suggest that the origin of life is extremely rare.
+
+There is also a practical concern. As humans plan to send astronauts to Mars, scientists worry about contamination. Microbes from Earth carried on spacecraft could confuse the search for Martian life or even harm any native organisms. For this reason, space agencies follow strict rules to clean spacecraft before launch.
+
+The canals that excited Percival Lowell never existed. Yet the real Mars, with its dry riverbeds, buried ice, and ancient lakes, may hold an answer to a question humans have asked for thousands of years: are we alone?
+=== GLOSSARY
+astronomer | astronomer | noun | /əˈstrɑːnəmɚ/ | ستاره‌شناس | The astronomer discovered a new comet.
+convinced | convinced | adjective | /kənˈvɪnst/ | متقاعد، مطمئن | I'm convinced that he's telling the truth.
+optical illusions | optical illusion | noun | /ˈɑːptɪkəl ɪˈluːʒən/ | خطای دید | The picture is an optical illusion.
+dense | dense | adjective | /dens/ | متراکم، غلیظ | The forest was dense and dark.
+radiation | radiation | noun | /ˌreɪdiˈeɪʃən/ | تابش، پرتو | Exposure to radiation can cause cancer.
+evaporate | evaporate | verb | /ɪˈvæpəreɪt/ | تبخیر شدن | Water evaporates in the sun.
+rovers | rover | noun | /ˈroʊvɚ/ | کاوشگر (خودروی فضایی) | The rover sent photos from Mars.
+deltas | delta | noun | /ˈdeltə/ | دلتا (مصب رودخانه) | The Nile delta is very fertile.
+hemisphere | hemisphere | noun | /ˈheməsfɪr/ | نیمکره | Australia is in the southern hemisphere.
+biosignatures | biosignature | noun | /ˈbaɪoʊˌsɪɡnətʃɚ/ | نشانهٔ زیستی | Scientists are searching for biosignatures on other planets.
+crater | crater | noun | /ˈkreɪtɚ/ | دهانه، گودال برخوردی | The Moon is covered with craters.
+microbial | microbial | adjective | /maɪˈkroʊbiəl/ | میکروبی | Microbial life exists in extreme places.
+organic | organic | adjective | /ɔːrˈɡænɪk/ | آلی | Organic compounds contain carbon.
+methane | methane | noun | /ˈmeθeɪn/ | متان | Cows produce a lot of methane.
+geological | geological | adjective | /ˌdʒiːəˈlɑːdʒɪkəl/ | زمین‌شناختی | The area has interesting geological features.
+samples | sample | noun | /ˈsæmpəl/ | نمونه | The doctor took a blood sample.
+interpretation | interpretation | noun | /ɪnˌtɝːprəˈteɪʃən/ | تفسیر | There are different interpretations of the poem.
+contamination | contamination | noun | /kənˌtæməˈneɪʃən/ | آلودگی | Food contamination can make people ill.
+native | native | adjective | /ˈneɪtɪv/ | بومی | Kangaroos are native to Australia.
+=== QUIZ
+Q: Main idea | What is the main focus of the passage?
+A) The life of Percival Lowell
+B) Plans to send astronauts to Mars
+*C) Evidence that Mars may once have supported life, and how scientists are searching for it
+D) The differences between Mars and Earth today
+E: The passage explains that Mars was once wetter and describes missions searching for signs of past life.
+Q: Detail | Why does the search for life on Mars focus mainly on the past?
+*A) Mars was once warmer and wetter, with conditions more suitable for life.
+B) All modern life on Mars has already been found.
+C) Rovers cannot travel to the poles.
+D) Scientists are only interested in fossils.
+E: Evidence shows that "billions of years ago, the planet was warmer and wetter", similar to early Earth.
+Q: Inference | According to the passage, what would it mean if Mars had good conditions for life but life never appeared there?
+A) Life on Earth must have come from Mars.
+*B) The beginning of life might be very rare.
+C) Mars still has life underground.
+D) Scientists made mistakes in their measurements.
+E: The text says this "might suggest that the origin of life is extremely rare."
+Q: Vocabulary | In "scientists worry about contamination", "contamination" refers to:
+A) the cost of space missions
+B) damage caused by radiation
+*C) making something impure by adding unwanted substances or organisms
+D) the loss of communication with spacecraft
+E: The text explains the concern: microbes from Earth could be carried to Mars and confuse the search for life.

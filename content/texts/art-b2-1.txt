@@ -1,0 +1,71 @@
+id: art-b2-1
+kind: fact
+key: art
+level: B2
+title: The Day the Mona Lisa Disappeared
+---
+Today, the Mona Lisa is probably the most famous painting in the world. Every year, millions of visitors crowd into a room at the Louvre Museum in Paris, holding up their phones to take a picture of a small portrait behind thick, bulletproof glass. But it was not always like this. In the early twentieth century, the Mona Lisa was admired by art experts, but it was not a global celebrity. Surprisingly, what made it world-famous was not its artistic quality alone, but a crime.
+
+Leonardo da Vinci began painting the portrait in Florence in the early 1500s. Most historians believe it shows Lisa Gherardini, the wife of a wealthy silk merchant. Leonardo worked on the painting for many years and never delivered it to the family. When he moved to France at the invitation of King Francis I, he took it with him, and after his death it became part of the French royal collection. Following the French Revolution, it was moved to the Louvre.
+
+On Monday, 21 August 1911, the museum was closed for cleaning. Early that morning, a man dressed in a white workman's smock walked into the Salon Carré, where the Mona Lisa hung. He lifted the painting off the wall, removed it from its heavy frame and glass case in a quiet stairwell, hid the wooden panel under his smock, and walked out of the museum. Incredibly, nobody noticed that the painting was missing until the following day, when a visiting artist arrived to paint the gallery and saw four empty iron hooks on the wall. At first, the guards assumed the painting had been taken to be photographed.
+
+When the theft was finally confirmed, it caused a sensation. The Louvre closed for a week, and the French border was watched closely. Newspapers around the world printed photographs of the painting on their front pages, many people seeing her face for the first time. Huge crowds came to the Louvre just to stare at the empty space on the wall. Postcards, songs, and jokes about the missing painting appeared everywhere.
+
+The police investigation was chaotic. Suspicion fell on many people, including, remarkably, the poet Guillaume Apollinaire, who was arrested and briefly imprisoned. Even the young artist Pablo Picasso was questioned. The connection came through an acquaintance of Apollinaire who had previously stolen small statues from the Louvre, some of which had ended up with Picasso. Both men were eventually released, and neither had anything to do with the Mona Lisa.
+
+For more than two years, the painting seemed to have vanished. Then, in December 1913, an art dealer in Florence named Alfredo Geri received a letter from a man calling himself "Leonardo". The writer claimed to have the Mona Lisa and wanted to return it to Italy. Geri arranged a meeting, together with the director of the Uffizi Gallery. In a small hotel room, the man pulled a wooden box from under his bed, removed some old clothes and shoes, and lifted out a false bottom. Underneath lay the Mona Lisa.
+
+The thief was Vincenzo Peruggia, an Italian carpenter who had worked at the Louvre and had helped build the protective glass cases for its paintings. That was how he knew the museum so well. Peruggia had kept the painting in his small apartment in Paris for over two years, apparently hidden in a trunk. At his trial, he claimed that he had acted out of patriotism, believing that the painting had been stolen from Italy by Napoleon and should be returned home. In fact, he was wrong about the history: the painting had been taken to France by Leonardo himself. Some historians also suspect he hoped for a financial reward.
+
+Many Italians saw Peruggia as a hero, and he received a surprisingly short prison sentence. Before being sent back to France, the Mona Lisa was exhibited in Florence, Rome, and Milan, where enormous crowds came to see it. When it finally returned to the Louvre in January 1914, it was more famous than ever.
+
+The theft transformed the painting's status. Before 1911, the Mona Lisa was one masterpiece among many. Afterwards, it became a symbol recognised everywhere, reproduced on everything from posters to coffee mugs. Later artists, such as Marcel Duchamp and Andy Warhol, used its image in their own work, which increased its fame further.
+
+The story of the theft reminds us that the reputation of a work of art does not depend only on its beauty or technical skill. Fame can also be created by history, media attention, and chance. The mysterious smile that visitors queue to see today owes part of its celebrity to a carpenter with a white smock and a wooden box.
+=== GLOSSARY
+portrait | portrait | noun | /ˈpɔːrtrət/ | پرتره، تک‌چهره | She painted a portrait of her father.
+bulletproof | bulletproof | adjective | /ˈbʊlɪtpruːf/ | ضدگلوله | The president travels in a bulletproof car.
+celebrity | celebrity | noun | /səˈlebrəti/ | شهرت؛ آدم مشهور | The actor became a celebrity overnight.
+smock | smock | noun | /smɑːk/ | روپوش کار | The painter wore a blue smock.
+stairwell | stairwell | noun | /ˈsterwel/ | راه‌پله | They met in the stairwell of the building.
+panel | panel | noun | /ˈpænəl/ | تخته (نقاشی)، صفحه | The picture was painted on a wooden panel.
+hooks | hook | noun | /hʊk/ | قلاب، گیره | Hang your coat on the hook.
+sensation | sensation | noun | /senˈseɪʃən/ | غوغا، هیجان عمومی | The new film caused a sensation.
+chaotic | chaotic | adjective | /keɪˈɑːtɪk/ | آشفته، درهم | The traffic was chaotic.
+suspicion | suspicion | noun | /səˈspɪʃən/ | سوءظن | He was arrested on suspicion of theft.
+imprisoned | imprison | verb | /ɪmˈprɪzən/ | زندانی کردن | He was imprisoned for five years.
+acquaintance | acquaintance | noun | /əˈkweɪntəns/ | آشنا | She's not a friend, just an acquaintance.
+vanished | vanish | verb | /ˈvænɪʃ/ | ناپدید شدن | The ship vanished without a trace.
+carpenter | carpenter | noun | /ˈkɑːrpəntɚ/ | نجار | The carpenter made a new table.
+trunk | trunk | noun | /trʌŋk/ | صندوق بزرگ | Her old clothes are kept in a trunk.
+patriotism | patriotism | noun | /ˈpeɪtriətɪzəm/ | میهن‌پرستی | The soldiers were driven by patriotism.
+sentence | sentence | noun | /ˈsentəns/ | حکم (دادگاه) | He received a two-year prison sentence.
+masterpiece | masterpiece | noun | /ˈmæstɚpiːs/ | شاهکار | The novel is a masterpiece.
+reputation | reputation | noun | /ˌrepjəˈteɪʃən/ | شهرت، آوازه | The restaurant has a good reputation.
+queue | queue | verb | /kjuː/ | صف بستن | We queued for an hour to get tickets.
+=== QUIZ
+Q: Main idea | What is the main point of the passage?
+A) Leonardo da Vinci was the greatest painter of his time.
+*B) The 1911 theft played a major role in making the Mona Lisa world-famous.
+C) The Louvre's security was better than that of other museums.
+D) Picasso and Apollinaire planned the theft together.
+E: The passage argues that "what made it world-famous was not its artistic quality alone, but a crime."
+Q: Detail | How did Peruggia know the Louvre so well?
+A) He was a guard at the museum.
+B) He was a friend of Apollinaire.
+*C) He had worked there, helping to build glass cases for paintings.
+D) He had studied art in Paris.
+E: He "had worked at the Louvre and had helped build the protective glass cases for its paintings."
+Q: Inference | What does the writer suggest about Peruggia's claim of patriotism?
+A) It was completely believable.
+B) It was supported by historical facts.
+*C) It was based on a misunderstanding and may have hidden other motives.
+D) It was invented by the newspapers.
+E: He "was wrong about the history", and "some historians also suspect he hoped for a financial reward."
+Q: Vocabulary | In "When the theft was finally confirmed, it caused a sensation", "sensation" means:
+A) a physical feeling
+*B) great public excitement and interest
+C) a police investigation
+D) a feeling of sadness
+E: The following sentences describe crowds, newspapers and songs, showing widespread excitement.

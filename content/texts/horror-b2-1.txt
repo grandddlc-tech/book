@@ -1,0 +1,84 @@
+id: horror-b2-1
+kind: story
+key: horror
+level: B2
+title: The Night Guard
+---
+When Daniel accepted the job as night guard at the Holloway Museum of Natural History, his friends thought it was the most boring job in the world. Twelve hours alone in a building full of stuffed animals and old bones. But Daniel needed the money, and he liked the quiet. He brought books, a flask of coffee, and headphones, and for the first month nothing happened at all.
+
+The museum had three floors. The ground floor held the dinosaur skeletons, including a huge Tyrannosaurus whose head nearly touched the glass ceiling. The first floor was full of birds and mammals behind glass, frozen in the middle of running, hunting, or sleeping. The top floor, which was closed to the public, stored thousands of objects in wooden drawers: insects, fossils, and animal skulls collected over two hundred years.
+
+Daniel's routine was simple. Every two hours he walked through each floor with his torch, checked the doors, and wrote the time in a notebook. The previous guard, an old man named Mr Pike, had left a note taped to the front of the notebook. It said: "Always finish your round on the top floor before 3 a.m. Never be up there at 3." Daniel assumed it was a joke for new guards. He laughed and forgot about it.
+
+One night in November, a storm knocked out the electricity for a few minutes. When the emergency lights came on, Daniel noticed that the clock on the wall had stopped, and he had lost track of time. He grabbed his torch and began his round. The dinosaurs looked strange in the red emergency light, their shadows stretching across the floor. On the first floor, he had the uncomfortable feeling that the glass eyes of the animals were following him, but he told himself it was only the light.
+
+He reached the top floor and began walking between the tall wooden cabinets. The air was colder up there, and it smelled of dust and old paper. Somewhere in the dark, he heard a soft sound, like a drawer sliding open. He stopped. The sound came again, closer this time.
+
+"Hello?" he called. His voice sounded very small.
+
+He moved his torch slowly along the rows. At the end of the corridor, one drawer was open. Inside, on a bed of yellow cotton, lay a collection of bird skulls, each one labelled in neat, old-fashioned handwriting. As he watched, one of the labels moved slightly, as if someone had breathed on it.
+
+Then Daniel noticed his watch. It said 2:59.
+
+He turned to leave, walking fast, then faster. Behind him, he heard another drawer open, and another, and another, until the whole floor seemed to be filled with the sound of wood sliding against wood. He did not look back. He ran down the stairs, past the staring animals, past the great skeleton, and did not stop until he reached the security office and locked the door.
+
+At exactly 3:00, the noise stopped.
+
+Daniel sat in the office until the sun came up, his hands shaking. When the morning staff arrived, he went upstairs with the head of the museum, a calm woman called Dr Shaw. Every drawer on the top floor was closed. Nothing was missing. Nothing had moved.
+
+"You probably fell asleep," she said kindly. "Night shifts do strange things to the mind."
+
+But as they walked back towards the stairs, Daniel noticed something on the floor near the cabinet where the first drawer had opened. It was a small paper label, the kind used for the bird skulls. He picked it up. In the same neat, old-fashioned handwriting, it said: "D. Morgan. Collected November 14th."
+
+Daniel's surname was Morgan. And it was the fourteenth of November.
+
+He handed in his notice that afternoon. A week later, curiosity got the better of him, and he called Mr Pike to ask about the note. The old man was silent for a long time. Then he said, "I worked there for thirty years. I always finished my round by three. The guard before me didn't." He paused. "They say he was a great collector."
+
+Daniel never found out what happened to the label. He was sure he had put it in his coat pocket. But when he looked for it later, the pocket was empty, except for a tiny, white feather.
+=== GLOSSARY
+stuffed | stuffed | adjective | /stʌft/ | (حیوان) تاکسیدرمی‌شده، پرشده | There was a stuffed bear in the hall.
+flask | flask | noun | /flæsk/ | فلاسک | He carried a flask of hot tea.
+skeletons | skeleton | noun | /ˈskelətən/ | اسکلت | The museum has a whale skeleton.
+mammals | mammal | noun | /ˈmæməl/ | پستاندار | Whales are mammals, not fish.
+drawers | drawer | noun | /drɔːr/ | کشو | I keep my socks in the top drawer.
+fossils | fossil | noun | /ˈfɑːsəl/ | فسیل | They found fossils of ancient fish in the rock.
+skulls | skull | noun | /skʌl/ | جمجمه | The helmet protects your skull.
+routine | routine | noun | /ruːˈtiːn/ | روال روزمره | Exercise is part of my morning routine.
+torch | torch | noun | /tɔːrtʃ/ | چراغ‌قوه (انگلیسی بریتانیایی) | Take a torch in case the lights go out.
+taped | tape | verb | /teɪp/ | با چسب نواری چسباندن | She taped a note to the fridge.
+assumed | assume | verb | /əˈsuːm/ | فرض کردن | I assumed you already knew.
+lost track | lose track | phrase | /luːz træk/ | حساب چیزی از دستت در رفتن | I lost track of time while reading.
+uncomfortable | uncomfortable | adjective | /ʌnˈkʌmfɚtəbəl/ | ناراحت، معذب | The silence was uncomfortable.
+cabinets | cabinet | noun | /ˈkæbɪnət/ | کمد، قفسهٔ دردار | The cups are in the kitchen cabinet.
+sliding | slide | verb | /slaɪd/ | لغزیدن، سر خوردن | The door slid open quietly.
+labelled | label | verb | /ˈleɪbəl/ | برچسب زدن | Each box was clearly labelled.
+staff | staff | noun | /stæf/ | کارکنان | The hotel staff were very friendly.
+notice | notice | noun | /ˈnoʊtɪs/ | استعفانامه (hand in your notice) | She handed in her notice after ten years.
+curiosity | curiosity | noun | /ˌkjʊriˈɑːsəti/ | کنجکاوی | Children are full of curiosity.
+collector | collector | noun | /kəˈlektɚ/ | کلکسیونر، جمع‌آوری‌کننده | He is a collector of old coins.
+feather | feather | noun | /ˈfeðɚ/ | پَر | A white feather fell from the sky.
+=== QUIZ
+Q: Main idea | What is the story mainly about?
+A) A guard who discovers that valuable objects are being stolen
+*B) A guard who ignores a warning and experiences something frightening
+C) The history of a natural history museum
+D) A friendship between two museum guards
+E: Daniel dismisses Mr Pike's note, is on the top floor at 3 a.m., and has a terrifying experience.
+Q: Detail | Why was Daniel on the top floor at 3 a.m.?
+A) He heard a noise and went to investigate.
+B) Dr Shaw asked him to check the drawers.
+*C) A power cut stopped the clock and he lost track of time.
+D) He wanted to prove that the note was a joke.
+E: The storm knocked out the electricity, the clock stopped, and he "had lost track of time."
+Q: Inference | What does the ending suggest about the guard who worked before Mr Pike?
+A) He became a famous scientist.
+B) He stole objects from the museum.
+*C) He may have become part of the strange "collection" himself.
+D) He wrote the warning note to scare Daniel.
+E: Mr Pike says the earlier guard did not finish by three and that "he was a great collector", hinting that he now collects people, as the label for Daniel suggests.
+Q: Vocabulary | In "He handed in his notice that afternoon", "handed in his notice" means:
+A) reported a crime to the police
+*B) told his employer he was leaving his job
+C) wrote a report about the night
+D) asked for a longer holiday
+E: "Hand in your notice" is a fixed expression meaning to formally resign from a job.

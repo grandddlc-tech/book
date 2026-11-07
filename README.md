@@ -16,13 +16,23 @@ A mobile-first English reading practice app (B2 / C1).
 - `src/page.html`: the app (published as a Claude artifact, where text generation runs on the viewer's Claude account and data is saved privately per user)
 - `index.html`: standalone build (`./build.sh`). Opened outside Claude, it asks for an Anthropic API key, kept in the browser's localStorage, and saves data locally.
 
-## Android app
+## Android app (offline library)
 
-`android/` is a small launcher that opens the published Lumen Reader artifact
-(https://claude.ai/artifact/WqR8encep5Bdj4cSUUSoAj) in a Chrome Custom Tab. It uses the Claude
-account signed in to Chrome, so no API key is needed.
-GitHub Actions (`.github/workflows/android.yml`) builds a signed APK on every push and publishes it as a release:
+The APK is a WebView app built from `src/app.html` (assembled by `tools/build_app.py` from the web page
+plus `tools/parts/*.js`). It needs no account or API key.
+
+- Texts live in `content/texts/*.txt` and are compiled to `content/texts.json` by `tools/build_content.py`.
+- The APK ships with the texts, and on each launch it also downloads `content/texts.json` from this repo,
+  so newly added texts appear without reinstalling (saved words and progress are kept).
+- Tapping an underlined word shows its built-in Persian meaning, IPA and example; pronunciation uses
+  Android's US-English text-to-speech.
+
+GitHub Actions (`.github/workflows/android.yml`) builds a signed APK on code changes and publishes it as a release:
 https://github.com/grandddlc-tech/book/releases/latest/download/LumenReader.apk
 
 For APKs that install as updates over each other, add repository secrets `LUMEN_KEYSTORE_B64`
 (base64 of a keystore with alias `lumen`) and `LUMEN_KEYSTORE_PASSWORD`. Without them each build uses a one-off key.
+
+### Adding texts
+Add files to `content/texts/` (format documented in `tools/build_content.py`), run
+`python3 tools/build_content.py`, and commit `content/texts.json`.

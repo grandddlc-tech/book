@@ -1,0 +1,71 @@
+id: linguistics-c1-1
+kind: fact
+key: linguistics
+level: C1
+title: Does Language Shape Thought?
+---
+Do speakers of different languages perceive the world differently? The question has fascinated philosophers for centuries, but it is most closely associated with the American linguist Benjamin Lee Whorf, who in the 1930s and 1940s argued that the grammatical categories of a language profoundly influence the way its speakers conceptualise reality. Drawing on his study of Hopi, a Native American language, Whorf claimed that its speakers had no words or grammatical forms referring directly to time as a flowing, measurable quantity, and that they consequently experienced time in a fundamentally different way from speakers of European languages. This idea, often called the Sapir-Whorf hypothesis after Whorf and his teacher Edward Sapir, became enormously influential, seeping into anthropology, psychology and popular culture.
+
+In its strongest form, sometimes termed linguistic determinism, the hypothesis holds that language determines thought, so that concepts absent from one's language are literally unthinkable. This version has been largely discredited. Subsequent scholars demonstrated that Whorf's analysis of Hopi was flawed; the language does, in fact, possess ways of expressing temporal relations. More fundamentally, the strong version seems contradicted by everyday experience. People routinely think about things for which they lack words, invent new terms when needed, and translate, however imperfectly, between radically different languages. If thought were imprisoned by language, such feats would be impossible.
+
+By the 1960s and 1970s, the hypothesis had fallen out of favour, partly owing to the rise of Noam Chomsky's linguistics, which emphasised the universal features shared by all human languages. Influential research on colour terminology seemed to support this universalist perspective. In 1969, Brent Berlin and Paul Kay argued that, although languages vary in how many basic colour terms they possess, these terms emerge in a remarkably consistent order and cluster around similar focal colours, suggesting that colour categorisation is grounded in human physiology rather than linguistic convention.
+
+Since the 1990s, however, a weaker version of the hypothesis, linguistic relativity, has enjoyed a striking revival, supported by carefully controlled experiments. Rather than claiming that language determines thought, researchers ask whether it can influence perception, memory and attention in measurable ways.
+
+Some of the most compelling evidence concerns spatial reasoning. Speakers of Guugu Yimithirr, an Aboriginal language of northern Australia, do not use egocentric terms such as "left" and "right" to describe locations. Instead, they use cardinal directions: north, south, east and west, even for objects on a table. Studies by Stephen Levinson and colleagues found that these speakers maintain an extraordinarily accurate sense of orientation at all times, and that when asked to arrange objects after being rotated to face a different direction, they preserved the objects' compass orientation rather than their relation to the body, unlike speakers of Dutch or English.
+
+Colour research has also yielded more nuanced findings. Russian obligatorily distinguishes between lighter blues, "goluboy", and darker blues, "siniy", treating them as separate basic colours. In a 2007 study, Russian speakers were faster at discriminating between shades of blue that straddled this boundary than between shades that fell within the same category, whereas English speakers showed no such advantage. Intriguingly, the effect disappeared when participants performed a simultaneous verbal task that occupied their linguistic resources, suggesting that language exerts its influence online, in the moment of perception, rather than permanently restructuring vision.
+
+Grammatical gender provides another intriguing, if more contested, area of research. Some studies have suggested that speakers of languages that assign masculine or feminine gender to inanimate nouns may attribute stereotypically gendered characteristics to those objects. However, several such findings have proved difficult to replicate, illustrating the methodological challenges of the field. Effects can be subtle, sensitive to experimental design, and easily confounded with cultural differences that are not strictly linguistic.
+
+The emerging consensus is therefore more modest than Whorf's original vision, yet more interesting than outright rejection. Language does not imprison thought, but it appears to act as a kind of habitual guide, directing attention towards certain distinctions and making some ways of thinking more natural or more automatic. As the linguist Roman Jakobson observed, languages differ essentially in what they must convey, not in what they may convey. A speaker of a language that grammatically marks whether information was witnessed directly or heard from others must constantly attend to the source of their knowledge; an English speaker may mention it, but need not.
+
+For language learners, this perspective has an appealing implication. Acquiring a new language may involve more than memorising vocabulary and grammar. It may also mean learning to notice the world in subtly new ways, adopting, at least partially, another set of habitual distinctions. In that sense, every language offers not a prison but a different window.
+=== GLOSSARY
+perceive | perceive | verb | /pɚˈsiːv/ | درک کردن، دریافتن | Children perceive the world differently.
+conceptualise | conceptualise | verb | /kənˈseptʃuəlaɪz/ | مفهوم‌سازی کردن | It's hard to conceptualise infinity.
+seeping | seep | verb | /siːp/ | نفوذ کردن، تراوش کردن | Water was seeping through the wall.
+determinism | determinism | noun | /dɪˈtɝːmɪnɪzəm/ | جبرگرایی | Some philosophers reject determinism.
+discredited | discredit | verb | /dɪsˈkredɪt/ | بی‌اعتبار کردن | The theory has been discredited.
+flawed | flawed | adjective | /flɑːd/ | معیوب، دارای اشکال | The argument is seriously flawed.
+temporal | temporal | adjective | /ˈtempɚəl/ | زمانی | The story ignores temporal order.
+feats | feat | noun | /fiːt/ | کار بزرگ، شاهکار | Climbing Everest is an amazing feat.
+universalist | universalist | adjective | /ˌjuːnɪˈvɝːsəlɪst/ | جهان‌شمول‌گرا | He takes a universalist view of human rights.
+physiology | physiology | noun | /ˌfɪziˈɑːlədʒi/ | فیزیولوژی، عملکرد بدن | She studies human physiology.
+relativity | relativity | noun | /ˌreləˈtɪvəti/ | نسبیت | Cultural relativity is an important idea in anthropology.
+egocentric | egocentric | adjective | /ˌiːɡoʊˈsentrɪk/ | خودمحور (نسبت به بدن خود) | "Left" and "right" are egocentric terms.
+cardinal directions | cardinal direction | noun | /ˈkɑːrdɪnəl dəˈrekʃən/ | جهات اصلی | North, south, east and west are cardinal directions.
+orientation | orientation | noun | /ˌɔːriənˈteɪʃən/ | جهت‌یابی | I lost all sense of orientation in the fog.
+nuanced | nuanced | adjective | /ˈnuːɑːnst/ | دقیق و ظریف | She gave a nuanced answer.
+obligatorily | obligatorily | adverb | /əˈblɪɡətɔːrəli/ | به‌طور اجباری | Some languages obligatorily mark gender.
+discriminating | discriminate | verb | /dɪˈskrɪmɪneɪt/ | تمایز قائل شدن | Babies can discriminate between faces.
+straddled | straddle | verb | /ˈstrædəl/ | در دو سو قرار گرفتن | The town straddles the border.
+inanimate | inanimate | adjective | /ɪnˈænɪmət/ | بی‌جان | A table is an inanimate object.
+confounded | confound | verb | /kənˈfaʊnd/ | درهم آمیختن (عوامل)، گیج کردن | The results were confounded by other factors.
+consensus | consensus | noun | /kənˈsensəs/ | اتفاق نظر | There is a consensus that climate change is real.
+habitual | habitual | adjective | /həˈbɪtʃuəl/ | عادتی، همیشگی | He is a habitual liar.
+=== QUIZ
+Q: Main idea | Which statement best summarises the passage?
+A) Language completely determines how people think.
+B) Language has no effect on thought at all.
+*C) The strong form of the Sapir-Whorf hypothesis is rejected, but evidence suggests language can influence perception and attention.
+D) Colour terms are the same in all languages.
+E: The passage explains that linguistic determinism is discredited but that research supports a weaker "linguistic relativity."
+Q: Detail | What happened to the Russian speakers' advantage in distinguishing blues when they did a verbal task at the same time?
+A) It became stronger.
+*B) It disappeared.
+C) It also appeared in English speakers.
+D) It applied to all colours.
+E: "The effect disappeared when participants performed a simultaneous verbal task that occupied their linguistic resources."
+Q: Inference | What does Jakobson's observation imply?
+A) Some languages cannot express certain ideas at all.
+*B) Languages differ mainly in which information speakers are required to express.
+C) All languages have the same grammar.
+D) English is more flexible than other languages.
+E: Languages differ "in what they must convey, not in what they may convey", as the example of marking the source of information shows.
+Q: Vocabulary | In "This version has been largely discredited", "discredited" means:
+A) widely accepted
+B) recently discovered
+*C) shown to be untrue or unreliable
+D) difficult to understand
+E: The following sentences show that scholars found Whorf's analysis flawed, so the idea lost credibility.

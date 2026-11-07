@@ -1,0 +1,81 @@
+id: war-c1-1
+kind: story
+key: war
+level: C1
+title: The Cartographer of Constantinople
+---
+In the spring of 1453, when the Ottoman cannons began their relentless assault on the walls of Constantinople, Demetrios Laskaris was neither a soldier nor a priest, but a maker of maps. For thirty years he had sat at a slanted desk above a bakery near the Hippodrome, rendering coastlines and harbours in ink so fine that merchants from Venice and Genoa paid handsomely for his charts. He had never held a sword, and he had no intention of starting now.
+
+Yet war has a way of conscripting even those who believe themselves exempt. On the ninth day of the siege, a Genoese captain named Giustiniani climbed the narrow stairs to Demetrios's workshop, his armour streaked with soot, and laid a crumpled sketch on the desk. "Your maps of the city," he said without ceremony, "are better than ours. I need to know every cistern, every tunnel, every forgotten gate between the Golden Horn and the sea."
+
+Demetrios hesitated. He had spent his life recording the world as it was, not deciding what should become of it. To draw a map for a merchant was a matter of commerce; to draw one for a commander was to determine where men would live and die. But the dull, rhythmic thud of the great bombard outside the Theodosian Walls left little room for philosophical reservations. He picked up his pen.
+
+For the next five weeks, he barely slept. Guided by his own archives and by elderly residents who remembered passages sealed off generations earlier, he produced a series of meticulous plans. One of them revealed a disused aqueduct running beneath the Blachernae quarter, through which, Giustiniani realised, Ottoman sappers might attempt to tunnel. Acting on this intelligence, the defenders dug countermines and intercepted the attackers underground, collapsing the tunnels in a series of desperate, suffocating skirmishes that no chronicler would ever fully describe.
+
+Demetrios learned of these encounters only through rumour, and the knowledge unsettled him. Each line he drew seemed to carry a weight it had never carried before. When his apprentice, a quick-witted boy named Nikolaos, praised the accuracy of a new chart, Demetrios snapped at him uncharacteristically. "Accuracy," he said, "is a virtue only when one is certain of the purpose it serves."
+
+As May wore on, the mood in the city darkened. Provisions dwindled, and a lunar eclipse, interpreted by many as an ill omen, deepened the sense of foreboding. A thick fog descended on the night of the twenty-fourth, and some swore they had seen a strange light leaving the dome of Hagia Sophia, as though the divine presence itself were abandoning the city. Demetrios, a sceptic by temperament, dismissed such tales, though he noticed that he, too, had begun to pray.
+
+On the night of the twenty-eighth, Giustiniani returned once more. He looked older, his face hollowed by fatigue. He did not ask for a map. Instead, he sat on the stool by the window and stared at the faint glow of the Ottoman campfires that encircled the walls like a second, burning city. "Whatever happens tomorrow," he said at last, "your maps bought us weeks we would not otherwise have had. Remember that."
+
+The final assault came before dawn. By midmorning, Giustiniani had been gravely wounded and carried from the walls; the defence faltered, and the city fell. In the chaos that followed, Demetrios gathered his most valuable charts, rolled them into a leather tube, and fled with Nikolaos towards the harbour, where a handful of Venetian ships were preparing to break through the blockade.
+
+They reached a ship moments before it cast off. As it slipped past the chain across the Golden Horn, Demetrios watched the domes and towers recede into the haze. He realised, with a pang that was almost physical, that the city he had spent a lifetime depicting would never again look as it did on his maps.
+
+Years later, in a modest house in Venice, Nikolaos found his master bent over a fresh sheet of parchment, drawing Constantinople from memory: every street, every church, every bakery and fountain, rendered with obsessive care. "Who is it for?" the young man asked. Demetrios did not look up. "For no one," he replied. "That is precisely the point. This time, it decides nothing. It merely remembers."
+=== GLOSSARY
+relentless | relentless | adjective | /rɪˈlentləs/ | بی‌امان، بی‌وقفه | The team faced relentless pressure in the second half.
+assault | assault | noun | /əˈsɔːlt/ | یورش، حمله | The army launched an assault on the city at dawn.
+slanted | slanted | adjective | /ˈslæntɪd/ | کج، مایل | The artist worked at a slanted table.
+rendering | render | verb | /ˈrendɚ/ | ترسیم کردن، به تصویر کشیدن | The painting renders the city in soft colours.
+handsomely | handsomely | adverb | /ˈhænsəmli/ | به‌طور سخاوتمندانه (پول زیاد) | She was paid handsomely for her advice.
+conscripting | conscript | verb | /kənˈskrɪpt/ | به خدمت اجباری گرفتن | Young men were conscripted into the army.
+exempt | exempt | adjective | /ɪɡˈzempt/ | معاف | Students are exempt from this tax.
+soot | soot | noun | /sʊt/ | دوده | The chimney was black with soot.
+cistern | cistern | noun | /ˈsɪstɚn/ | آب‌انبار | The old city stored rainwater in a huge cistern.
+commerce | commerce | noun | /ˈkɑːmɝːs/ | تجارت | The port was a centre of commerce for centuries.
+reservations | reservation | noun | /ˌrezɚˈveɪʃən/ | تردید، شک | I have some reservations about the plan.
+meticulous | meticulous | adjective | /məˈtɪkjələs/ | بسیار دقیق و موشکافانه | She keeps meticulous records of her spending.
+aqueduct | aqueduct | noun | /ˈækwədʌkt/ | آبراهه، قنات | The Romans built aqueducts to carry water to cities.
+sappers | sapper | noun | /ˈsæpɚ/ | سرباز مهندسی (تونل‌کن) | Sappers dug tunnels under the enemy walls.
+intercepted | intercept | verb | /ˌɪntɚˈsept/ | رهگیری کردن | Police intercepted the shipment at the border.
+skirmishes | skirmish | noun | /ˈskɝːmɪʃ/ | درگیری کوچک | There were several skirmishes along the border.
+unsettled | unsettle | verb | /ʌnˈsetəl/ | نگران و ناآرام کردن | The strange phone call unsettled her.
+apprentice | apprentice | noun | /əˈprentɪs/ | شاگرد، کارآموز | He worked as an apprentice to a carpenter.
+uncharacteristically | uncharacteristically | adverb | /ʌnˌkerəktəˈrɪstɪkli/ | برخلاف عادت همیشگی | He was uncharacteristically quiet at dinner.
+dwindled | dwindle | verb | /ˈdwɪndəl/ | کم و کمتر شدن | Their savings dwindled during the long strike.
+omen | omen | noun | /ˈoʊmən/ | فال، نشانه | Some people see a black cat as a bad omen.
+foreboding | foreboding | noun | /fɔːrˈboʊdɪŋ/ | احساس شوم، دلشوره | She had a sense of foreboding before the trip.
+sceptic | sceptic | noun | /ˈskeptɪk/ | آدم شکاک | He remains a sceptic about alternative medicine.
+hollowed | hollow | verb | /ˈhɑːloʊ/ | گود کردن، تکیده کردن | His cheeks were hollowed by illness.
+faltered | falter | verb | /ˈfɑːltɚ/ | سست شدن، لغزیدن | Her voice faltered as she began to speak.
+blockade | blockade | noun | /blɑːˈkeɪd/ | محاصره | The navy set up a blockade around the port.
+recede | recede | verb | /rɪˈsiːd/ | دور شدن، عقب رفتن | The sound of the train receded into the distance.
+pang | pang | noun | /pæŋ/ | درد ناگهانی، سوزش (احساسی) | She felt a pang of guilt.
+parchment | parchment | noun | /ˈpɑːrtʃmənt/ | پوست‌نوشته، کاغذ پوستی | The old map was drawn on parchment.
+obsessive | obsessive | adjective | /əbˈsesɪv/ | وسواسی | He has an obsessive interest in trains.
+=== QUIZ
+Q: Main idea | Which statement best captures the central theme of the story?
+A) The superiority of Venetian ships over Ottoman forces
+B) The importance of accurate maps for international trade
+*C) A mapmaker's struggle with the moral weight of his work in wartime
+D) The religious beliefs that shaped the defence of Constantinople
+E: Demetrios worries that his maps now "determine where men would live and die", and the ending contrasts maps that decide things with maps that only remember.
+Q: Detail | How did one of Demetrios's maps help the defenders?
+A) It showed a secret route for escaping to the harbour.
+*B) It revealed an old aqueduct through which the enemy might tunnel.
+C) It identified the location of the Ottoman cannons.
+D) It helped the Venetians break the chain across the Golden Horn.
+E: The map revealed "a disused aqueduct running beneath the Blachernae quarter", which led the defenders to dig countermines.
+Q: Inference | Why does Demetrios draw Constantinople from memory at the end?
+A) He hopes to sell the map to Venetian merchants.
+B) He plans to help a future army recapture the city.
+C) He wants to teach Nikolaos the art of cartography.
+*D) He wants to preserve the city as it was, without serving any military purpose.
+E: He says the map is "for no one" and that "this time, it decides nothing. It merely remembers."
+Q: Vocabulary | The word "meticulous" in "he produced a series of meticulous plans" is closest in meaning to:
+A) secret
+*B) extremely careful and precise
+C) hastily prepared
+D) beautifully decorated
+E: "Meticulous" describes work done with great attention to detail, which fits Demetrios's famously fine and accurate maps.

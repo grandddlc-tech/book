@@ -1,0 +1,72 @@
+id: science-c1-1
+kind: fact
+key: science
+level: C1
+title: The Tyranny of the Second
+---
+Few units of measurement are as taken for granted as the second. We glance at our phones, catch trains, and schedule meetings with barely a thought for what a second actually is. Yet the question of how to define it precisely has occupied scientists for centuries, and the answer has shifted from the heavens to the interior of the atom, with consequences that reach far beyond the laboratory.
+
+For most of history, time was anchored to the motion of celestial bodies. A day was one rotation of the Earth, and the second was simply a convenient subdivision: one eighty-six-thousand-four-hundredth of a mean solar day. This definition served admirably for navigation and astronomy until the early twentieth century, when increasingly accurate mechanical and quartz clocks revealed an awkward truth. The Earth is an unreliable timekeeper. Its rotation is gradually slowing, largely because of tidal friction with the Moon, and it also fluctuates unpredictably owing to earthquakes, ocean currents, and shifts in the planet's molten core.
+
+The solution emerged from quantum physics. Atoms of a given element absorb and emit electromagnetic radiation at extraordinarily specific frequencies, determined by the energy differences between their electron states. Crucially, these frequencies are identical for every atom of that element, everywhere in the universe. An atom, in other words, is a natural pendulum that never wears out and never varies. In 1955, physicists at the National Physical Laboratory in Britain built the first practical caesium atomic clock, and in 1967 the international scientific community formally redefined the second as the duration of 9,192,631,770 oscillations of the radiation associated with a particular transition in the caesium-133 atom.
+
+The precision of atomic clocks has since improved at a staggering rate. The best caesium fountain clocks would neither gain nor lose a second in roughly three hundred million years. Newer optical clocks, which use atoms such as strontium or ytterbium that oscillate at far higher frequencies, are more accurate still: some would drift by less than a second over the entire age of the universe. Such clocks are so sensitive that they can detect the difference in the flow of time caused by raising them a few centimetres, a direct demonstration of Einstein's prediction that time passes more slowly in stronger gravitational fields.
+
+This extraordinary accuracy is not merely an academic curiosity. Satellite navigation systems such as GPS depend entirely on it. Each satellite carries atomic clocks and continuously broadcasts the time; a receiver calculates its position by comparing signals from several satellites. Since radio signals travel at the speed of light, an error of a single microsecond would translate into a positional error of around three hundred metres. Engineers must even correct for relativity, because clocks on orbiting satellites tick at a slightly different rate from those on the ground. Financial markets, electricity grids, and telecommunications networks likewise rely on synchronised atomic time to coordinate transactions and transmissions measured in millionths of a second.
+
+The divorce between atomic time and astronomical time has, however, created an unexpected administrative headache. Because the Earth's rotation does not keep pace with atomic clocks, the two gradually drift apart. To reconcile them, timekeepers introduced the "leap second" in 1972, an extra second occasionally inserted into the world's official time scale. Twenty-seven have been added so far. Leap seconds are notoriously disruptive for computer systems, which often assume that every minute contains exactly sixty seconds; several have triggered outages at major websites and airlines. In 2022, after years of debate, the international body responsible for weights and measures voted to abolish the leap second by 2035, effectively accepting that civil time will slowly diverge from the rhythm of the sun.
+
+Meanwhile, metrologists are preparing for yet another redefinition. Optical clocks have now surpassed caesium so decisively that the current standard has become a bottleneck, and a new definition based on optical transitions is expected within the next decade. Choosing which atom to enshrine is itself a delicate scientific and diplomatic negotiation.
+
+The history of the second, then, is a history of humanity's growing ambition to measure the world with ever greater fidelity. It is also a reminder that even our most fundamental units are human conventions, refined, contested, and occasionally abandoned as our understanding of nature deepens.
+=== GLOSSARY
+taken for granted | take for granted | phrase | /ˈteɪkən fɚ ˈɡræntɪd/ | بدیهی و همیشگی فرض کردن | We often take clean water for granted.
+anchored | anchor | verb | /ˈæŋkɚ/ | لنگر انداختن، مبتنی کردن | Her argument is anchored in solid research.
+celestial | celestial | adjective | /səˈlestʃəl/ | آسمانی، سماوی | Stars and planets are celestial bodies.
+admirably | admirably | adverb | /ˈædmərəbli/ | به‌خوبی، تحسین‌برانگیز | She handled the crisis admirably.
+friction | friction | noun | /ˈfrɪkʃən/ | اصطکاک | Friction slows the wheels down.
+fluctuates | fluctuate | verb | /ˈflʌktʃueɪt/ | نوسان داشتن | The price of oil fluctuates daily.
+molten | molten | adjective | /ˈmoʊltən/ | مذاب | Molten rock flowed from the volcano.
+emit | emit | verb | /iˈmɪt/ | ساطع کردن، منتشر کردن | The device emits a high-pitched sound.
+pendulum | pendulum | noun | /ˈpendʒələm/ | آونگ | The pendulum of the clock swung slowly.
+oscillations | oscillation | noun | /ˌɑːsəˈleɪʃən/ | نوسان | The oscillations of the bridge alarmed engineers.
+staggering | staggering | adjective | /ˈstæɡɚɪŋ/ | حیرت‌انگیز | The cost of the project was staggering.
+drift | drift | verb | /drɪft/ | به‌تدریج منحرف شدن | Over the years, the friends drifted apart.
+broadcasts | broadcast | verb | /ˈbrɑːdkæst/ | پخش کردن، مخابره کردن | The match was broadcast live.
+synchronised | synchronise | verb | /ˈsɪŋkrənaɪz/ | هم‌زمان کردن | Let's synchronise our watches.
+reconcile | reconcile | verb | /ˈrekənsaɪl/ | آشتی دادن، سازگار کردن | It's hard to reconcile these two reports.
+notoriously | notoriously | adverb | /noʊˈtɔːriəsli/ | به‌طرز بدنامی، معروف به (چیز بد) | The roads there are notoriously dangerous.
+disruptive | disruptive | adjective | /dɪsˈrʌptɪv/ | مختل‌کننده | The strike was very disruptive for travellers.
+outages | outage | noun | /ˈaʊtɪdʒ/ | قطعی (برق، سرویس) | The storm caused a power outage.
+abolish | abolish | verb | /əˈbɑːlɪʃ/ | لغو کردن، منسوخ کردن | Many countries have abolished the death penalty.
+diverge | diverge | verb | /daɪˈvɝːdʒ/ | از هم جدا شدن، واگرا شدن | Their opinions diverge on this issue.
+surpassed | surpass | verb | /sɚˈpæs/ | پیشی گرفتن | Sales surpassed all expectations.
+bottleneck | bottleneck | noun | /ˈbɑːtəlnek/ | گلوگاه، مانع | The old software is a bottleneck in the system.
+enshrine | enshrine | verb | /ɪnˈʃraɪn/ | رسمی و ماندگار کردن | These rights are enshrined in the constitution.
+fidelity | fidelity | noun | /fəˈdeləti/ | دقت، وفاداری به اصل | The recording reproduces the concert with high fidelity.
+conventions | convention | noun | /kənˈvenʃən/ | قرارداد، عرف | Driving on the right is a convention, not a law of nature.
+=== QUIZ
+Q: Main idea | What is the main idea of the passage?
+A) Atomic clocks will soon replace all mechanical clocks.
+B) The Earth's rotation is slowing down because of the Moon.
+*C) The definition of the second has evolved with scientific progress and has practical consequences.
+D) Leap seconds are the most important problem in modern physics.
+E: The passage traces the second from astronomical to atomic definitions and explains its impact on GPS, finance and timekeeping.
+Q: Detail | Why was the astronomical definition of the second eventually abandoned?
+*A) The Earth's rotation is irregular and gradually slowing.
+B) Quartz clocks were too expensive to produce.
+C) Astronomers could not agree on the length of a day.
+D) GPS satellites required a definition based on light.
+E: Accurate clocks revealed that "the Earth is an unreliable timekeeper": its rotation slows and fluctuates.
+Q: Inference | What can be inferred about the decision to abolish the leap second?
+A) It was made because atomic clocks had become less accurate.
+B) It will make atomic time match solar time exactly.
+*C) Practical problems for technology were judged more important than keeping civil time aligned with the sun.
+D) It was opposed by every computer company.
+E: Leap seconds disrupt computer systems, and abolishing them means "civil time will slowly diverge from the rhythm of the sun", a trade-off accepted for practical reasons.
+Q: Vocabulary | In "the current standard has become a bottleneck", the word "bottleneck" means:
+A) a source of energy
+B) a dangerous error
+C) a historical object
+*D) something that limits progress
+E: Because optical clocks are now far better, the caesium standard holds back further improvement, which is what a bottleneck does.

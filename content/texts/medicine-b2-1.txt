@@ -1,0 +1,71 @@
+id: medicine-b2-1
+kind: fact
+key: medicine
+level: B2
+title: When Antibiotics Stop Working
+---
+In 1928, the Scottish scientist Alexander Fleming returned from a holiday to find that mould had grown on one of his laboratory dishes. Around the mould, the bacteria he had been studying had died. That accidental discovery led to penicillin, the first antibiotic, and it changed medicine forever. Infections that had once killed millions, such as pneumonia and blood poisoning, suddenly became treatable. Surgery became much safer, and average life expectancy rose dramatically.
+
+Less than a century later, however, doctors are worried that this golden age may be coming to an end. Around the world, more and more bacteria are becoming resistant to the drugs designed to kill them. The World Health Organization describes antimicrobial resistance as one of the greatest threats to global health. Studies estimate that resistant infections already contribute to several million deaths each year, and the number could rise sharply in the coming decades if nothing changes.
+
+To understand why this is happening, it helps to remember that bacteria reproduce extremely quickly. Some can divide every twenty minutes. Each time they divide, small random changes, or mutations, can appear in their genetic material. Most mutations are harmless or useless, but occasionally one helps a bacterium survive an antibiotic. When the drug is used, the sensitive bacteria die, while the resistant ones survive and multiply. Over time, the resistant type becomes dominant. This is natural selection in action, happening not over millions of years but over months.
+
+Bacteria have another powerful trick. They can pass genes directly to one another, even between different species, through a process called horizontal gene transfer. A resistance gene that develops in one type of bacterium can therefore spread quickly to others, like a piece of useful information shared on social media.
+
+Human behaviour has accelerated this process considerably. Antibiotics are often prescribed for illnesses they cannot treat, such as colds and flu, which are caused by viruses, not bacteria. Patients sometimes stop taking their medicine as soon as they feel better, which may allow the strongest bacteria to survive. In many countries, antibiotics can be bought without a prescription. Perhaps most significantly, enormous quantities of antibiotics are used in farming, not only to treat sick animals but also to make healthy animals grow faster.
+
+The consequences are already visible. Some strains of tuberculosis no longer respond to most available drugs. Common urinary infections are becoming harder to treat. In hospitals, so-called superbugs such as MRSA can cause serious infections in patients whose immune systems are already weak. Doctors fear a future in which routine procedures, such as hip replacements, caesarean sections, or chemotherapy, become dangerous again because infections cannot be controlled.
+
+Developing new antibiotics would seem the obvious solution, but it has proved surprisingly difficult. Very few new classes of antibiotics have been discovered since the 1980s. Part of the problem is scientific: the easiest discoveries have already been made. Another part is economic. A new antibiotic must be used as little as possible to slow the development of resistance, so drug companies earn far less from it than from medicines that patients take every day for years. As a result, many large companies have left the field.
+
+Nevertheless, there are reasons for hope. Researchers are using artificial intelligence to search vast chemical libraries for promising molecules, and in recent years this approach has identified several new candidates. Others are exploring alternatives to traditional antibiotics, such as bacteriophages, which are viruses that infect and destroy specific bacteria. Governments are experimenting with new payment models that reward companies for developing antibiotics even if they are rarely used.
+
+Individuals can help too. Experts advise people to take antibiotics only when prescribed by a doctor, to complete the course as instructed, never to share medicine, and to prevent infections in the first place through vaccination and good hygiene, such as regular hand washing.
+
+Fleming himself predicted the problem. In his Nobel Prize speech in 1945, he warned that misuse of penicillin could lead to resistant bacteria. His warning was largely ignored for decades. Whether we listen now may decide whether the miracle he discovered continues to protect future generations.
+=== GLOSSARY
+mould | mould | noun | /moʊld/ | کپک | There was mould on the old bread.
+bacteria | bacteria | noun | /bækˈtɪriə/ | باکتری‌ها | Some bacteria are good for your stomach.
+treatable | treatable | adjective | /ˈtriːtəbəl/ | قابل درمان | Most skin cancers are treatable if found early.
+life expectancy | life expectancy | noun | /ˈlaɪf ɪkˌspektənsi/ | امید به زندگی | Life expectancy in Japan is very high.
+resistant | resistant | adjective | /rɪˈzɪstənt/ | مقاوم | This plant is resistant to disease.
+reproduce | reproduce | verb | /ˌriːprəˈduːs/ | تکثیر شدن، تولیدمثل کردن | Rabbits reproduce very quickly.
+mutations | mutation | noun | /mjuːˈteɪʃən/ | جهش ژنتیکی | The virus has developed new mutations.
+dominant | dominant | adjective | /ˈdɑːmənənt/ | غالب | English is the dominant language online.
+accelerated | accelerate | verb | /əkˈseləreɪt/ | سرعت بخشیدن | The new policy accelerated economic growth.
+prescribed | prescribe | verb | /prɪˈskraɪb/ | تجویز کردن | The doctor prescribed painkillers.
+prescription | prescription | noun | /prɪˈskrɪpʃən/ | نسخهٔ پزشک | You need a prescription for this medicine.
+strains | strain | noun | /streɪn/ | سویه، نوع (میکروب) | A new strain of flu is spreading.
+immune systems | immune system | noun | /ɪˈmjuːn ˌsɪstəm/ | سیستم ایمنی | Sleep helps your immune system.
+procedures | procedure | noun | /prəˈsiːdʒɚ/ | عمل پزشکی، روش | It's a simple procedure that takes an hour.
+chemotherapy | chemotherapy | noun | /ˌkiːmoʊˈθerəpi/ | شیمی‌درمانی | She lost her hair during chemotherapy.
+vast | vast | adjective | /væst/ | وسیع، عظیم | They own a vast area of farmland.
+candidates | candidate | noun | /ˈkændɪdət/ | گزینه، نامزد | There are three candidates for the job.
+alternatives | alternative | noun | /ɑːlˈtɝːnətɪv/ | جایگزین | Are there any alternatives to surgery?
+hygiene | hygiene | noun | /ˈhaɪdʒiːn/ | بهداشت | Good hygiene prevents disease.
+misuse | misuse | noun | /ˌmɪsˈjuːs/ | سوءاستفاده، مصرف نادرست | Drug misuse is a serious problem.
+=== QUIZ
+Q: Main idea | What is the passage mainly about?
+A) The life and career of Alexander Fleming
+*B) The causes, dangers and possible solutions of antibiotic resistance
+C) The use of artificial intelligence in modern hospitals
+D) The differences between viruses and bacteria
+E: The passage explains why bacteria become resistant, the consequences, and what scientists and individuals can do.
+Q: Detail | Why have many drug companies stopped developing antibiotics?
+A) Governments have banned new antibiotics.
+B) New antibiotics are too dangerous for patients.
+C) Bacteriophages have made antibiotics unnecessary.
+*D) New antibiotics are used sparingly, so they make little profit.
+E: A new antibiotic "must be used as little as possible", so companies "earn far less from it."
+Q: Inference | Why does the writer mention Fleming's Nobel Prize speech at the end?
+A) To show that Fleming discovered bacteriophages
+*B) To emphasise that the danger of resistance was predicted long ago
+C) To argue that penicillin should no longer be used
+D) To explain how Fleming discovered penicillin
+E: Fleming "warned that misuse of penicillin could lead to resistant bacteria", which highlights that the problem was foreseeable.
+Q: Vocabulary | In "Human behaviour has accelerated this process", "accelerated" means:
+A) prevented
+B) explained
+*C) made faster
+D) made more visible
+E: The examples that follow (unnecessary prescriptions, farm use) show how humans have made resistance develop more quickly.

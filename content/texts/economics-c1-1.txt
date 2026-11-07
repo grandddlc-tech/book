@@ -1,0 +1,73 @@
+id: economics-c1-1
+kind: fact
+key: economics
+level: C1
+title: The Irrational Economy
+---
+For much of the twentieth century, mainstream economics rested on a convenient fiction. Its models assumed that people behave as Homo economicus, a perfectly rational agent who possesses complete information, calculates the costs and benefits of every option with flawless precision, and consistently chooses whatever maximises their self-interest. Economists rarely believed that real people behaved exactly this way, but they argued that the assumption was a reasonable approximation, and that individual deviations would cancel each other out in aggregate. From the 1970s onwards, a growing body of research began to challenge this view, giving rise to the field now known as behavioural economics.
+
+The pioneers of this movement were two Israeli psychologists, Daniel Kahneman and Amos Tversky. Through a series of ingenious experiments, they demonstrated that human judgement departs from rationality not randomly but systematically, in predictable directions. People rely on mental shortcuts, or heuristics, that usually serve them well but can lead to consistent errors, which the researchers termed cognitive biases.
+
+One of their most influential contributions was prospect theory, published in 1979. Among its central insights is loss aversion: the observation that losses loom larger than equivalent gains. Losing a hundred dollars, experiments suggest, causes roughly twice as much psychological pain as gaining a hundred dollars causes pleasure. This asymmetry helps explain a range of behaviour that conventional models struggle to account for, such as why investors hold on to falling shares far too long, reluctant to "realise" a loss, while selling rising shares too early.
+
+Closely related is the endowment effect, the tendency to value things more highly simply because we own them. In a famous experiment, participants who were given a coffee mug demanded significantly more money to sell it than other participants were willing to pay to acquire an identical mug. From a purely rational perspective, ownership should not alter an object's value; in practice, it clearly does.
+
+Framing effects provide a further illustration. Kahneman and Tversky showed that people's choices can be reversed merely by changing how identical options are described. When a medical treatment was presented as having a ninety percent survival rate, participants were considerably more likely to favour it than when it was described as having a ten percent mortality rate, although the two statements are logically equivalent. Similarly, anchoring describes how arbitrary initial numbers influence subsequent estimates: in one experiment, participants who spun a rigged wheel landing on a high number gave higher estimates of the percentage of African nations in the United Nations than those whose wheel landed on a low number.
+
+The economist Richard Thaler, who received the Nobel Prize in 2017, extended these ideas into everyday economic life. He coined the term "mental accounting" to describe how people treat money differently depending on its source or intended use, for instance spending a tax refund or lottery winnings more freely than an equivalent sum from their salary, despite money being fungible. With the legal scholar Cass Sunstein, Thaler also developed the concept of the "nudge": a change in the way choices are presented that steers people towards better decisions without restricting their freedom.
+
+The most celebrated example concerns retirement savings. When employees must actively sign up for a pension plan, many never do so, not because they have decided against saving but because of inertia and procrastination. When enrolment is automatic, with the option to withdraw, participation rates rise dramatically. Governments in several countries, including the United Kingdom, have adopted such default arrangements, and so-called "nudge units" have been established to apply behavioural insights to public policy, from encouraging tax payments to reducing energy consumption.
+
+Behavioural economics has not been without its critics. Some economists argue that many biases observed in laboratory settings diminish when stakes are high or when people gain experience, and that markets can discipline irrational behaviour. Moreover, the field has been affected by the broader replication crisis in psychology; several well-publicised findings have failed to reproduce in larger studies, prompting calls for greater methodological rigour. Ethical concerns have also been raised about nudging, with critics warning that it can shade into manipulation, particularly when used by corporations whose interests may diverge from those of consumers.
+
+Nonetheless, the discipline's central achievement is difficult to dispute. It has shifted economics towards a more realistic portrait of human beings, as creatures whose decisions are shaped by emotion, context and habit as much as by calculation. Understanding these tendencies does not make us immune to them, but it may help us design institutions, and perhaps our own lives, in ways that account for the people we actually are rather than the people economists once assumed us to be.
+=== GLOSSARY
+mainstream | mainstream | adjective | /ˈmeɪnstriːm/ | جریان اصلی، رایج | His ideas are outside mainstream politics.
+flawless | flawless | adjective | /ˈflɑːləs/ | بی‌نقص | She gave a flawless performance.
+deviations | deviation | noun | /ˌdiːviˈeɪʃən/ | انحراف | Any deviation from the plan must be reported.
+in aggregate | in aggregate | phrase | /ɪn ˈæɡrɪɡət/ | در مجموع | In aggregate, sales increased by ten percent.
+ingenious | ingenious | adjective | /ɪnˈdʒiːniəs/ | مبتکرانه، هوشمندانه | It was an ingenious solution.
+heuristics | heuristic | noun | /hjʊˈrɪstɪk/ | قاعدهٔ سرانگشتی، میان‌بر ذهنی | We use heuristics to make quick decisions.
+biases | bias | noun | /ˈbaɪəs/ | سوگیری | The study showed a clear bias against women.
+loom | loom | verb | /luːm/ | بزرگ و تهدیدآمیز به نظر رسیدن | The exams loomed large in her mind.
+asymmetry | asymmetry | noun | /eɪˈsɪmətri/ | عدم تقارن | There is an asymmetry of information between buyer and seller.
+reluctant | reluctant | adjective | /rɪˈlʌktənt/ | بی‌میل، اکراه‌دار | He was reluctant to admit his mistake.
+endowment | endowment | noun | /ɪnˈdaʊmənt/ | دارایی، موهبت | The university received a large endowment.
+equivalent | equivalent | adjective | /ɪˈkwɪvələnt/ | معادل | Five kilometres is roughly equivalent to three miles.
+arbitrary | arbitrary | adjective | /ˈɑːrbətreri/ | دلبخواهی، بی‌منطق | The decision seemed completely arbitrary.
+rigged | rigged | adjective | /rɪɡd/ | دستکاری‌شده، تقلبی | The election was rigged.
+coined | coin | verb | /kɔɪn/ | ابداع کردن (واژه) | Who coined the word "internet"?
+fungible | fungible | adjective | /ˈfʌndʒəbəl/ | قابل جایگزینی (هر واحد معادل دیگری) | Money is fungible: one dollar is as good as another.
+steers | steer | verb | /stɪr/ | هدایت کردن | She steered the conversation towards work.
+inertia | inertia | noun | /ɪˈnɝːʃə/ | سکون، تنبلی در تغییر | Many people stay with the same bank out of inertia.
+enrolment | enrolment | noun | /ɪnˈroʊlmənt/ | ثبت‌نام | Enrolment for the course opens in May.
+default | default | adjective | /dɪˈfɑːlt/ | پیش‌فرض | The default language is English.
+replication | replication | noun | /ˌreplɪˈkeɪʃən/ | تکرار (آزمایش) | Replication is essential in science.
+rigour | rigour | noun | /ˈrɪɡɚ/ | دقت و سختگیری علمی | The study lacks scientific rigour.
+manipulation | manipulation | noun | /məˌnɪpjəˈleɪʃən/ | دستکاری، فریب | Advertising can involve emotional manipulation.
+immune | immune | adjective | /ɪˈmjuːn/ | مصون، ایمن | Nobody is immune to criticism.
+=== QUIZ
+Q: Main idea | What is the passage mainly about?
+A) The life of Daniel Kahneman
+*B) How behavioural economics challenged the idea of perfectly rational economic agents
+C) Why pension plans should be compulsory
+D) The causes of the replication crisis in psychology
+E: The passage contrasts Homo economicus with research showing systematic biases, and discusses applications and criticisms.
+Q: Detail | What did the coffee mug experiment demonstrate?
+A) People prefer money to objects.
+B) Anchoring affects estimates of numbers.
+*C) People value things more once they own them.
+D) Losses and gains are felt equally.
+E: Owners "demanded significantly more money to sell it than other participants were willing to pay", which is the endowment effect.
+Q: Inference | Why does automatic enrolment increase participation in pension plans?
+A) Employees are forced to save and cannot leave the plan.
+*B) It works with people's tendency to stay with the default option.
+C) It offers higher interest rates than other plans.
+D) It removes the need for employees to work.
+E: Many people never sign up because of "inertia and procrastination", so making saving the default uses that tendency in their favour.
+Q: Vocabulary | In "despite money being fungible", "fungible" means:
+A) difficult to earn
+B) easily lost
+*C) interchangeable, with each unit worth the same as any other
+D) protected by law
+E: Mental accounting is irrational because a dollar from a refund is the same as a dollar from a salary; money is interchangeable.

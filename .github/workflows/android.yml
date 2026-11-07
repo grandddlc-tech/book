@@ -1,0 +1,57 @@
+name: Android APK
+
+on:
+  push:
+    branches: [ccr-a68251be-qxa4n6, main]
+    paths: ["src/**", "android/**", "build.sh", ".github/workflows/android.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "8.14.3"
+      - name: Bundle web app into the APK
+        run: |
+          ./build.sh
+          mkdir -p android/app/src/main/assets
+          cp index.html android/app/src/main/assets/index.html
+      - name: Prepare signing key
+        env:
+          KEYSTORE_B64: ${{ secrets.LUMEN_KEYSTORE_B64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.LUMEN_KEYSTORE_PASSWORD }}
+        run: |
+          KS="$RUNNER_TEMP/lumen.keystore"
+          if [ -n "$KEYSTORE_B64" ] && [ -n "$KEYSTORE_PASSWORD" ]; then
+            echo "$KEYSTORE_B64" | base64 -d > "$KS"
+            PW="$KEYSTORE_PASSWORD"
+          else
+            echo "::warning::No signing secrets set; using a one-off key (installing a newer APK will need an uninstall first)."
+            PW="$(openssl rand -hex 16)"
+            keytool -genkeypair -keystore "$KS" -storepass "$PW" -keypass "$PW" -alias lumen -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Lumen Reader"
+          fi
+          echo "::add-mask::$PW"
+          echo "LUMEN_KEYSTORE=$KS" >> "$GITHUB_ENV"
+          echo "LUMEN_KEYSTORE_PASSWORD=$PW" >> "$GITHUB_ENV"
+      - name: Build signed APK
+        working-directory: android
+        run: gradle assembleRelease -PversionCode=${{ github.run_number }} --no-daemon
+      - run: cp android/app/build/outputs/apk/release/app-release.apk LumenReader.apk
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v1.0.${{ github.run_number }}
+          name: Lumen Reader 1.0.${{ github.run_number }}
+          target_commitish: ${{ github.sha }}
+          make_latest: true
+          files: LumenReader.apk

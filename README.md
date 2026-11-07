@@ -15,3 +15,13 @@ A mobile-first English reading practice app (B2 / C1).
 
 - `src/page.html`: the app (published as a Claude artifact, where text generation runs on the viewer's Claude account and data is saved privately per user)
 - `index.html`: standalone build (`./build.sh`). Opened outside Claude, it asks for an Anthropic API key, kept in the browser's localStorage, and saves data locally.
+
+## Android app
+
+`android/` wraps the app in a WebView (American-English pronunciation through Android's TextToSpeech).
+GitHub Actions (`.github/workflows/android.yml`) builds a signed APK on every push and publishes it as a release:
+https://github.com/grandddlc-tech/book/releases/latest/download/LumenReader.apk
+
+The app asks for an Anthropic API key on first launch; it is stored on the phone only.
+For APKs that install as updates over each other, add repository secrets `LUMEN_KEYSTORE_B64`
+(base64 of a keystore with alias `lumen`) and `LUMEN_KEYSTORE_PASSWORD`. Without them each build uses a one-off key.

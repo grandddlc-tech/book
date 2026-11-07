@@ -33,4 +33,4 @@ android {
     }
 }
 
-dependencies { implementation("androidx.webkit:webkit:1.12.1") }
+dependencies { implementation("androidx.browser:browser:1.8.0") }

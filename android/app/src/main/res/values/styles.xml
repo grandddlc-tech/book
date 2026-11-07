@@ -6,4 +6,10 @@
         <item name="android:navigationBarColor">#FF08060F</item>
         <item name="android:colorAccent">#FFA855F7</item>
     </style>
+    <style name="Launcher" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
 </resources>

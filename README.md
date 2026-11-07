@@ -18,10 +18,11 @@ A mobile-first English reading practice app (B2 / C1).
 
 ## Android app
 
-`android/` wraps the app in a WebView (American-English pronunciation through Android's TextToSpeech).
+`android/` is a small launcher that opens the published Lumen Reader artifact
+(https://claude.ai/artifact/WqR8encep5Bdj4cSUUSoAj) in a Chrome Custom Tab. It uses the Claude
+account signed in to Chrome, so no API key is needed.
 GitHub Actions (`.github/workflows/android.yml`) builds a signed APK on every push and publishes it as a release:
 https://github.com/grandddlc-tech/book/releases/latest/download/LumenReader.apk
 
-The app asks for an Anthropic API key on first launch; it is stored on the phone only.
 For APKs that install as updates over each other, add repository secrets `LUMEN_KEYSTORE_B64`
 (base64 of a keystore with alias `lumen`) and `LUMEN_KEYSTORE_PASSWORD`. Without them each build uses a one-off key.

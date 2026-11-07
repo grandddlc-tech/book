@@ -1,0 +1,746 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#0a0912"></head><body>
+<title>Lumen Reader</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=Manrope:wght@400;600;700;800&family=Vazirmatn:wght@400;600&display=swap">
+<style>
+/* Layout: one column app, bottom tab bar, floating glass cards over drifting neon orbs; each genre re-tints the orbs and accents. */
+:root{
+  color-scheme:dark;
+  --bg:#0a0912; --bg2:#120f1f;
+  --fg:#efeaff; --muted:#a8a1c4; --faint:#6f6a8a;
+  --glass:rgba(255,255,255,.055); --glass2:rgba(255,255,255,.09); --line:rgba(255,255,255,.12);
+  --a1:#a855f7; --a2:#ec4899; --a3:#3b82f6;
+  --m1:var(--a1); --m2:var(--a3); --m3:var(--a2); --on:#fff;
+  --ok:#34d399; --bad:#fb7185;
+  --display:"Fraunces",Georgia,"Times New Roman",serif;
+  --read:"Literata",Georgia,"Times New Roman",serif;
+  --ui:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --fa:"Vazirmatn",Tahoma,sans-serif;
+  --r:20px; --fs:1.18rem;
+}
+body[data-mood="war"]{--m1:#e0b15a;--m2:#8a5a2b;--m3:#c98a3d;--bg:#0d0a07;--bg2:#1a130b}
+body[data-mood="love"]{--m1:#ff7aa8;--m2:#c2346a;--m3:#ffb3c9;--bg:#100810;--bg2:#1c0b17}
+body[data-mood="horror"]{--m1:#d7192a;--m2:#4a0008;--m3:#ff3b3b;--bg:#050304;--bg2:#100406}
+body[data-mood="fact"]{--m1:#8b7bff;--m2:#22b8f0;--m3:#c06cff}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{min-height:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 var(--ui);overflow-x:hidden;transition:background .8s}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--bg)}
+button{font:inherit;color:inherit;cursor:pointer;border:0;background:none}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--m1);outline-offset:2px}
+.sky{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden;background:radial-gradient(120% 80% at 50% -10%,var(--bg2),var(--bg) 60%)}
+.orb{position:absolute;border-radius:50%;filter:blur(70px);opacity:.42;transition:background 1s}
+.orb.o1{width:62vmax;height:62vmax;left:-20vmax;top:-22vmax;background:var(--m1);animation:drift 22s ease-in-out infinite alternate}
+.orb.o2{width:52vmax;height:52vmax;right:-22vmax;top:30vh;background:var(--m2);animation:drift 28s ease-in-out infinite alternate-reverse}
+.orb.o3{width:40vmax;height:40vmax;left:10vw;bottom:-24vmax;background:var(--m3);opacity:.28;animation:drift 34s ease-in-out infinite alternate}
+body[data-mood="horror"] .orb{opacity:.3}
+.grain{position:absolute;inset:0;opacity:.06;background-image:radial-gradient(rgba(255,255,255,.7) 1px,transparent 1px);background-size:3px 3px}
+@keyframes drift{to{transform:translate(8vmax,6vmax) scale(1.12)}}
+.app{position:relative;z-index:1;max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:18px calc(110px + env(safe-area-inset-bottom,0px))}
+.glass{background:linear-gradient(160deg,var(--glass2),var(--glass));border:1px solid var(--line);border-radius:var(--r);backdrop-filter:blur(18px) saturate(140%);-webkit-backdrop-filter:blur(18px) saturate(140%);box-shadow:0 10px 40px rgba(0,0,0,.35),inset 0 1px 0 rgba(255,255,255,.08)}
+.view{display:flex;flex-direction:column;gap:18px;animation:rise .5s cubic-bezier(.2,.8,.2,1)}
+@keyframes rise{from{opacity:.001;transform:translateY(14px)}to{opacity:1;transform:none}}
+header.top{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{font-family:var(--display);font-size:1.6rem;font-weight:700;letter-spacing:-.01em;background:linear-gradient(90deg,#c4a8ff,#ff8ad1,#7cc4ff);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 18px rgba(196,140,255,.45))}
+.lvl{display:flex;padding:4px;gap:4px;border-radius:999px}
+.lvl button{padding:7px 14px;border-radius:999px;font-weight:800;font-size:.85rem;color:var(--muted);transition:.25s}
+.lvl button[aria-pressed="true"]{color:#fff;background:linear-gradient(135deg,var(--a1),var(--a2));box-shadow:0 0 18px rgba(236,72,153,.55)}
+.hero{padding:22px}
+.hero h1{font-family:var(--display);font-size:clamp(1.6rem,6vw,2.3rem);line-height:1.12;margin:0 0 8px;text-wrap:balance}
+.hero p{margin:0;color:var(--muted)}
+.statline{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:16px}
+.statline b{display:block;font-size:1.35rem;font-variant-numeric:tabular-nums}
+.statline span{font-size:.68rem;color:var(--faint);text-transform:uppercase;letter-spacing:.08em}
+.sect-h{display:flex;align-items:baseline;justify-content:space-between;margin:6px 4px -4px}
+.sect-h h2{font-family:var(--display);font-size:1.25rem;margin:0}
+.sect-h small{color:var(--faint);font-size:.78rem;letter-spacing:.06em;text-transform:uppercase}
+.genres{display:grid;grid-template-columns:1fr;gap:12px}
+.genre{position:relative;overflow:hidden;text-align:left;padding:20px 20px 18px;border-radius:var(--r);border:1px solid rgba(255,255,255,.14);min-height:118px;display:flex;flex-direction:column;justify-content:flex-end;gap:4px;transition:transform .25s,box-shadow .25s}
+.genre:active{transform:scale(.98)}
+.genre .gt{font-family:var(--display);font-size:1.45rem;font-weight:700;position:relative}
+.genre .gs{font-size:.86rem;opacity:.85;position:relative;max-width:30ch}
+.genre .gi{position:absolute;right:14px;top:12px;width:62px;height:62px;opacity:.9}
+.genre.war{background:linear-gradient(135deg,#3b2410,#a8742e 70%,#e8c27a);box-shadow:0 0 32px rgba(224,177,90,.28)}
+.genre.love{background:linear-gradient(135deg,#4a0f2c,#c2346a 60%,#ff9fbf);box-shadow:0 0 32px rgba(255,122,168,.3)}
+.genre.horror{background:linear-gradient(135deg,#000,#2a0005 45%,#8f0d17);box-shadow:0 0 32px rgba(215,25,42,.32);border-color:rgba(255,40,60,.25)}
+.genre::after{content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 30%,rgba(255,255,255,.18) 48%,transparent 62%);transform:translateX(-120%);transition:transform .9s}
+.genre:hover::after{transform:translateX(120%)}
+.fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.field{padding:14px;border-radius:16px;text-align:left;display:flex;flex-direction:column;gap:6px;transition:.25s;min-width:0}
+.field:hover,.field:active{border-color:rgba(160,140,255,.55);box-shadow:0 0 24px rgba(139,123,255,.35)}
+.field .ic{width:34px;height:34px;border-radius:11px;display:grid;place-items:center;background:linear-gradient(135deg,var(--fc1),var(--fc2));box-shadow:0 0 16px var(--fc1)}
+.field .ic svg{width:19px;height:19px;stroke:#fff;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.field b{font-size:.95rem}
+.field span{font-size:.75rem;color:var(--faint);line-height:1.3}
+@media (min-width:560px){.genres{grid-template-columns:repeat(3,1fr)}.fields{grid-template-columns:repeat(3,1fr)}}
+.notice{padding:14px 16px;font-size:.88rem;color:var(--muted);display:flex;flex-direction:column;gap:10px}
+.notice input{width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(--line);background:rgba(0,0,0,.35);color:var(--fg);font:inherit}
+/* Reader */
+.rbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:16px}
+.rbar .back{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;background:var(--glass2)}
+.rbar .meta{flex:1;min-width:0;font-size:.8rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rbar .meta b{color:var(--m1);text-shadow:0 0 12px var(--m1)}
+.fsz{display:flex;gap:4px}
+.fsz button{width:34px;height:34px;border-radius:10px;background:var(--glass2);font-weight:800}
+.paper{padding:26px 22px 30px}
+.kicker{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--m1);text-shadow:0 0 14px var(--m1);font-weight:800}
+.paper h1{font-family:var(--display);font-size:clamp(1.7rem,6.5vw,2.4rem);line-height:1.12;margin:10px 0 6px;text-wrap:balance}
+.paper .sub{color:var(--muted);font-size:.85rem;margin-bottom:18px;font-variant-numeric:tabular-nums}
+.prose{font-family:var(--read);font-size:var(--fs);line-height:1.78;color:#ece6f7;max-width:65ch;hyphens:auto}
+.prose p{margin:0 0 1.05em}
+.prose p:first-child::first-letter{font-family:var(--display);float:left;font-size:3.3em;line-height:.9;padding:.06em .1em 0 0;color:var(--m1);text-shadow:0 0 22px var(--m1)}
+.w{border-radius:5px;transition:background .15s;cursor:pointer}
+.w:hover{background:rgba(255,255,255,.07)}
+.w.saved{background:linear-gradient(transparent 62%,color-mix(in srgb,var(--m1) 38%,transparent) 62%)}
+.w.sel{background:color-mix(in srgb,var(--m1) 40%,transparent);box-shadow:0 0 14px var(--m1)}
+.cursor{display:inline-block;width:.5em;height:1em;vertical-align:-.12em;background:var(--m1);box-shadow:0 0 12px var(--m1);animation:blink 1s steps(2) infinite}
+@keyframes blink{50%{opacity:0}}
+.loading{display:flex;flex-direction:column;align-items:center;gap:14px;padding:40px 10px;text-align:center;color:var(--muted)}
+.ring{width:56px;height:56px;border-radius:50%;background:conic-gradient(var(--m1),var(--m2),var(--m3),var(--m1));-webkit-mask:radial-gradient(farthest-side,transparent calc(100% - 5px),#000 0);mask:radial-gradient(farthest-side,transparent calc(100% - 5px),#000 0);animation:spin 1.1s linear infinite;filter:drop-shadow(0 0 12px var(--m1))}
+@keyframes spin{to{transform:rotate(1turn)}}
+.btn{padding:13px 18px;border-radius:14px;font-weight:800;display:inline-flex;align-items:center;justify-content:center;gap:8px;transition:.2s}
+.btn.pri{color:#fff;background:linear-gradient(135deg,var(--m1),var(--m2));box-shadow:0 0 24px color-mix(in srgb,var(--m1) 60%,transparent)}
+.btn.pri:active{transform:scale(.97)}
+.btn.ghost{background:var(--glass2);border:1px solid var(--line)}
+.btn[disabled]{opacity:.5;pointer-events:none}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+.row>.btn{flex:1 1 140px}
+.err{padding:16px;border-radius:14px;border:1px solid rgba(251,113,133,.4);background:rgba(251,113,133,.08);color:#ffd2da;font-size:.9rem}
+/* timer dock */
+.dock{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(84px + env(safe-area-inset-bottom,0px));z-index:25;display:flex;align-items:center;gap:12px;padding:8px 8px 8px 16px;border-radius:999px;width:min(calc(100% - 32px),420px)}
+.dock .clock{font-variant-numeric:tabular-nums;font-weight:800;font-size:1.15rem;flex:1;display:flex;align-items:center;gap:8px}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--faint)}
+.dot.live{background:var(--m1);box-shadow:0 0 12px var(--m1);animation:pulse 1.4s infinite}
+@keyframes pulse{50%{opacity:.35}}
+.dock .btn{padding:10px 16px;border-radius:999px}
+.wpm{padding:18px;display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center}
+.wpm b{display:block;font-size:1.5rem;font-variant-numeric:tabular-nums;color:var(--m1);text-shadow:0 0 16px var(--m1)}
+.wpm span{font-size:.72rem;color:var(--faint);text-transform:uppercase;letter-spacing:.08em}
+/* quiz */
+.quiz{padding:22px 18px;display:flex;flex-direction:column;gap:22px}
+.quiz h2{font-family:var(--display);margin:0;font-size:1.35rem}
+.q{display:flex;flex-direction:column;gap:9px}
+.q .qt{font-weight:700;font-size:1rem;line-height:1.45}
+.q .qt small{display:block;color:var(--m1);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;margin-bottom:3px}
+.opt{text-align:left;padding:12px 14px;border-radius:13px;background:rgba(255,255,255,.04);border:1px solid var(--line);display:flex;gap:10px;align-items:flex-start;line-height:1.4;transition:.2s}
+.opt .k{flex:none;width:24px;height:24px;border-radius:8px;display:grid;place-items:center;font-size:.78rem;font-weight:800;background:var(--glass2)}
+.opt:hover{border-color:color-mix(in srgb,var(--m1) 60%,transparent)}
+.opt.right{border-color:var(--ok);background:rgba(52,211,153,.12);box-shadow:0 0 18px rgba(52,211,153,.25)}
+.opt.wrong{border-color:var(--bad);background:rgba(251,113,133,.12)}
+.opt[disabled]{cursor:default}
+.expl{font-size:.88rem;color:var(--muted);padding:10px 12px;border-left:2px solid var(--m1);background:rgba(255,255,255,.03);border-radius:0 10px 10px 0}
+.score{text-align:center;padding:6px;font-weight:800;font-size:1.1rem}
+/* sheet */
+.scrim{position:fixed;inset:0;z-index:40;background:rgba(0,0,0,.5);opacity:0;pointer-events:none;transition:.25s}
+.scrim.on{opacity:1;pointer-events:auto}
+.sheet{position:fixed;left:0;right:0;bottom:0;z-index:41;max-width:640px;margin:0 auto;border-radius:24px 24px 0 0;padding:10px max(20px,env(safe-area-inset-left,0px)) calc(22px + env(safe-area-inset-bottom,0px)) max(20px,env(safe-area-inset-right,0px));transform:translateY(110%);visibility:hidden;transition:transform .35s cubic-bezier(.2,.8,.2,1),visibility 0s .35s;background:linear-gradient(170deg,rgba(40,30,70,.92),rgba(16,12,30,.96));border:1px solid var(--line);box-shadow:0 -10px 60px rgba(0,0,0,.6),0 0 40px color-mix(in srgb,var(--m1) 25%,transparent)}
+.sheet.on{transform:none;visibility:visible;transition:transform .35s cubic-bezier(.2,.8,.2,1)}
+.grab{width:42px;height:5px;border-radius:9px;background:rgba(255,255,255,.25);margin:0 auto 14px}
+.sw{display:flex;align-items:center;gap:12px}
+.sw h3{margin:0;font-family:var(--display);font-size:1.9rem;flex:1;min-width:0;overflow-wrap:anywhere}
+.ipa{color:var(--muted);font-size:.9rem;margin-top:2px}
+.ipa i{color:var(--m1);font-style:normal;font-weight:700;margin-right:8px}
+.speak{width:46px;height:46px;flex:none;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,var(--a1),var(--a3));box-shadow:0 0 20px rgba(139,123,255,.6)}
+.speak svg,.mini svg{width:20px;height:20px;fill:#fff}
+.fa{direction:rtl;text-align:right;font-family:var(--fa);font-size:1.25rem;font-weight:600;margin:14px 0 6px;color:#fff}
+.def{color:var(--muted);font-size:.9rem;margin:0 0 12px}
+.ex{padding:12px 14px;border-radius:14px;background:rgba(255,255,255,.05);border:1px solid var(--line);display:flex;gap:10px;align-items:flex-start}
+.ex p{margin:0;font-family:var(--read);font-size:1rem;line-height:1.55;flex:1}
+.ex .exfa{direction:rtl;text-align:right;font-family:var(--fa);color:var(--muted);font-size:.88rem;margin-top:6px}
+.mini{width:34px;height:34px;flex:none;border-radius:50%;display:grid;place-items:center;background:var(--glass2)}
+.mini svg{width:15px;height:15px}
+.sheet .btn{width:100%;margin-top:14px}
+.btn.done{background:rgba(52,211,153,.15);color:#a7f3d0;box-shadow:0 0 18px rgba(52,211,153,.3)}
+/* vocab */
+.toolbar{display:flex;gap:10px;align-items:center}
+.toolbar input{flex:1;min-width:0;padding:12px 14px;border-radius:14px;border:1px solid var(--line);background:rgba(0,0,0,.3);color:var(--fg);font:inherit}
+.vlist{display:flex;flex-direction:column;gap:10px}
+.vcard{padding:14px 16px;display:grid;grid-template-columns:1fr auto;gap:4px 10px;align-items:center}
+.vcard .vw{font-family:var(--display);font-size:1.25rem;font-weight:700}
+.vcard .vw small{font-family:var(--ui);font-size:.75rem;color:var(--faint);font-weight:400;margin-left:6px}
+.vcard .vf{direction:rtl;text-align:right;font-family:var(--fa);grid-column:1/-1;color:#fff}
+.vcard .ve{grid-column:1/-1;font-family:var(--read);color:var(--muted);font-size:.92rem}
+.vcard .acts{display:flex;gap:6px}
+.empty{padding:28px 20px;text-align:center;color:var(--muted)}
+.empty b{display:block;font-family:var(--display);font-size:1.2rem;color:var(--fg);margin-bottom:6px}
+.flash{perspective:1200px;height:300px}
+.card3{position:relative;width:100%;height:100%;transition:transform .6s cubic-bezier(.2,.8,.2,1);transform-style:preserve-3d;cursor:pointer}
+.card3.flip{transform:rotateY(180deg)}
+.face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:22px;text-align:center}
+.face.b{transform:rotateY(180deg)}
+.face .big{font-family:var(--display);font-size:2.3rem;font-weight:700;text-shadow:0 0 24px rgba(196,140,255,.6)}
+.face .hint{font-size:.78rem;color:var(--faint)}
+/* progress */
+.tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.tile{padding:18px 16px}
+.tile b{display:block;font-family:var(--display);font-size:2.1rem;line-height:1;font-variant-numeric:tabular-nums;background:linear-gradient(135deg,#d8c4ff,#ff9dd6);-webkit-background-clip:text;background-clip:text;color:transparent}
+.tile span{font-size:.75rem;color:var(--faint);text-transform:uppercase;letter-spacing:.08em}
+.tile em{display:block;font-style:normal;font-size:.8rem;color:var(--muted);margin-top:6px}
+.chart{padding:18px 16px}
+.chart h3,.hist h3{margin:0 0 12px;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
+.bars{display:flex;align-items:flex-end;gap:6px;height:120px}
+.bars div{flex:1;min-width:0;max-width:46px;border-radius:6px 6px 2px 2px;background:linear-gradient(to top,var(--a3),var(--a1),var(--a2));box-shadow:0 0 12px rgba(168,85,247,.4);position:relative}
+.bars div span{position:absolute;top:-18px;left:50%;transform:translateX(-50%);font-size:.65rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.hist{padding:18px 16px}
+.hrow{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;padding:10px 0;border-top:1px solid var(--line)}
+.hrow:first-of-type{border-top:0}
+.pill{font-size:.68rem;font-weight:800;padding:4px 8px;border-radius:999px;text-transform:uppercase;letter-spacing:.06em}
+.pill.war{background:rgba(224,177,90,.18);color:#f0cc85}.pill.love{background:rgba(255,122,168,.18);color:#ffb1cb}.pill.horror{background:rgba(215,25,42,.2);color:#ff8c95}.pill.fact{background:rgba(139,123,255,.18);color:#c6bdff}
+.hrow .ht{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.9rem}
+.hrow .ht small{display:block;color:var(--faint);font-size:.75rem}
+.hrow .hs{text-align:right;font-variant-numeric:tabular-nums;font-size:.85rem;font-weight:700}
+.bars-cat{display:flex;flex-direction:column;gap:9px}
+.bc{display:grid;grid-template-columns:96px 1fr 44px;gap:10px;align-items:center;font-size:.82rem}
+.bc .track{height:8px;border-radius:9px;background:rgba(255,255,255,.07);overflow:hidden}
+.bc .fill{height:100%;border-radius:9px;background:linear-gradient(90deg,var(--a1),var(--a2));box-shadow:0 0 10px var(--a2)}
+.bc b{text-align:right;font-variant-numeric:tabular-nums}
+/* nav */
+nav.tabs{position:fixed;left:0;right:0;bottom:0;z-index:26;padding:8px max(16px,env(safe-area-inset-right,0px)) calc(8px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));background:linear-gradient(to top,rgba(8,6,16,.94),rgba(8,6,16,.7));backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-top:1px solid var(--line)}
+nav.tabs .in{max-width:520px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+nav.tabs button{display:flex;flex-direction:column;align-items:center;gap:3px;padding:7px 0;border-radius:14px;font-size:.72rem;font-weight:700;color:var(--faint);transition:.25s}
+nav.tabs svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+nav.tabs button[aria-current="page"]{color:#fff;background:linear-gradient(135deg,rgba(168,85,247,.28),rgba(236,72,153,.2));box-shadow:0 0 18px rgba(168,85,247,.35)}
+nav.tabs button[aria-current="page"] svg{filter:drop-shadow(0 0 6px #c084fc)}
+.toast{position:fixed;left:50%;top:calc(16px + env(safe-area-inset-top,0px));transform:translate(-50%,-140%);opacity:0;z-index:60;padding:10px 18px;border-radius:999px;font-weight:700;font-size:.88rem;transition:transform .35s;background:linear-gradient(135deg,var(--a1),var(--a2));box-shadow:0 0 24px rgba(236,72,153,.5);color:#fff;white-space:nowrap}
+.toast.on{transform:translate(-50%,0);opacity:1}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+
+<div class="sky" aria-hidden="true"><div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div><div class="grain"></div></div>
+<main class="app" id="app"></main>
+<nav class="tabs" aria-label="Sections"><div class="in">
+  <button data-tab="home" aria-current="page"><svg viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5"/></svg>Read</button>
+  <button data-tab="vocab"><svg viewBox="0 0 24 24"><path d="M6 3h12v18l-6-4-6 4z"/></svg>Word Book</button>
+  <button data-tab="progress"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Progress</button>
+</div></nav>
+<div class="scrim" id="scrim"></div>
+<section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Word details"></section>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+(() => {
+"use strict";
+const $ = (s, r = document) => r.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const pick = a => a[Math.floor(Math.random() * a.length)];
+const LS = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+};
+
+/* ---------- content catalogue ---------- */
+const GENRES = {
+  war: { name: "War & History", tag: "Historical fiction", blurb: "Battlefields, empires, ordinary people in extraordinary times.",
+    seeds: ["a field nurse in 1916 Flanders", "a Persian messenger during the siege of a Silk Road city", "a codebreaker in 1942 London", "a Roman legionary on Hadrian's Wall", "a samurai's daughter during the Boshin War", "a Polish resistance courier in 1944 Warsaw", "a sailor at the Battle of Trafalgar", "a Mongol scout before the fall of Baghdad", "a Union drummer boy at Gettysburg", "a mapmaker in Napoleon's retreat from Moscow", "a Byzantine guard during the siege of 1453", "a radio operator in the Battle of Stalingrad", "a Spartan helot at Thermopylae", "a translator at the Nuremberg trials", "a Safavid archer at the Battle of Chaldiran", "a pilot's mechanic in the Battle of Britain", "a farmer hiding refugees in the Thirty Years' War", "a war photographer in 1968 Hue"],
+    twists: ["an unexpected act of mercy", "a betrayal that is not what it seems", "a letter that arrives too late", "a decision under fire", "a stranger who changes the outcome", "a quiet ending after chaos"] },
+  love: { name: "Romance", tag: "Love story", blurb: "Chance meetings, longing, second chances.",
+    seeds: ["two strangers sharing an umbrella in Lisbon", "rival bakers on the same street in Montreal", "pen pals who finally meet in Istanbul", "a violinist and a deaf painter", "old flames reunited at a train station in Kyoto", "a night-shift nurse and a lighthouse keeper", "two translators at a summit in Geneva", "a bookshop owner and a customer who only buys poetry", "lovers separated by a closed border", "a botanist and a stubborn architect in Tehran", "a wedding photographer who falls for the best man", "two climbers stuck in a mountain hut", "a pianist on a cruise ship and a passenger who never smiles", "an astronomer and a fisherman in Iceland"],
+    twists: ["a misunderstanding that is finally cleared", "a bittersweet goodbye", "a long-held secret confession", "a choice between career and love", "a second chance years later", "a small gesture that says everything"] },
+  horror: { name: "Horror", tag: "Dark tale", blurb: "Creeping dread, uncanny places, endings that linger.",
+    seeds: ["a night guard in an empty natural history museum", "a family moving into a house with one locked room", "a sleep-study volunteer who hears whispers", "a deep-sea research station losing contact", "a village where nobody casts a shadow", "a voicemail from a phone that was buried", "an antique mirror that shows tomorrow", "hikers who find a cabin with their own photographs", "a radio host taking calls from the dead", "a night train that never reaches its station", "a child's imaginary friend who leaves footprints", "a lighthouse keeper counting ships that do not exist", "an elevator with a floor that should not be there", "a translator working on a diary written in an unknown hand"],
+    twists: ["a final line that reframes everything", "a narrator who is not who they seem", "a slow realisation rather than a jump scare", "an ambiguous ending", "a rule that must never be broken", "the monster turns out to be human"] }
+};
+const ICON = {
+  science: '<path d="M9 3h6M10 3v6L4.5 19a1.5 1.5 0 0 0 1.3 2h12.4a1.5 1.5 0 0 0 1.3-2L14 9V3"/><path d="M7 15h10"/>',
+  medicine: '<path d="M10 3h4v7h7v4h-7v7h-4v-7H3v-4h7z"/>',
+  biology: '<path d="M7 3c0 6 10 6 10 12s-10 3-10 6M17 3c0 6-10 6-10 12M8 7h8M8 17h8"/>',
+  history: '<path d="M3 21h18M5 21V10M19 21V10M9 21V10M15 21V10M2 10l10-7 10 7z"/>',
+  psychology: '<path d="M12 3a7 7 0 0 0-7 7c0 2 1 3.5 2 4.5V20h7v-3h3a2 2 0 0 0 2-2v-3l2-1-2-3a7 7 0 0 0-7-5z"/>',
+  technology: '<rect x="5" y="5" width="14" height="14" rx="2"/><path d="M9 9h6v6H9zM9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/>',
+  environment: '<path d="M5 21c0-9 5-15 15-17-1 10-6 15-15 17zM5 21l8-8"/>',
+  space: '<circle cx="12" cy="12" r="4"/><path d="M3 15c3-1 15-6 18-9-1 4-13 9-18 9z"/>',
+  economics: '<path d="M3 17l6-6 4 4 8-8M15 7h6v6"/>',
+  linguistics: '<path d="M4 5h16v11H9l-5 4z"/><path d="M8 9h8M8 12h5"/>',
+  art: '<path d="M12 3a9 9 0 1 0 0 18c1.5 0 2-1 2-2s-1-1.5-1-2.5 1-1.5 2-1.5h2a4 4 0 0 0 4-4c0-4.5-4-8-9-8z"/><circle cx="7.5" cy="11" r="1"/><circle cx="10" cy="7" r="1"/><circle cx="15" cy="7.5" r="1"/>',
+  philosophy: '<path d="M12 3v18M5 7h14M5 7l-3 7a3 3 0 0 0 6 0zM19 7l-3 7a3 3 0 0 0 6 0z"/>'
+};
+const FIELDS = {
+  science: { name: "Science", hint: "Physics, chemistry, discovery", c: ["#7c5cff", "#3b82f6"] },
+  medicine: { name: "Medicine", hint: "Disease, treatment, the body", c: ["#22b8f0", "#14b8a6"] },
+  biology: { name: "Biology", hint: "Life, evolution, ecosystems", c: ["#10b981", "#3b82f6"] },
+  history: { name: "History", hint: "Civilisations and turning points", c: ["#d4a24c", "#a855f7"] },
+  psychology: { name: "Psychology", hint: "Mind, behaviour, emotion", c: ["#ec4899", "#a855f7"] },
+  technology: { name: "Technology", hint: "AI, computing, invention", c: ["#3b82f6", "#a855f7"] },
+  environment: { name: "Environment", hint: "Climate, oceans, energy", c: ["#22c55e", "#0ea5e9"] },
+  space: { name: "Space", hint: "Astronomy and exploration", c: ["#6366f1", "#ec4899"] },
+  economics: { name: "Economics", hint: "Markets, money, behaviour", c: ["#f59e0b", "#ec4899"] },
+  linguistics: { name: "Language", hint: "How words and minds meet", c: ["#c084fc", "#22b8f0"] },
+  art: { name: "Art & Culture", hint: "Music, film, architecture", c: ["#f472b6", "#f59e0b"] },
+  philosophy: { name: "Philosophy", hint: "Ethics, knowledge, meaning", c: ["#a78bfa", "#64748b"] }
+};
+const ANGLES = ["a recent discovery and why it matters", "a common misconception and the evidence against it", "a historical case study", "a debate between two schools of thought", "how something works, step by step", "an unsolved problem researchers are working on", "a surprising link between two fields", "the human story behind a breakthrough", "costs and benefits of a policy or technology", "what the future may look like"];
+const LEVELS = {
+  B2: "CEFR B2 (upper-intermediate, IELTS band 6–6.5): clear structure, mostly common vocabulary with some less frequent words, a mix of simple and complex sentences, idioms used sparingly.",
+  C1: "CEFR C1 (advanced, IELTS band 7–8): rich and precise vocabulary including academic and literary words, varied complex syntax (relative clauses, inversion, participle clauses, hedging), implicit meaning and nuance."
+};
+
+/* ---------- state ---------- */
+const S = {
+  level: LS.get("lr.level", "B2"),
+  fs: LS.get("lr.fs", 1.18),
+  tab: "home",
+  vocab: {},           // slug -> entry
+  prog: { read: 0, correct: 0, answered: 0, history: [], recent: [] },
+  cur: null,           // current text
+  lookups: LS.get("lr.lookups", {})
+};
+S.vocab = LS.get("lr.vocab", {});
+S.prog = Object.assign(S.prog, LS.get("lr.prog", {}));
+
+/* ---------- storage: claude db (per-viewer, private) with local mirror ---------- */
+const Cloud = { col: null, q: {} };
+function slug(w) { return "w_" + w.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 60); }
+function writeDoc(id, data) {
+  if (!Cloud.col) return;
+  const prev = Cloud.q[id] || Promise.resolve();
+  Cloud.q[id] = prev.then(() => data === null ? Cloud.col.doc(id).delete() : Cloud.col.doc(id).set(data)).catch(e => console.warn("db", e));
+}
+function saveProg() { LS.set("lr.prog", S.prog); writeDoc("progress", S.prog); }
+function saveWord(e) { S.vocab[e.id] = e; LS.set("lr.vocab", S.vocab); writeDoc(e.id, e); }
+function delWord(id) { delete S.vocab[id]; LS.set("lr.vocab", S.vocab); writeDoc(id, null); }
+async function initCloud() {
+  if (!window.claude?.use) return;
+  try {
+    const [db, user] = await Promise.all([claude.use("db"), claude.use("user")]);
+    if (!db || !user) return;
+    const id = await user.id();
+    const col = db.collection("data/users/" + id);
+    const snap = await Promise.race([col.get(), new Promise((_, r) => setTimeout(() => r(new Error("timeout")), 10000))]);
+    Cloud.col = col;
+    let remoteProg = null; const remoteVocab = {};
+    snap.docs.forEach(d => { if (d.id === "progress") remoteProg = d.data(); else if (d.id.startsWith("w_")) remoteVocab[d.id] = d.data(); });
+    if (remoteProg) S.prog = Object.assign({ read: 0, correct: 0, answered: 0, history: [], recent: [] }, remoteProg);
+    else if (S.prog.read || S.prog.history.length) writeDoc("progress", S.prog);
+    for (const [k, v] of Object.entries(S.vocab)) if (!remoteVocab[k]) { remoteVocab[k] = v; writeDoc(k, v); }
+    S.vocab = remoteVocab;
+    LS.set("lr.prog", S.prog); LS.set("lr.vocab", S.vocab);
+    if (S.tab !== "reader") render();
+  } catch (e) { console.warn("cloud unavailable", e); }
+}
+
+/* ---------- AI: Claude in the viewer, or an API key when opened standalone ---------- */
+let samplerP = null;
+function getSampler() {
+  if (!samplerP) samplerP = window.claude?.use ? claude.use("sample").catch(() => null) : Promise.resolve(null);
+  return samplerP;
+}
+async function ask(prompt, { tier = "default", onText, signal, maxTokens = 4000 } = {}) {
+  const sample = await getSampler();
+  if (sample) {
+    const r = await sample(prompt, { modelTier: tier, onText, signal, cache: false });
+    return r.text;
+  }
+  const key = LS.get("lr.key", "");
+  if (!key) throw { code: "no_key", message: "Add an Anthropic API key on the Read tab to generate texts." };
+  const res = await fetch("https://api.anthropic.com/v1/messages", {
+    method: "POST", signal,
+    headers: { "content-type": "application/json", "x-api-key": key, "anthropic-version": "2023-06-01", "anthropic-dangerous-direct-browser-access": "true" },
+    body: JSON.stringify({ model: tier === "quick" ? "claude-haiku-5-5" : "claude-sonnet-5-5", max_tokens: maxTokens, messages: [{ role: "user", content: prompt }] })
+  });
+  if (!res.ok) throw { code: "http_" + res.status, message: "The API answered " + res.status + ". Check your key and try again." };
+  const j = await res.json();
+  const text = (j.content || []).map(c => c.text || "").join("");
+  onText?.({ text, delta: text });
+  return text;
+}
+function errCopy(e) {
+  const c = e?.code;
+  if (c === "not_granted") return "Claude access was declined for this page. Reload the page and allow it to write texts for you.";
+  if (c === "rate_limited") return "Too many requests right now. Wait a minute, then try again.";
+  if (c === "cancelled") return "Stopped.";
+  return e?.message || "Something went wrong while writing the text. Try again.";
+}
+
+/* ---------- speech (American English) ---------- */
+let voice = null;
+function loadVoice() {
+  try {
+    const vs = speechSynthesis.getVoices();
+    const us = vs.filter(v => /en[-_]US/i.test(v.lang));
+    voice = us.find(v => /Samantha|Google US|Aria|Jenny|Natural|Ava|Allison/i.test(v.name)) || us[0] || vs.find(v => /^en/i.test(v.lang)) || null;
+  } catch {}
+}
+try { loadVoice(); speechSynthesis.onvoiceschanged = loadVoice; } catch {}
+function say(text, rate = 0.92) {
+  try {
+    speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = "en-US"; if (voice) u.voice = voice; u.rate = rate;
+    speechSynthesis.speak(u);
+  } catch { toast("Speech is not available in this browser"); }
+}
+
+/* ---------- ui helpers ---------- */
+let toastT;
+function toast(m) { const t = $("#toast"); t.textContent = m; t.classList.add("on"); clearTimeout(toastT); toastT = setTimeout(() => t.classList.remove("on"), 1800); }
+function setMood(m) { document.body.dataset.mood = m || ""; }
+const app = $("#app");
+const SPK = '<svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 4V5L7 9zM16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" stroke="#fff" stroke-width="1.6" fill="none"/><path d="M3 9v6h4l5 4V5L7 9z"/></svg>';
+const accuracy = () => S.prog.answered ? Math.round(100 * S.prog.correct / S.prog.answered) : 0;
+const avgWpm = () => { const h = S.prog.history.filter(x => x.wpm); return h.length ? Math.round(h.reduce((a, b) => a + b.wpm, 0) / h.length) : 0; };
+
+/* ---------- HOME ---------- */
+function viewHome() {
+  setMood("");
+  const n = Object.keys(S.vocab).length;
+  app.innerHTML = `<div class="view">
+  <header class="top"><div class="brand">Lumen Reader</div>
+    <div class="lvl glass" role="group" aria-label="Level">${["B2", "C1"].map(l => `<button data-lvl="${l}" aria-pressed="${S.level === l}">${l}</button>`).join("")}</div></header>
+  <section class="hero glass">
+    <h1>Read one new text a day. Tap any word you don't know.</h1>
+    <p>Every text is written fresh for you at <b style="color:#e9d5ff">${S.level}</b>, 600–900 words, with four exam-style questions at the end.</p>
+    <div class="statline"><div><b>${S.prog.read}</b><span>Texts read</span></div><div><b>${accuracy()}%</b><span>Correct</span></div><div><b>${n}</b><span>Words saved</span></div><div><b>${avgWpm() || "–"}</b><span>Avg WPM</span></div></div>
+  </section>
+  <div id="keyBox"></div>
+  <div class="sect-h"><h2>Short stories</h2><small>Fiction</small></div>
+  <div class="genres">
+    ${Object.entries(GENRES).map(([k, g]) => `<button class="genre ${k}" data-genre="${k}">${genreArt(k)}<span class="gt">${g.name}</span><span class="gs">${g.blurb}</span></button>`).join("")}
+  </div>
+  <div class="sect-h"><h2>Non-fiction</h2><small>IELTS · IMAT style</small></div>
+  <div class="fields">
+    ${Object.entries(FIELDS).map(([k, f]) => `<button class="field glass" data-field="${k}" style="--fc1:${f.c[0]};--fc2:${f.c[1]}"><span class="ic"><svg viewBox="0 0 24 24">${ICON[k]}</svg></span><b>${f.name}</b><span>${f.hint}</span></button>`).join("")}
+  </div></div>`;
+  getSampler().then(s => {
+    if (s || S.tab !== "home") return;
+    const box = $("#keyBox"); if (!box) return;
+    box.innerHTML = `<div class="notice glass"><span>This copy runs outside Claude, so it needs your own Anthropic API key to write texts. The key stays in this browser only.</span><input id="apikey" type="password" autocomplete="off" placeholder="sk-ant-..." value="${esc(LS.get("lr.key", ""))}"></div>`;
+    $("#apikey").addEventListener("change", e => { LS.set("lr.key", e.target.value.trim()); toast("Key saved"); });
+  });
+}
+function genreArt(k) {
+  if (k === "war") return `<svg class="gi" viewBox="0 0 64 64" fill="none" stroke="#fff3d6" stroke-width="2"><path d="M14 50 46 18M46 18l4-8-8 4M20 44l-6 6M18 40l6 6"/><path d="M50 50 18 18M18 18l-4-8 8 4M44 44l6 6M46 40l-6 6"/></svg>`;
+  if (k === "love") return `<svg class="gi" viewBox="0 0 64 64"><path d="M32 54S10 40 10 24a11 11 0 0 1 22-3 11 11 0 0 1 22 3c0 16-22 30-22 30z" fill="rgba(255,255,255,.22)" stroke="#fff" stroke-width="2"/></svg>`;
+  return `<svg class="gi" viewBox="0 0 64 64" fill="none" stroke="#ffb3b8" stroke-width="2"><path d="M32 8c-12 0-20 9-20 21v27l6-5 5 5 5-5 4 5 4-5 5 5 5-5 6 5V29C52 17 44 8 32 8z"/><circle cx="25" cy="28" r="3" fill="#ff3b3b"/><circle cx="39" cy="28" r="3" fill="#ff3b3b"/></svg>`;
+}
+
+/* ---------- prompt building ---------- */
+function buildPrompt(kind, key) {
+  const lvl = S.level;
+  const avoid = (S.prog.recent || []).slice(-15).map(t => "- " + t).join("\n") || "- (none yet)";
+  const nonce = Math.random().toString(36).slice(2, 8);
+  let brief;
+  if (kind === "story") {
+    const g = GENRES[key];
+    brief = `Write an ORIGINAL ${g.tag.toLowerCase()} short story (${g.name}).
+Starting idea (adapt freely): ${pick(g.seeds)}. Include ${pick(g.twists)}.
+Point of view: ${pick(["first person", "close third person", "third person"])}. Give characters fresh, culturally fitting names.
+Use vivid but clear description and some dialogue. It must have a beginning, a turning point, and an ending.`;
+  } else {
+    const f = FIELDS[key];
+    brief = `Write an informative non-fiction article in the field of ${f.name} (${f.hint}).
+Choose a SPECIFIC, interesting subtopic yourself. Angle: ${pick(ANGLES)}.
+Write like a quality magazine or an IELTS Academic / IMAT reading passage: a clear thesis, evidence, examples, numbers where natural, and a balanced conclusion. Facts must be accurate; do not invent studies or quotes attributed to real people.`;
+  }
+  return `You write English reading-practice texts for a Persian-speaking learner preparing for IELTS and IMAT.
+${brief}
+
+Language level: ${LEVELS[lvl]}
+Length: 650–850 words in the body (strictly between 600 and 900).
+It must be clearly different from these recent titles:
+${avoid}
+Variation key: ${nonce}
+
+Then write exactly 4 multiple-choice comprehension questions in IELTS/IMAT style: one main-idea question, one detail question, one inference question, and one vocabulary-in-context question (quote the word). Each has 4 options; only one is correct; distractors must be plausible. Spread the correct answers across different positions (not all A).
+
+OUTPUT FORMAT (follow exactly, no markdown, no extra commentary):
+TITLE: <title>
+<blank line>
+<paragraphs of the text, separated by a blank line>
+===QUIZ===
+[{"type":"Main idea","q":"...","options":["...","...","...","..."],"answer":0,"explanation":"Why it is correct, citing the text, in one or two English sentences."}, ... 4 objects]`;
+}
+
+/* ---------- READER ---------- */
+let ctl = null;
+function parseGen(raw) {
+  const [head, quizRaw] = raw.split("===QUIZ===");
+  let title = "", body = head;
+  const m = head.match(/^\s*TITLE:\s*(.+)\s*$/m);
+  if (m) { title = m[1].trim(); body = head.slice(head.indexOf(m[0]) + m[0].length); }
+  const paras = body.split(/\n\s*\n/).map(p => p.replace(/\s+/g, " ").trim()).filter(Boolean);
+  let quiz = null;
+  if (quizRaw) { const a = quizRaw.indexOf("["), b = quizRaw.lastIndexOf("]"); if (a >= 0 && b > a) { try { quiz = JSON.parse(quizRaw.slice(a, b + 1)); } catch {} } }
+  return { title, paras, quiz, done: !!quizRaw };
+}
+const countWords = paras => paras.join(" ").split(/\s+/).filter(w => /[A-Za-z]/.test(w)).length;
+function catLabel(c) { return c.kind === "story" ? GENRES[c.key].name : FIELDS[c.key].name; }
+
+function startText(kind, key) {
+  S.cur = { kind, key, level: S.level, mood: kind === "story" ? key : "fact", raw: "", title: "", paras: [], quiz: null, answers: [], timer: { start: 0, elapsed: 0, running: false, done: false }, recorded: false, status: "loading" };
+  go("reader");
+  generate();
+}
+async function generate() {
+  const c = S.cur; ctl?.abort(); ctl = new AbortController();
+  c.status = "loading"; c.raw = ""; c.err = null; renderReader();
+  let raf = 0;
+  try {
+    const text = await ask(buildPrompt(c.kind, c.key), {
+      signal: ctl.signal, maxTokens: 4000,
+      onText: ({ text }) => { c.raw = text; c.status = "stream"; if (!raf) raf = requestAnimationFrame(() => { raf = 0; if (S.cur === c && c.status === "stream") streamPaint(); }); }
+    });
+    if (S.cur !== c) return;
+    c.raw = text;
+    const p = parseGen(text);
+    if (!p.paras.length) throw { message: "The text came back empty. Try again." };
+    Object.assign(c, { title: p.title || "Untitled", paras: p.paras, quiz: Array.isArray(p.quiz) && p.quiz.length ? p.quiz.slice(0, 4) : null, words: countWords(p.paras), status: "ready" });
+    S.prog.recent = [...(S.prog.recent || []), c.title].slice(-30); saveProg();
+    renderReader();
+  } catch (e) {
+    if (S.cur !== c) return;
+    c.status = "error"; c.err = errCopy(e); renderReader();
+  }
+}
+function streamPaint() {
+  const c = S.cur, el = $("#prose"); if (!el) { renderReader(); return; }
+  const p = parseGen(c.raw);
+  $("#rtitle").textContent = p.title || "Writing…";
+  el.innerHTML = p.paras.map(x => `<p>${esc(x)}</p>`).join("").replace(/<\/p>$/, ' <span class="cursor"></span></p>') || '<p><span class="cursor"></span></p>';
+  $("#rsub").textContent = countWords(p.paras) + " words so far";
+}
+function savedForms() { const set = new Set(); Object.values(S.vocab).forEach(v => { set.add(slug(v.word)); (v.forms || []).forEach(f => set.add(slug(f))); }); return set; }
+const isSaved = (t, set) => set.has(slug(t.replace(/[’']s$/, "")));
+function tokenize(p, set = savedForms()) {
+  return p.split(/([A-Za-z][A-Za-z'’-]*[A-Za-z]|[A-Za-z])/).map((t, i) => i % 2 ? `<span class="w${isSaved(t, set) ? " saved" : ""}">${esc(t)}</span>` : esc(t)).join("");
+}
+function renderReader() {
+  const c = S.cur; if (!c) return go("home");
+  setMood(c.mood);
+  const bar = `<div class="rbar glass"><button class="back" id="back" aria-label="Back"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <div class="meta"><b>${esc(catLabel(c))}</b> · ${c.level}${c.words ? " · " + c.words + " words" : ""}</div>
+    <div class="fsz"><button id="fsm" aria-label="Smaller text">A−</button><button id="fsp" aria-label="Larger text">A+</button></div></div>`;
+  let body = "";
+  if (c.status === "loading") body = `<div class="paper glass"><div class="loading"><div class="ring"></div><div>Writing a new ${esc(catLabel(c).toLowerCase())} text at ${c.level}…</div><button class="btn ghost" id="stop">Stop</button></div></div>`;
+  else if (c.status === "error") body = `<div class="paper glass"><div class="err">${esc(c.err)}</div><div class="row" style="margin-top:14px"><button class="btn pri" id="retry">Try again</button><button class="btn ghost" id="home2">Back to topics</button></div></div>`;
+  else if (c.status === "stream") body = `<article class="paper glass"><div class="kicker">${esc(c.kind === "story" ? GENRES[c.key].tag : "Non-fiction · " + FIELDS[c.key].name)}</div><h1 id="rtitle">Writing…</h1><div class="sub" id="rsub"></div><div class="prose" id="prose"></div><button class="btn ghost" id="stop" style="margin-top:8px">Stop</button></article>`;
+  else {
+    const t = c.timer;
+    body = `<article class="paper glass"><div class="kicker">${esc(c.kind === "story" ? GENRES[c.key].tag : "Non-fiction · " + FIELDS[c.key].name)}</div>
+      <h1>${esc(c.title)}</h1><div class="sub">${c.words} words · about ${Math.max(1, Math.round(c.words / 180))} min at 180 WPM · tap a word for its meaning</div>
+      <div class="prose" id="prose">${(set => c.paras.map(p => `<p>${tokenize(p, set)}</p>`).join(""))(savedForms())}</div></article>
+      ${t.done ? `<div class="wpm glass"><div><b>${fmt(t.elapsed)}</b><span>Time</span></div><div><b>${c.wpm}</b><span>Words / min</span></div><div><b>${speedNote(c.wpm)}</b><span>Pace</span></div></div>` : ""}
+      ${quizHtml(c)}
+      <div class="row"><button class="btn pri" id="again">New ${esc(catLabel(c))} text</button><button class="btn ghost" id="home2">All topics</button></div>`;
+  }
+  app.innerHTML = `<div class="view">${bar}${body}</div>${c.status === "ready" && !c.timer.done ? dockHtml() : ""}`;
+  document.documentElement.style.setProperty("--fs", S.fs + "rem");
+  if (c.status === "stream") streamPaint();
+  bindReader();
+}
+const fmt = ms => { const s = Math.round(ms / 1000); return Math.floor(s / 60) + ":" + String(s % 60).padStart(2, "0"); };
+const speedNote = w => w < 150 ? "Careful" : w < 230 ? "Steady" : w < 300 ? "Fluent" : "Fast";
+function dockHtml() {
+  const t = S.cur.timer;
+  return `<div class="dock glass"><div class="clock"><span class="dot ${t.running ? "live" : ""}"></span><span id="clock">${fmt(curElapsed())}</span></div>
+  ${t.running ? `<button class="btn ghost" id="tpause">Pause</button><button class="btn pri" id="tdone">Finished</button>` : `<button class="btn pri" id="tstart">${t.elapsed ? "Resume" : "Start reading"}</button>`}</div>`;
+}
+const curElapsed = () => { const t = S.cur.timer; return t.elapsed + (t.running ? Date.now() - t.start : 0); };
+let tick = 0;
+function bindReader() {
+  const c = S.cur;
+  $("#back").onclick = () => { ctl?.abort(); go("home"); };
+  $("#fsm").onclick = () => { S.fs = Math.max(.95, +(S.fs - .08).toFixed(2)); LS.set("lr.fs", S.fs); document.documentElement.style.setProperty("--fs", S.fs + "rem"); };
+  $("#fsp").onclick = () => { S.fs = Math.min(1.7, +(S.fs + .08).toFixed(2)); LS.set("lr.fs", S.fs); document.documentElement.style.setProperty("--fs", S.fs + "rem"); };
+  $("#stop") && ($("#stop").onclick = () => ctl?.abort());
+  $("#retry") && ($("#retry").onclick = generate);
+  $("#home2") && ($("#home2").onclick = () => go("home"));
+  $("#again") && ($("#again").onclick = () => startText(c.kind, c.key));
+  $("#tstart") && ($("#tstart").onclick = () => { c.timer.start = Date.now(); c.timer.running = true; renderReaderKeep(); });
+  $("#tpause") && ($("#tpause").onclick = () => { c.timer.elapsed = curElapsed(); c.timer.running = false; renderReaderKeep(); });
+  $("#tdone") && ($("#tdone").onclick = () => {
+    c.timer.elapsed = curElapsed(); c.timer.running = false; c.timer.done = true;
+    c.wpm = Math.round(c.words / Math.max(c.timer.elapsed / 60000, 0.1));
+    record(); renderReaderKeep(); setTimeout(() => $("#quiz")?.scrollIntoView({ behavior: "smooth", block: "start" }), 80);
+  });
+  clearInterval(tick);
+  if (c.timer.running) tick = setInterval(() => { const el = $("#clock"); if (el) el.textContent = fmt(curElapsed()); else clearInterval(tick); }, 500);
+  const prose = $("#prose");
+  if (prose && c.status === "ready") prose.onclick = e => { const w = e.target.closest(".w"); if (w) openWord(w); };
+  app.querySelectorAll(".opt").forEach(b => b.onclick = () => answer(+b.dataset.q, +b.dataset.o));
+}
+function renderReaderKeep() { const y = scrollY; renderReader(); scrollTo(0, y); }
+function quizHtml(c) {
+  if (!c.quiz) return `<div class="quiz glass" id="quiz"><h2>Comprehension</h2><p style="color:var(--muted);margin:0">The questions for this text didn't come through. Start a new text to get a full set.</p></div>`;
+  const L = "ABCD"; const done = c.answers.filter(a => a != null).length;
+  const right = c.quiz.reduce((n, q, i) => n + (c.answers[i] === q.answer ? 1 : 0), 0);
+  return `<div class="quiz glass" id="quiz"><h2>Comprehension · 4 questions</h2>
+  ${c.quiz.map((q, i) => { const a = c.answers[i]; return `<div class="q"><div class="qt"><small>${i + 1} · ${esc(q.type || "Question")}</small>${esc(q.q)}</div>
+    ${(q.options || []).map((o, j) => `<button class="opt ${a != null ? (j === q.answer ? "right" : j === a ? "wrong" : "") : ""}" data-q="${i}" data-o="${j}" ${a != null ? "disabled" : ""}><span class="k">${L[j]}</span><span>${esc(String(o).replace(/^[A-D][.)]\s*/, ""))}</span></button>`).join("")}
+    ${a != null ? `<div class="expl"><b style="color:${a === q.answer ? "var(--ok)" : "var(--bad)"}">${a === q.answer ? "Correct." : "Not quite. The answer is " + L[q.answer] + "."}</b> ${esc(q.explanation)}</div>` : ""}</div>`; }).join("")}
+  ${done === c.quiz.length ? `<div class="score">You got ${right} of ${c.quiz.length} right</div>` : ""}</div>`;
+}
+function answer(i, o) {
+  const c = S.cur; if (c.answers[i] != null) return;
+  c.answers[i] = o; record(); renderReaderKeep();
+}
+function record() {
+  const c = S.cur; if (!c.quiz && !c.timer.done) return;
+  const right = c.quiz ? c.quiz.reduce((n, q, i) => n + (c.answers[i] === q.answer ? 1 : 0), 0) : 0;
+  const answered = c.answers.filter(a => a != null).length;
+  if (!c.recorded) { S.prog.read++; c.recorded = { right: 0, answered: 0 }; S.prog.history.push({ id: Date.now() }); }
+  S.prog.correct += right - c.recorded.right; S.prog.answered += answered - c.recorded.answered;
+  c.recorded = { right, answered };
+  const h = S.prog.history[S.prog.history.length - 1];
+  Object.assign(h, { t: c.title, kind: c.kind === "story" ? c.key : "fact", cat: catLabel(c), level: c.level, words: c.words, wpm: c.wpm || 0, right, answered, date: new Date().toISOString().slice(0, 10) });
+  S.prog.history = S.prog.history.slice(-120);
+  saveProg();
+}
+
+/* ---------- word sheet ---------- */
+function sentenceOf(el) {
+  const p = el.parentElement.textContent; const w = el.textContent;
+  let pos = 0, n = el; while ((n = n.previousSibling)) pos += n.textContent.length;
+  const start = Math.max(p.lastIndexOf(". ", pos), p.lastIndexOf("? ", pos), p.lastIndexOf("! ", pos)) + 1;
+  let end = p.slice(pos + w.length).search(/[.?!](\s|$)/); end = end < 0 ? p.length : pos + w.length + end + 1;
+  return p.slice(start, end).trim();
+}
+let selEl = null;
+async function openWord(el) {
+  selEl?.classList.remove("sel"); selEl = el; el.classList.add("sel");
+  const word = el.textContent.replace(/[’']s$/, ""); const ctx = sentenceOf(el);
+  say(word);
+  const id = slug(word);
+  const cacheKey = id + "|" + ctx.slice(0, 80);
+  showSheet({ word, loading: true });
+  const known = S.vocab[id];
+  let info = S.lookups[cacheKey] || null;
+  if (!info) {
+    try {
+      const txt = await ask(`A Persian-speaking English learner tapped the word "${word}" in this sentence:
+"${ctx}"
+Reply with ONLY one JSON object, no markdown:
+{"lemma":"dictionary form","pos":"part of speech","ipa":"American IPA","fa":"Persian meaning(s) that fit THIS context, short, in Persian script","def":"short simple English definition for this context","example":"a new natural example sentence (not the original)","example_fa":"Persian translation of the example"}`, { tier: "quick", maxTokens: 400 });
+      const a = txt.indexOf("{"), b = txt.lastIndexOf("}");
+      info = JSON.parse(txt.slice(a, b + 1));
+      S.lookups[cacheKey] = info;
+      const keys = Object.keys(S.lookups); if (keys.length > 300) delete S.lookups[keys[0]];
+      LS.set("lr.lookups", S.lookups);
+    } catch (e) {
+      if (selEl === el) showSheet({ word, error: errCopy(e), ctx });
+      return;
+    }
+  }
+  if (selEl !== el) return;
+  showSheet({ word, info, ctx, saved: !!known });
+}
+function showSheet({ word, info, loading, error, ctx, saved }) {
+  const sh = $("#sheet");
+  const lemma = info?.lemma || word;
+  sh.innerHTML = `<div class="grab"></div>
+  <div class="sw"><div style="flex:1;min-width:0"><h3>${esc(lemma)}</h3><div class="ipa">${info ? `<i>${esc(info.pos || "")}</i>${esc(info.ipa || "")}` : "American English"}</div></div>
+  <button class="speak" id="spk" aria-label="Pronounce">${SPK}</button></div>
+  ${loading ? `<div class="loading" style="padding:22px"><div class="ring" style="width:38px;height:38px"></div>Looking it up…</div>` : ""}
+  ${error ? `<div class="err" style="margin-top:14px">${esc(error)}</div>` : ""}
+  ${info ? `<div class="fa">${esc(info.fa)}</div><p class="def">${esc(info.def)}</p>
+    <div class="ex"><div style="flex:1"><p>${esc(info.example)}</p><div class="exfa">${esc(info.example_fa || "")}</div></div><button class="mini" id="spkx" aria-label="Play example">${SPK}</button></div>
+    <button class="btn ${saved ? "done" : "pri"}" id="saveW">${saved ? "Saved in Word Book ✓" : "Save to Word Book"}</button>` : ""}`;
+  sh.classList.add("on"); $("#scrim").classList.add("on");
+  $("#spk").onclick = () => say(lemma);
+  if (info) {
+    $("#spkx").onclick = () => say(info.example, .95);
+    $("#saveW").onclick = () => {
+      const id = slug(lemma);
+      if (S.vocab[id]) { delWord(id); toast("Removed from Word Book"); }
+      else { saveWord({ id, word: lemma, pos: info.pos || "", ipa: info.ipa || "", fa: info.fa || "", def: info.def || "", example: info.example || "", example_fa: info.example_fa || "", context: ctx || "", forms: [word], source: S.cur?.title || "", added: Date.now(), reviews: 0 }); toast("Saved to Word Book"); }
+      showSheet({ word, info, ctx, saved: !!S.vocab[id] });
+      const set = savedForms(); document.querySelectorAll("#prose .w").forEach(w => w.classList.toggle("saved", isSaved(w.textContent, set)));
+      if (S.tab === "vocab") viewVocab();
+    };
+  }
+}
+function closeSheet() { $("#sheet").classList.remove("on"); $("#scrim").classList.remove("on"); selEl?.classList.remove("sel"); selEl = null; }
+$("#scrim").onclick = closeSheet;
+let sy = null;
+$("#sheet").addEventListener("touchstart", e => sy = e.touches[0].clientY, { passive: true });
+$("#sheet").addEventListener("touchend", e => { if (sy != null && e.changedTouches[0].clientY - sy > 70) closeSheet(); sy = null; });
+document.addEventListener("keydown", e => { if (e.key === "Escape") closeSheet(); });
+
+/* ---------- VOCAB ---------- */
+let vq = "", vmode = "list", fIdx = 0, fOrder = [];
+function viewVocab() {
+  setMood("");
+  const all = Object.values(S.vocab).sort((a, b) => b.added - a.added);
+  const list = all.filter(v => !vq || (v.word + " " + v.fa).toLowerCase().includes(vq.toLowerCase()));
+  let inner;
+  if (!all.length) inner = `<div class="empty glass"><b>Your Word Book is empty</b>Open any text, tap a word you don't know, and press “Save to Word Book”. It will show up here for review.</div>`;
+  else if (vmode === "cards") {
+    if (!fOrder.length || fOrder.some(id => !S.vocab[id])) { fOrder = all.map(v => v.id).sort(() => Math.random() - .5); fIdx = 0; }
+    const v = S.vocab[fOrder[fIdx % fOrder.length]];
+    inner = `<div class="flash"><div class="card3" id="card3"><div class="face glass"><div class="big">${esc(v.word)}</div><div style="color:var(--muted)">${esc(v.ipa)}</div><div class="hint">Tap to see the meaning</div></div>
+      <div class="face b glass"><div class="fa" style="text-align:center;margin:0">${esc(v.fa)}</div><div style="color:var(--muted);font-size:.9rem">${esc(v.def)}</div><div style="font-family:var(--read)">${esc(v.example)}</div></div></div></div>
+      <div class="row"><button class="btn ghost" id="fsay">${SPK.replace('viewBox', 'width="18" height="18" viewBox')} Listen</button><button class="btn pri" id="fnext">Next word (${fIdx % fOrder.length + 1}/${fOrder.length})</button></div>`;
+  } else inner = `<div class="vlist">${list.map(v => `<div class="vcard glass"><div class="vw">${esc(v.word)}<small>${esc(v.pos)} ${esc(v.ipa)}</small></div>
+      <div class="acts"><button class="mini" data-say="${esc(v.word)}" aria-label="Pronounce ${esc(v.word)}">${SPK}</button><button class="mini" data-del="${esc(v.id)}" aria-label="Delete ${esc(v.word)}"><svg viewBox="0 0 24 24"><path d="M6 7h12l-1 13H7zM9 7V4h6v3M4 7h16" stroke="#fff" stroke-width="1.6" fill="none"/></svg></button></div>
+      <div class="vf">${esc(v.fa)}</div><div class="ve">${esc(v.example)}</div></div>`).join("") || `<div class="empty glass">No saved word matches “${esc(vq)}”.</div>`}</div>`;
+  app.innerHTML = `<div class="view"><header class="top"><div class="brand">Word Book</div><div style="color:var(--muted);font-weight:700">${all.length} words</div></header>
+    ${all.length ? `<div class="toolbar">${vmode === "list" ? `<input id="vsearch" type="search" placeholder="Search words or meanings" value="${esc(vq)}">` : `<div style="flex:1"></div>`}
+    <div class="lvl glass" role="group" aria-label="View"><button data-vm="list" aria-pressed="${vmode === "list"}">List</button><button data-vm="cards" aria-pressed="${vmode === "cards"}">Review</button></div></div>` : ""}
+    ${inner}</div>`;
+  app.querySelectorAll("[data-vm]").forEach(b => b.onclick = () => { vmode = b.dataset.vm; viewVocab(); });
+  const si = $("#vsearch"); if (si) si.oninput = e => { vq = e.target.value; const p = si.selectionStart; viewVocab(); const n = $("#vsearch"); n.focus(); n.setSelectionRange(p, p); };
+  app.querySelectorAll("[data-say]").forEach(b => b.onclick = () => say(b.dataset.say));
+  app.querySelectorAll("[data-del]").forEach(b => b.onclick = () => {
+    if (b.dataset.confirm) { delWord(b.dataset.del); toast("Deleted"); viewVocab(); }
+    else { b.dataset.confirm = "1"; b.style.background = "var(--bad)"; b.setAttribute("aria-label", "Tap again to delete"); toast("Tap again to delete"); setTimeout(() => { if (b.isConnected) { delete b.dataset.confirm; b.style.background = ""; } }, 2500); }
+  });
+  const c3 = $("#card3"); if (c3) {
+    c3.onclick = () => c3.classList.toggle("flip");
+    $("#fsay").onclick = () => say(S.vocab[fOrder[fIdx % fOrder.length]].word);
+    $("#fnext").onclick = () => { const v = S.vocab[fOrder[fIdx % fOrder.length]]; if (v) { v.reviews = (v.reviews || 0) + 1; saveWord(v); } fIdx++; viewVocab(); };
+  }
+}
+
+/* ---------- PROGRESS ---------- */
+function viewProgress() {
+  setMood("");
+  const P = S.prog, h = P.history.filter(x => x.t);
+  const last = h.slice(-10);
+  const maxW = Math.max(250, ...last.map(x => x.wpm || 0));
+  const cats = {};
+  h.forEach(x => { const k = x.cat; cats[k] = cats[k] || { r: 0, a: 0 }; cats[k].r += x.right || 0; cats[k].a += x.answered || 0; });
+  const words = h.reduce((a, b) => a + (b.words || 0), 0);
+  const wk = new Set(h.map(x => x.date)).size;
+  app.innerHTML = `<div class="view"><header class="top"><div class="brand">Progress</div><div style="color:var(--muted);font-weight:700">Level ${S.level}</div></header>
+  <div class="tiles">
+    <div class="tile glass"><b>${P.read}</b><span>Texts read</span><em>${words.toLocaleString("en-US")} words in total</em></div>
+    <div class="tile glass"><b>${accuracy()}%</b><span>Correct answers</span><em>${P.correct} of ${P.answered} questions</em></div>
+    <div class="tile glass"><b>${Object.keys(S.vocab).length}</b><span>Words saved</span><em>in your Word Book</em></div>
+    <div class="tile glass"><b>${avgWpm() || "–"}</b><span>Avg words / min</span><em>${wk} reading day${wk === 1 ? "" : "s"}</em></div>
+  </div>
+  <div class="chart glass"><h3>Reading speed · last ${last.length || 0} texts (WPM)</h3>
+    ${last.some(x => x.wpm) ? `<div class="bars">${last.map(x => `<div style="height:${Math.max(4, 100 * (x.wpm || 0) / maxW)}%" title="${esc(x.t)}"><span>${x.wpm || ""}</span></div>`).join("")}</div>` : `<div class="empty" style="padding:10px 0">Use the reading timer on a text to see your speed here. IELTS readers aim for about 200–250 WPM.</div>`}</div>
+  ${Object.keys(cats).length ? `<div class="chart glass"><h3>Accuracy by topic</h3><div class="bars-cat">${Object.entries(cats).map(([k, v]) => { const p = v.a ? Math.round(100 * v.r / v.a) : 0; return `<div class="bc"><span>${esc(k)}</span><div class="track"><div class="fill" style="width:${p}%"></div></div><b>${p}%</b></div>`; }).join("")}</div></div>` : ""}
+  <div class="hist glass"><h3>Recent texts</h3>${h.length ? h.slice(-12).reverse().map(x => `<div class="hrow"><span class="pill ${x.kind}">${esc(x.level)}</span><div class="ht">${esc(x.t)}<small>${esc(x.cat)} · ${esc(x.date)}${x.wpm ? " · " + x.wpm + " WPM" : ""}</small></div><div class="hs">${x.answered ? x.right + "/" + x.answered : "–"}</div></div>`).join("") : `<div class="empty" style="padding:10px 0">Nothing yet. Pick a story or topic on the Read tab; it counts here once you finish the timer or answer a question.</div>`}</div>
+  </div>`;
+}
+
+/* ---------- routing ---------- */
+function go(tab) {
+  closeSheet(); clearInterval(tick);
+  S.tab = tab;
+  document.querySelectorAll("nav.tabs button").forEach(b => b.setAttribute("aria-current", (b.dataset.tab === tab || (tab === "reader" && b.dataset.tab === "home")) ? "page" : "false"));
+  render(); scrollTo(0, 0);
+}
+function render() {
+  if (S.tab === "reader") renderReader();
+  else if (S.tab === "vocab") viewVocab();
+  else if (S.tab === "progress") viewProgress();
+  else viewHome();
+}
+document.querySelectorAll("nav.tabs button").forEach(b => b.onclick = () => {
+  if (b.dataset.tab === "home" && S.cur && S.tab !== "home" && S.tab !== "reader" && S.cur.status !== "error") return go("reader");
+  go(b.dataset.tab);
+});
+app.addEventListener("click", e => {
+  const g = e.target.closest("[data-genre]"); if (g) return startText("story", g.dataset.genre);
+  const f = e.target.closest("[data-field]"); if (f) return startText("fact", f.dataset.field);
+  const l = e.target.closest("[data-lvl]"); if (l) { S.level = l.dataset.lvl; LS.set("lr.level", S.level); viewHome(); }
+});
+render();
+initCloud();
+})();
+</script>
+
+</body></html>

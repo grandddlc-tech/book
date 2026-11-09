@@ -1,0 +1,66 @@
+id: war-b2-2
+kind: story
+key: war
+level: B2
+title: The Early Years of Adolf Hitler
+---
+Adolf Hitler was born on 20 April 1889 in Braunau am Inn, a small town in Austria-Hungary, near the border with Germany. His father, Alois, worked as a customs official, while his mother, Klara, cared for the family. Adolf was one of several children, although not all of his brothers and sisters survived childhood. The family moved several times during his early years because of his father's work.
+
+People who knew Hitler as a child later gave different descriptions of his character. Some remembered him as quiet and withdrawn; others described him as stubborn and easily angered. Such memories were recorded many years later and must be treated carefully. They do not provide a simple explanation for the political choices and crimes he would make as an adult.
+
+At school, Hitler was reportedly a capable pupil in some subjects, especially when he was interested in the lesson. However, his performance became less consistent as he grew older. His relationship with his father was difficult. Alois wanted his son to follow a secure career in the civil service, but Adolf disliked that idea. He preferred drawing, reading, and imagining a future as an artist.
+
+The family eventually settled in Linz, a city that Hitler later described as important to his childhood. He enjoyed looking at buildings and pictures and became interested in German history and nationalist ideas. These interests developed in a society where ethnic nationalism and antisemitism were already present in public debate. It is important to understand the wider environment without suggesting that it made his later actions inevitable.
+
+When Hitler was thirteen, his father died suddenly in 1903. The loss changed the family situation, but it did not immediately determine his future. His mother continued to support him, and he remained at school for a time. He later left secondary school without completing the qualification that would have opened several professional paths.
+
+In 1907, when he was eighteen, Hitler travelled to Vienna and applied to the Academy of Fine Arts. He hoped to become a painter. The academy did not accept him. Its admissions committee considered that his drawing of human figures was not strong enough, although some of his architectural drawings showed ability. He tried again the following year and was rejected once more.
+
+This disappointment is often presented as a turning point, but historians warn against treating one rejection as the explanation for everything that followed. Hitler had other choices and opportunities. He continued living in Vienna, sometimes in difficult financial circumstances, and sold small paintings and postcards for money. During these years he also encountered political movements and ideas that influenced his later worldview.
+
+His mother died in December 1907 after a long illness. A family doctor, Eduard Bloch, treated her, and Hitler later expressed gratitude for his care. Losing both parents while still young was a major personal event. Yet many people experience hardship without becoming dictators or committing mass violence. Childhood experiences can form part of a biography, but they cannot excuse adult responsibility.
+
+In 1913, Hitler moved to Munich, in Germany. The following year, when the First World War began, he volunteered for service in the Bavarian Army. He served as a dispatch runner and was wounded. The war and Germany's defeat in 1918 became central to the political story he later told about himself, although his account was often misleading and shaped by propaganda.
+
+Looking back at Hitler's childhood means separating documented facts from later myths. His early life included family conflict, school difficulties, artistic ambitions, bereavement, and failure. None of these events made his future inevitable. Studying them carefully helps us understand a historical figure without turning biography into an excuse or a legend.
+=== GLOSSARY
+withdrawn | withdraw | adjective | /wɪðˈdrɔːn/ | گوشه‌گیر، منزوی | The child became withdrawn after changing schools.
+stubborn | stubborn | adjective | /ˈstʌbɚn/ | لجباز، یک‌دنده | He was too stubborn to ask for help.
+customs | custom | noun | /ˈkʌstəmz/ | گمرک | Her father worked for the customs service.
+consistent | consistent | adjective | /kənˈsɪstənt/ | باثبات، پیوسته | Her results were consistent throughout the year.
+civil | civil | adjective | /ˈsɪvəl/ | کشوری، اداری | He hoped to work in the civil service.
+settled | settle | verb | /ˈsetəld/ | ساکن شد | The family settled in a small town.
+nationalist | nationalist | adjective | /ˈnæʃənəlɪst/ | ملی‌گرایانه | Nationalist ideas influenced the political debate.
+inevitable | inevitable | adjective | /ɪnˈevɪtəbəl/ | اجتناب‌ناپذیر | The result was not inevitable.
+qualification | qualification | noun | /ˌkwɑːləfɪˈkeɪʃən/ | مدرک، صلاحیت | She earned a professional qualification.
+admissions | admission | noun | /ədˈmɪʃənz/ | پذیرش | The admissions committee reviewed every application.
+committee | committee | noun | /kəˈmɪti/ | کمیته | The committee met on Friday.
+architectural | architectural | adjective | /ˌɑːrkəˈtektʃərəl/ | معماری | The city is famous for its architectural style.
+disappointment | disappointment | noun | /ˌdɪsəˈpɔɪntmənt/ | ناامیدی | She felt disappointment after the interview.
+bereavement | bereavement | noun | /bɪˈriːvmənt/ | داغ‌دیدگی، سوگواری | The family received support after their bereavement.
+propaganda | propaganda | noun | /ˌprɑːpəˈɡændə/ | تبلیغات جهت‌دار | Propaganda can distort historical facts.
+=== QUIZ
+Q: Main idea | What is the main purpose of the passage?
+A) To praise Hitler's artistic talent
+*B) To describe key events in his early life while avoiding simplistic explanations
+C) To argue that school failure causes dictatorship
+D) To explain every decision made by the Nazi government
+E: The passage presents biographical events and warns that childhood experiences do not excuse or inevitably cause later crimes.
+Q: Detail | Why did the Academy of Fine Arts reject Hitler?
+A) He was too young to apply.
+B) He refused to attend the interview.
+*C) The committee considered his figure drawing insufficient.
+D) He had already joined the army.
+E: The passage says his drawing of human figures was not considered strong enough.
+Q: Inference | What does the writer mean by saying that hardship does not make future violence inevitable?
+A) Childhood has no influence on people.
+*B) Difficult experiences do not remove personal responsibility for later actions.
+C) Every child with family problems becomes successful.
+D) Historians should ignore family history.
+E: The writer distinguishes biographical context from justification or destiny.
+Q: Vocabulary | In the passage, “withdrawn” is closest in meaning to:
+A) confident and talkative
+*B) quiet and socially distant
+C) physically powerful
+D) cheerful and energetic
+E: “Withdrawn” describes someone who keeps apart from other people and speaks little.
